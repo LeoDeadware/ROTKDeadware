@@ -36,6 +36,10 @@ done
 for n in ${want:-hd_ui hd_world}; do
   [[ -n "$(ls -A "$MODS/$n" 2>/dev/null)" ]] || { echo "make_dmg: FAIL — HD pack $n not in $HD_FROM"; exit 1; }
 done
+# License notices of what the app redistributes (x86recomp, Zydis, SoftFloat, SDL3, inline patch notices; kit 619dfae).
+sdl=""; ls "$APP/Contents/Frameworks/"libSDL3* >/dev/null 2>&1 && sdl="--sdl3"
+python3 -I "$ROOT/tools/notices.py" "$APP/Contents/Resources/THIRD_PARTY_NOTICES.txt" $sdl
+cp "$APP/Contents/Resources/THIRD_PARTY_NOTICES.txt" "$STAGE/Third-party notices.txt"
 codesign --force --deep -s - "$APP" >/dev/null 2>&1 || echo "warning: ad-hoc signing failed"
 ln -s /Applications "$STAGE/Applications"
 cat > "$STAGE/Read me first.txt" <<'TXT'
