@@ -1,6 +1,6 @@
 # ROTK for Mac
 
-*The Lord of the Rings: The Return of the King* (original Xbox), running natively on macOS (Apple silicon and Intel).
+*The Lord of the Rings: The Return of the King* (original Xbox), running natively on macOS (Apple silicon: M1 and newer).
 You need your own copy of the game: this repository and the DMG contain **no game data and no game code** (only our HD texture packs).
 [Українською нижче.](#українською)
 
@@ -16,7 +16,7 @@ You need your own copy of the game: this repository and the DMG contain **no gam
 
 HD textures for menus, fonts and all 17 levels come with the app and are on by default.
 
-Controls: an Xbox Series gamepad. Discs: the US (NTSC) disc is tested; EU (PAL): untested.
+Controls: a gamepad only (Xbox or PlayStation; button prompts match it automatically). Discs: the US (NTSC) disc is tested; EU (PAL): untested.
 
 ## Building from source
 ```
@@ -31,7 +31,7 @@ tools/make_dmg.sh out out/dmg/ROTK.dmg               # the DMG: no game data, no
 
 ## Українською
 
-*Володар перснів: Повернення короля* (оригінальний Xbox) нативно на macOS (Apple silicon та Intel).
+*Володар перснів: Повернення короля* (оригінальний Xbox) нативно на macOS (Apple Silicon: M1 і новіші).
 Потрібна ваша власна копія гри: у цьому репозиторії й у DMG **немає ні даних, ні коду гри** (лише наші HD-паки текстур).
 
 ### Встановлення
@@ -46,4 +46,4 @@ tools/make_dmg.sh out out/dmg/ROTK.dmg               # the DMG: no game data, no
 
 HD-текстури меню, шрифтів і всіх 17 рівнів уже в застосунку й увімкнені за замовчуванням.
 
-Керування: геймпад Xbox Series. Диски: американський (NTSC) перевірено; європейський (PAL) — не перевірено.
+Керування: лише геймпад (Xbox або PlayStation; підказки кнопок — автоматично). Диски: американський (NTSC) перевірено; європейський (PAL) — не перевірено.
