@@ -1,0 +1,33 @@
+# HD pack census (tools/hdui/dump.sh, ROTK_SKIP_MOVIES=1): Hel01 prologue HUD + tutorial prompts,
+# pause menu, options, exit to the main menu (Fro03), menu pages.
+300 stick L 0 1 150
+340 press X
+380 press X
+420 press Y
+460 stick L 1 0.3 90
+560 press X
+600 press B
+650 press X
+700 stick L -0.6 -1 150
+750 press Y
+820 press X
+900 stick L 0 1 150
+1010 press START
+1070 press DOWN
+1130 press DOWN
+1190 press DOWN
+1250 press A
+1450 press B
+1550 press DOWN
+1610 press A
+1730 press DOWN
+1790 press A
+3000 press DOWN
+3060 press DOWN
+3120 press A
+3400 press B
+3500 press DOWN
+3560 press A
+3800 press B
+3900 press DOWN
+3960 press A

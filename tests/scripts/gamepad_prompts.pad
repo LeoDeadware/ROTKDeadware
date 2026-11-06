@@ -1,0 +1,16 @@
+# gamepad_prompts.sh: Hel01 prologue (New Game, ROTK_SKIP_MOVIES=1), walk + attack so the
+# tutorial prompts show: "A Speed" ~100, "LS Climb" ~400, "LT Ranged" ~450-1000 (blinking)
+300 stick L 0 1 150
+340 press X
+380 press X
+420 press Y
+460 stick L 1 0.3 90
+560 press X
+600 press B
+650 press X
+700 stick L -0.6 -1 150
+750 press Y
+820 press X
+900 stick L 0 1 150
+940 press X
+980 press X

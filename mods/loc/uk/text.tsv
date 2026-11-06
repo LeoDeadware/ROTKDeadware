@@ -1,0 +1,2128 @@
+# id	en_crc	uk   (Ukrainian for the ids of tools/loc/extract.py; machine draft, see docs/handoff/loc.md)
+GlobScen:DEU	fb704f8e	
+GlobScen:ENG	e33e3b9c	
+GlobScen:FRA	6b03e82c	
+GlobScen:ITA	fdf5975a	
+GlobScen:NLD	eb449862	
+GlobScen:POL	330ebcea	
+GlobScen:POR	deb05844	
+GlobScen:SPA	6ec6c99a	
+GlobScen:SWE	320a8f2e	
+GlobScen:abilitiesUnlocked	9044f18a	Відкрито нові вміння
+GlobScen:aragorn	cfd14708	Араґорн
+GlobScen:areyousure	3efdd11e	Ви впевнені?
+GlobScen:back	5b5b2c83	НАЗАД
+GlobScen:badDisk	be3bd729	Проблема з диском. Можливо, він брудний або пошкоджений.
+GlobScen:badgames	dd8484cf	Збережені ігри в %1s, схоже, пошкоджені.
+GlobScen:badmedia	922160fe	Картку пам'яті в %1s неможливо використати.
+GlobScen:bla01	9129cbe6	Чорна Брама
+GlobScen:bla01LockDescCoop	77f9b5bf	Пройдіть Пеленнорські поля і Мінас-Тіріт - Двір
+GlobScen:bla01LockDescSingle	77f9b5bf	Пройдіть Пеленнорські поля і Мінас-Тіріт - Двір
+GlobScen:blocks	ceed9578	блоків
+GlobScen:cancel	51bac044	Скасувати
+GlobScen:charSelPlayer1Sel	4347cc87	Гравець 1: оберіть героя
+GlobScen:charSelPlayer2Sel	a9c111e5	Гравець 2: оберіть героя
+GlobScen:charselCompleted	3af85c6e	пройдено
+GlobScen:charselCompletedHelp	7d6f9930	Цей герой уже пройшов цей рівень. Пройдіть Розлам Приреченості, щоб зіграти знову.
+GlobScen:charselHiddenHelp	f3b7e244	Пройдіть Розлам Приреченості, щоб відкрити цього прихованого героя.
+GlobScen:charselLocked	ead2c891	закрито
+GlobScen:charselLockedHelp	9eb09672	Цим героєм зараз грати не можна.
+GlobScen:charselLockedHobbitHelp	debeddca	Цей герой іде Шляхом гобітів.   Щоб відкрити його для цього рівня, пройдіть Шлях чарівника, Шлях короля і Шлях гобітів.
+GlobScen:charselLockedKingHelp	826bd822	Цей герой іде Шляхом короля.   Щоб відкрити його для цього рівня, пройдіть Шлях чарівника, Шлях короля і Шлях гобітів.
+GlobScen:charselLockedMerryHelp	74f4cfe1	Пройдіть Чорну Браму, щоб відкрити цього героя для Шляху гобітів.
+GlobScen:charselLockedWizardHelp	59bd6acc	Цей герой іде Шляхом чарівника.   Щоб відкрити його для цього рівня, пройдіть Шлях чарівника, Шлях короля і Шлях гобітів.
+GlobScen:charselSpecialHelp	54dbc2d0	Зіграйте Розлам Приреченості, щоб відкрити цього особливого героя.
+GlobScen:charselTakenHelp	3af4bf04	Цього героя вже обрано.
+GlobScen:charselUnplayableHelp	0145bb45	Цим героєм не можна грати на цьому рівні.
+GlobScen:checkingcard	b1a33d3c	Перевірка %1s.\nНе виймайте картки пам'яті й не від'єднуйте контролери.
+GlobScen:checkingdisk	295d75d0	Перевірка %1s.\nНе вимикайте консоль Xbox.
+GlobScen:checkpoint	0f00f7be	контрольна точка
+GlobScen:chooseLang	9fb11cbb	Оберіть мову.
+GlobScen:cir00	42d1b663	Кіріт-Унґол
+GlobScen:cir00LockDescCoop	eb975e7b	Пройдіть Лігво Шелоб
+GlobScen:cir00LockDescSingle	eb975e7b	Пройдіть Лігво Шелоб
+GlobScen:climb	9c68780e	Лізти
+GlobScen:code1	c896c9a4	Відновити здоров'я
+GlobScen:code2	de73a46f	Досконалий режим
+GlobScen:code3	fa60754a	Завжди нищівно
+GlobScen:code4	b978b268	Усі поліпшення
+GlobScen:code5	5dae6882	Безкінечні снаряди
+GlobScen:code6	052b564f	Кінетичні снаряди
+GlobScen:code7	2e61142b	Невразливість
+GlobScen:code8	9a445680	Режим індикатора цілі
+GlobScen:codeInstr1	6a760629	1) Почніть місію
+GlobScen:codeInstr2	d61e6a89	2) Натисніть START для паузи
+GlobScen:codeInstr3	0add6f94	3) Натисніть і тримайте
+GlobScen:codeInstr4	1209737f	4) Введіть указану послідовність
+GlobScen:codeTitle	90f8664c	Таємні коди
+GlobScen:colon	140e363f	
+GlobScen:completed	b809decd	Пройдено
+GlobScen:continue	ea954889	Продовжити
+GlobScen:continuewosave	001d0fc6	Продовжити без збереження
+GlobScen:controller	03af654a	Контролер
+GlobScen:controllerConfiguration	16e5a0f0	Налаштування контролера
+GlobScen:controllerRemoved1	878c5773	Під'єднайте контролер знову і натисніть START, щоб продовжити.
+GlobScen:controllerRemoved2	c36b6efc	Під'єднайте контролер до порту %d і натисніть START, щоб продовжити.
+GlobScen:controllerRequired	5e2559e9	під'єднайте контролер
+GlobScen:coopMissionExp	3851f14d	Досвід за місію
+GlobScen:coopMissionRating	50992140	Оцінка місії
+GlobScen:coopNewGameWarning	b873aa28	У спільній грі можна взяти героя з будь-якої збереженої гри. Оберіть "так", щоб почати спочатку.
+GlobScen:coopStatsLabel	c1917f2e	Підсумки спільної гри
+GlobScen:cra01	a68a049c	Розлам Приреченості
+GlobScen:cra01LockDescCoop	882f26fb	Пройдіть Чорну Браму і Кіріт-Унґол
+GlobScen:cra01LockDescSingle	882f26fb	Пройдіть Чорну Браму і Кіріт-Унґол
+GlobScen:creditsLabel	8eaae8e2	Автори
+GlobScen:deletegames	d3223792	Видалити всі збереження Return of the King з %1s?
+GlobScen:deletingfromcard	14ffb6be	Видалення з %1s.\nНе виймайте картки пам'яті й не від'єднуйте контролери.
+GlobScen:deletingfromdisk	b78a2b2f	Видалення з %1s.\nНе вимикайте консоль Xbox.
+GlobScen:diskfull	71e83614	На Xbox бракує вільних блоків для збереження. Звільніть ще %2d блоків.  УВАГА: звільнення блоків призведе до втрати поточного поступу в грі.
+GlobScen:dunno	406089a4	Дія
+GlobScen:emptygame	cdf3956a	Порожній слот
+GlobScen:enterCode	a14a0d08	Як ввести код:
+GlobScen:exitToMenu	3208460e	Вийти в меню
+GlobScen:faramir	33acf886	Фарамир
+GlobScen:fierce	d4644b52	Потужний
+GlobScen:filemgr	717d208e	Звільнити блоки
+GlobScen:formatdeclined	8788435f	Картку пам'яті в %1s не відформатовано.
+GlobScen:freespace	ecd87db1	Усього: %d%s блоків;  вільно: %d%s блоків
+GlobScen:frodo	4fb06c94	Фродо
+GlobScen:gameSetup	63c6bc7f	Налаштування гри
+GlobScen:gandalf	69a2a0df	Ґандальф
+GlobScen:gimli	d7f66ee9	Ґімлі
+GlobScen:gradeExcellent	20e63862	Чудово
+GlobScen:gradeFair	dc1ab914	Задовільно
+GlobScen:gradeGood	ccb6e1ac	Добре
+GlobScen:gradePerfect	2c7b37da	Досконало
+GlobScen:harddisk	3b531bfe	Жорсткий диск
+GlobScen:hel01	95f33eae	Гельмова Падь
+GlobScen:hel01LockDescCoop	701b93ef	Не можна грати разом
+GlobScen:hel01LockDescSingle	c4b5b36a	Не має викликатися
+GlobScen:help	a8b5f392	Довідка
+GlobScen:helpChangeModSel	53b3e1f4	Змінити вибір
+GlobScen:helpChangeSel	c1c59cdc	Змінити вибір
+GlobScen:helpGoBack	68291829	Назад
+GlobScen:helpLabel	d8b81865	Підказка
+GlobScen:helpLevelInfo	364111b6	Про рівень
+GlobScen:helpMakeSel	b32f1463	Обрати
+GlobScen:helpOptions	1f88c31b	Параметри
+GlobScen:hobbitPath	cc3d89d2	Шлях гобітів
+GlobScen:inGameBadConn	860bb858	Виявлено проблеми зі з'єднанням
+GlobScen:inGameExit	fdb57f92	Вийти в меню
+GlobScen:inGameNo	67aa281f	ні
+GlobScen:inGameObjective	8eefeedf	Поради до місії
+GlobScen:inGameOptions	1f88c31b	Параметри
+GlobScen:inGameOptionsPage	c32bbdc6	Параметри
+GlobScen:inGamePressStart	971829e3	Натисніть Start
+GlobScen:inGameRestart	cddc8112	Ще раз
+GlobScen:inGameReturn	676dd596	Продовжити
+GlobScen:inGameSOD	15b74d03	Місію провалено
+GlobScen:inGameSelect	4c5eeff6	Обрати
+GlobScen:inGameSure	3efdd11e	Ви впевнені?
+GlobScen:inGameUpgrades	baad944d	Поліпшення
+GlobScen:inGameWin	465c8923	Debug Win
+GlobScen:inGameYes	75e735a9	так
+GlobScen:ise01	84e26107	Дорога до Ісенґарда
+GlobScen:ise01LockDescCoop	ca304672	Пройдіть Пеленнорські поля
+GlobScen:ise01LockDescSingle	24c317e5	Пройдіть Гельмову Падь
+GlobScen:kick	bee7703b	Удар ногою
+GlobScen:killingmove	ce6430f6	Добивання
+GlobScen:kills	eea610a5	Убито
+GlobScen:kingPath	e003fac7	Шлях короля
+GlobScen:leftTriggerBtnName	ad68e236	
+GlobScen:legal	75ea02b2	
+GlobScen:legal2	17c4e088	EA GAMES§ - бренд Electronic Arts§.
+GlobScen:legolas	fa8e5ab6	Леґолас
+GlobScen:level	5b2be317	Рівень
+GlobScen:levelUp	64f4811b	Новий рівень!
+GlobScen:load2ndplayer	51cddb02	Завантажити героя з іншої гри?
+GlobScen:loadGame1	44c7c707	Гра 1
+GlobScen:loadGame10	6afb8d45	Гра 10
+GlobScen:loadGame2	ddce96bd	Гра 2
+GlobScen:loadGame3	aac9a62b	Гра 3
+GlobScen:loadGame4	34ad3388	Гра 4
+GlobScen:loadGame5	43aa031e	Гра 5
+GlobScen:loadGame6	daa352a4	Гра 6
+GlobScen:loadGame7	ada46232	Гра 7
+GlobScen:loadGame8	3d1b7fa3	Гра 8
+GlobScen:loadGame9	4a1c4f35	Гра 9
+GlobScen:loadLabel	0830cada	Оберіть гру для завантаження
+GlobScen:loaderror	b7f7c8e2	Не вдалося завантажити %3s.\nНатисніть A, щоб продовжити.
+GlobScen:loadgame	0830cada	Оберіть гру для завантаження
+GlobScen:loading	98dd0128	Завантаження
+GlobScen:loadingat	406089a4	Дія
+GlobScen:loadingatdesc	61c4cb76	Кнопка дії використовує предмети в особливих місцях.
+GlobScen:loadingex	11d99bd5	Шкала досвіду
+GlobScen:loadingexskdesc	29da4cda	Здобувайте очки досвіду, щоб підвищувати рівень героя й купувати поліпшення.  Заповнюйте шкалу майстерності складними комбо, щоб отримати якнайбільше досвіду.
+GlobScen:loadingfromcard	c1b4dc45	Завантаження %3s.\nНе виймайте картки пам'яті й не від'єднуйте контролери.
+GlobScen:loadingfromdisk	75b21d5d	Завантаження %3s.\nНе вимикайте консоль Xbox.
+GlobScen:loadingkm	ce6430f6	Добивання
+GlobScen:loadingkmdesc	02dbb5d6	Ця кнопка добиває збитого з ніг ворога.
+GlobScen:loadingsk	c6008055	Шкала майстерності
+GlobScen:loadingsp	dfcb3697	Особливе вміння
+GlobScen:loadingspdesc	d87fc9e2	Це поєднання кнопок вмикає особливе вміння героя.
+GlobScen:loadnocard	d1c19742	%5s вийнято під час роботи.\nЗавантаження не вдалося.\nНатисніть A, щоб продовжити.
+GlobScen:mainMenuCoop	38c1e136	Удвох
+GlobScen:mainMenuCredits	8eaae8e2	Автори
+GlobScen:mainMenuOnline	999ebbdc	Онлайн
+GlobScen:mainMenuOptions	1f88c31b	Параметри
+GlobScen:mainMenuPressStart	bc550360	Натисніть кнопку Start
+GlobScen:mainMenuPressStart_XBOX	a18dc457	Натисніть START
+GlobScen:mainMenuSingle	fcc0d290	Один гравець
+GlobScen:mediaalmostfull	724a9f00	Збережених ігор не знайдено.\nДля збереження потрібно %6d блоків.
+GlobScen:mediafull	8664ff10	%1s заповнено.
+GlobScen:memcardSlotA	90895063	Слот розширення_A
+GlobScen:memcardSlotB	098001d9	Слот розширення_B
+GlobScen:memoryunitA	9ce6f395	Картка пам'яті_%dA
+GlobScen:memoryunitB	05efa22f	Картка пам'яті_%dB
+GlobScen:merry	091c0206	Мері
+GlobScen:min00	5fdb6404	Мінас-Тіріт - Верх стіни
+GlobScen:min00LockDescCoop	47e9e022	Пройдіть Дорогу до Ісенґарда
+GlobScen:min00LockDescSingle	47e9e022	Пройдіть Дорогу до Ісенґарда
+GlobScen:min02	560b2def	Південна Брама
+GlobScen:min02LockDescCoop	53c56b25	Пройдіть Короля Мертвих
+GlobScen:min02LockDescSingle	53c56b25	Пройдіть Короля Мертвих
+GlobScen:min04	5e69a6ba	Мінас-Тіріт - Двір
+GlobScen:min04LockDescCoop	271e21dc	Пройдіть Мінас-Тіріт - Верх стіни
+GlobScen:min04LockDescSingle	271e21dc	Пройдіть Мінас-Тіріт - Верх стіни
+GlobScen:muA	5f55bcf0	MU_%dA
+GlobScen:muB	c65ced4a	MU_%dB
+GlobScen:newdiskfull	6f22af18	На Xbox бракує вільних блоків для збереження. Звільніть ще %2d блоків.  УВАГА: звільнення блоків призведе до втрати незбережених змін.
+GlobScen:newgame	f5003f27	Нова гра
+GlobScen:newloadDebug	38dc0245	Debug Game
+GlobScen:newloadLoad	0a5c321d	Завантажити гру
+GlobScen:newloadNew	f5003f27	Нова гра
+GlobScen:newplay	fbc9cebd	Продовжити гру
+GlobScen:newstarting	82a3cb9e	Початок гри...
+GlobScen:no	f22e0cbd	Ні
+GlobScen:nogames	7d1ed8b8	Збережених ігор не знайдено.
+GlobScen:nomedia	47d29dc3	Немає картки пам'яті в %1s
+GlobScen:notsaved	96e4d100	%0sГру не збережено.\nПродовжити без збереження?
+GlobScen:objective0	fa219c33	Натисніть чорну кнопку, щоб використати предмет.
+GlobScen:objective1	eeb45f70	Потужні атаки пробивають ворожі щити.
+GlobScen:objective10	7745c6e2	Смолоскипи підпалюють павутиння й кокони.
+GlobScen:objective11	7b961b2b	Гобіти в маскуванні можуть бити ворогів у спину правим курком.
+GlobScen:objective12	e0f96fe7	Скиньте Ґолума з краю потужними або фізичними атаками.
+GlobScen:objective13	e96ccf45	
+GlobScen:objective14	e1112933	Приголомшіть Ґорбаґа, щоб поранити його.
+GlobScen:objective15	1f972e20	Убийте мертвих воїнів, щоб Король став вразливим.
+GlobScen:objective16	c5a825ab	Витримайте 20 хвиль, щоб вирватися з Палантира і здобути досвід.
+GlobScen:objective17	c5a825ab	Витримайте 20 хвиль, щоб вирватися з Палантира і здобути досвід.
+GlobScen:objective2	44443fd4	Комбо вбивають ворогів швидше.
+GlobScen:objective3	0dca4185	Дістаньтеся верху стіни, щоб відчинити браму.
+GlobScen:objective4	0a57eefb	Балісти й бойові піки пробивають броню мумакілів з одного удару.
+GlobScen:objective5	9bcedd1c	Тримайтеся ближче до Братства, щоб воно вижило.
+GlobScen:objective6	14943871	Парирування блокує ворожі удари й відбиває стріли.
+GlobScen:objective7	99321c01	Фізичною атакою скидайте драбини й знижуйте шкалу прориву.
+GlobScen:objective8	f9419a0c	Натисніть обидва курки, щоб увімкнути особливе вміння героя.
+GlobScen:objective9	f9419a0c	Натисніть обидва курки, щоб увімкнути особливе вміння героя.
+GlobScen:ok	d736d92d	OK
+GlobScen:optionsDifficulty	f4366c3f	Складність
+GlobScen:optionsEasy	e95035a9	Легко
+GlobScen:optionsGameVol	e0611052	Гучн. гри
+GlobScen:optionsHard	6127b0ec	Важко
+GlobScen:optionsLabel	1f88c31b	Параметри
+GlobScen:optionsMono	2dc2e901	Моно
+GlobScen:optionsMusicVol	6fef5194	Гучн. музики
+GlobScen:optionsNormal	26296dd2	Нормально
+GlobScen:optionsOff	13f11ba3	Вимк.
+GlobScen:optionsOn	9c320d6a	Увімк.
+GlobScen:optionsRespawn	a1421734	Debug Respawn
+GlobScen:optionsSound	394fec80	Звук
+GlobScen:optionsStereo	a980c5d1	Стерео
+GlobScen:optionsSubtitles	25c84b25	Субтитри
+GlobScen:optionsSurround	45fd6523	Об'ємний
+GlobScen:optionsVOVol	c85a5315	Гучн. голосу
+GlobScen:optionsVibration	3d40c46a	Вібрація
+GlobScen:osg01	0e365d25	Втеча з Осґіліата
+GlobScen:osg01LockDescCoop	8f790631	Пройдіть Чорну Браму
+GlobScen:osg01LockDescSingle	24c317e5	Пройдіть Гельмову Падь
+GlobScen:overwrite	f25eac2e	Перезаписати %3s?
+GlobScen:parry	1e0ec662	Парирування
+GlobScen:pat01	c0b67529	Шляхи Мертвих
+GlobScen:pat01LockDescCoop	24c317e5	Пройдіть Гельмову Падь
+GlobScen:pat01LockDescSingle	24c317e5	Пройдіть Гельмову Падь
+GlobScen:pat02	4f6bb4e6	Король Мертвих
+GlobScen:pat02LockDescCoop	5d4fae75	Пройдіть Шляхи Мертвих
+GlobScen:pat02LockDescSingle	5d4fae75	Пройдіть Шляхи Мертвих
+GlobScen:pel01	d29951c8	Пеленнорські поля
+GlobScen:pel01LockDescCoop	cbf2f6b3	Пройдіть Південну Браму
+GlobScen:pel01LockDescSingle	cbf2f6b3	Пройдіть Південну Браму
+GlobScen:perfectMode	43b8f0be	Досконалий режим!
+GlobScen:pippin	0895e815	Піпін
+GlobScen:playanyway	887f87be	Почати гру
+GlobScen:player	9fb57f53	Гравець
+GlobScen:plus	7ebe16cd	+
+GlobScen:purchased	ab46369a	Куплено
+GlobScen:purgegames	3c56e5ba	Видалити збереження
+GlobScen:ranged	90e23194	Дальній бій
+GlobScen:replay	de9bf1c4	Повторити
+GlobScen:replayAreYouSure	ced48e22	Ви впевнені? Результати останнього проходження цієї місії буде втрачено.
+GlobScen:respawnInLabel	66772253	Відродження через
+GlobScen:retry	ef217ee7	Ще раз
+GlobScen:rightTriggerBtnName	5767df55	
+GlobScen:sam	de5e0ef8	Сем
+GlobScen:save2ndplayer	f48336a6	Зберегти гру?
+GlobScen:saveLabel	fbabfe94	Оберіть слот збереження
+GlobScen:saved	9285ca90	%0sЗбережено.
+GlobScen:saveerror	35305857	Не вдалося зберегти %4s.\nНатисніть A, щоб продовжити.
+GlobScen:savegame	7439bf87	Оберіть, куди зберегти
+GlobScen:savegameformat	bfc00a83	%s - 1Г:_%d%% Удвох:_%d%% - %02d/%02d_@_%02d:%02d
+GlobScen:savenocard	b4c030b4	%5s вийнято під час роботи.\nЗбереження не вдалося.\nНатисніть A, щоб продовжити.
+GlobScen:savingtocard	0c7e3035	Збереження %4s на %1s.\nНе виймайте картки пам'яті й не від'єднуйте контролери.
+GlobScen:savingtodisk	1fd858a4	Збереження %4s на %1s.\nНе вимикайте консоль Xbox.
+GlobScen:sceneSelAreYouSure	490de4f7	Ви впевнені? Увесь незбережений поступ у цій грі буде втрачено.
+GlobScen:sceneSelAvailable	277e2626	Доступно
+GlobScen:sceneSelHel01Complete	887ee7af	Гельмову Падь уже пройдено. Пройдіть Розлам Приреченості, щоб зіграти знову.
+GlobScen:sceneSelLabel	c3e2eda2	Вибір місії
+GlobScen:sceneSelLocked	ed7ecda7	Закрито
+GlobScen:sceneSelUnplayed	7e627be4	Не зіграно
+GlobScen:scoringMissionExp	9d3c247c	Досвід за місію :
+GlobScen:scoringMissionRating	ae41e02d	Оцінка місії :
+GlobScen:scoringPopupFair	ab05ca1b	"Задовільно" отримати найлегше, але воно дає найменше очок досвіду.
+GlobScen:scoringPopupGood	69e2b245	"Добре" і "Чудово" цінуються вище: для них потрібно завдати кілька ударів поспіль, не отримавши шкоди.
+GlobScen:scoringPopupLevelUp	c850e0cb	Здобувайте очки досвіду, щоб підвищувати рівень героя й відкривати сильніші вміння та поліпшення.
+GlobScen:scoringPopupMomentum	917ba5eb	Шкала майстерності визначає оцінку вбивства. Вищу оцінку дають серії вдалих ударів.
+GlobScen:scoringPopupPerfect	135d069e	Коли шкала майстерності сягає "Досконало", удари стають сильнішими, а досвіду ви отримуєте найбільше.
+GlobScen:secretCharacter	1052b016	Таємний герой
+GlobScen:secretLevel	48f7776b	Таємні рівні й нагороди
+GlobScen:she01	baa8e1e9	Лігво Шелоб
+GlobScen:she01LockDescCoop	45f182e3	Пройдіть Втечу з Осґіліата
+GlobScen:she01LockDescSingle	45f182e3	Пройдіть Втечу з Осґіліата
+GlobScen:skill	9ffccb73	Майстерність
+GlobScen:specialFeature	664de42d	Відкривана нагорода
+GlobScen:specialhelm1	b2a8ea72	Концепт-арт фільму
+GlobScen:specialhelm1LockDesc	24c317e5	Пройдіть Гельмову Падь
+GlobScen:specialhelm1UnlockDesc	1d5a9b8b	Концепт-арт до фільму: Джеремі Беннетт, Джон Гау, Пол Ласейн і Алан Лі
+GlobScen:specialhelm2	5d451f69	Гобіти про гру
+GlobScen:specialhelm2LockDesc	24c317e5	Пройдіть Гельмову Падь
+GlobScen:specialhelm2UnlockDesc	6dcd7d5a	Гобіти розповідають про відеогру "Володар Перснів"
+GlobScen:specialhelm3	e77b02c5	Як створювали гру
+GlobScen:specialhelm3LockDesc	24c317e5	Пройдіть Гельмову Падь
+GlobScen:specialhelm3UnlockDesc	400ec144	Погляд за лаштунки створення відеогри "Володар Перснів"
+GlobScen:specialise01	be50835f	Інтерв'ю з Крістофером Лі
+GlobScen:specialise01LockDesc	47e9e022	Пройдіть Дорогу до Ісенґарда
+GlobScen:specialise01UnlockDesc	e057966e	Крістофер Лі розповідає, як грав Сарумана у відеогрі "Володар Перснів"
+GlobScen:specialmin00	2848117e	Інтерв'ю з Іаном Маккелленом
+GlobScen:specialmin00LockDesc	271e21dc	Пройдіть Мінас-Тіріт - Верх стіни
+GlobScen:specialmin00UnlockDesc	7f8cb08a	Іан Маккеллен розповідає, як грав Ґандальфа у відеогрі "Володар Перснів"
+GlobScen:specialmin02	36a5b16e	Кадри зі зйомок фільму
+GlobScen:specialmin02LockDesc	cbf2f6b3	Пройдіть Південну Браму
+GlobScen:specialmin02UnlockDesc	6e80b71d	Кадри зі зйомок фільмів "Володар Перснів"
+GlobScen:specialosg01	c18102f1	Інтерв'ю з Шоном Астіном
+GlobScen:specialosg01LockDesc	45f182e3	Пройдіть Втечу з Осґіліата
+GlobScen:specialosg01UnlockDesc	cdf50734	Шон Астін розповідає, як грав Сема у відеогрі "Володар Перснів"
+GlobScen:specialpat01	1445857f	Концепт-арт гри
+GlobScen:specialpat01LockDesc	5d4fae75	Пройдіть Шляхи Мертвих
+GlobScen:specialpat01UnlockDesc	2c35fc24	Концепт-арт до відеогри "Володар Перснів"
+GlobScen:specialshe01	8797a990	Інтерв'ю з Елайджею Вудом
+GlobScen:specialshe01LockDesc	eb975e7b	Пройдіть Лігво Шелоб
+GlobScen:specialshe01UnlockDesc	c3f0f9ac	Елайджа Вуд розповідає, як грав Фродо у відеогрі "Володар Перснів"
+GlobScen:specialtree1	086c25ec	Палантир Сарумана
+GlobScen:specialtree1LockDesc	3b73dfc0	Пройдіть Розлам Приреченості
+GlobScen:specialtree1UnlockDesc	f7103522	Таємні рівні Палантира
+GlobScen:specialtree2	e6398cab	Інтерв'ю з Біллі Бойдом
+GlobScen:specialtree2LockDesc	3b73dfc0	Пройдіть Розлам Приреченості
+GlobScen:specialtree2UnlockDesc	e50cb614	Біллі Бойд розповідає, як грав Піпіна у відеогрі "Володар Перснів"
+GlobScen:specialtree3	58614099	Інтерв'ю з Домініком Монаганом
+GlobScen:specialtree3LockDesc	3b73dfc0	Пройдіть Розлам Приреченості
+GlobScen:specialtree3UnlockDesc	4761f974	Домінік Монаган розповідає, як грав Мері у відеогрі "Володар Перснів"
+GlobScen:specialtree4	c57fc776	Інтерв'ю з Енді Серкісом
+GlobScen:specialtree4LockDesc	3b73dfc0	Пройдіть Розлам Приреченості
+GlobScen:specialtree4UnlockDesc	52708f50	Енді Серкіс розповідає, як грав Ґолума у відеогрі "Володар Перснів"
+GlobScen:specialtree5	657b4c62	Інтерв'ю з Девідом Венгемом
+GlobScen:specialtree5LockDesc	3b73dfc0	Пройдіть Розлам Приреченості
+GlobScen:specialtree5UnlockDesc	5624e308	Девід Венгем розповідає, як грав Фарамира у відеогрі "Володар Перснів"
+GlobScen:specialtree6	90f8664c	Таємні коди
+GlobScen:specialtree6LockDesc	3b73dfc0	Пройдіть Розлам Приреченості
+GlobScen:specialtree6UnlockDesc	784df42c	Таємні коди, що відкривають приховане у відеогрі "Володар Перснів"
+GlobScen:specialtree7	3463e02a	Палантир Саурона
+GlobScen:specialtree7LockDesc	68a92c12	Пройдіть Розлам Приреченості й досягніть 10-го рівня трьома героями: Ґандальфом, Семом і Араґорном, Леґоласом або Ґімлі
+GlobScen:specialtree7UnlockDesc	f7103522	Таємні рівні Палантира
+GlobScen:speed	cee7d1f2	Швидкий
+GlobScen:test	c6c3c95d	Це перевірка.
+GlobScen:total	03eece5a	Усього
+GlobScen:totalExperience	c44072b6	Усього досвіду
+GlobScen:totalUpgradePoints	36c860f4	Усього досвіду:
+GlobScen:up	f63a903d	дс
+GlobScen:upgradeAll	0355373d	Усі
+GlobScen:upgradeAraAbility1	b45f32fa	Ґондорський майстер меча
+GlobScen:upgradeAraAbility1Desc	f63b21aa	Це особливе вміння підсилює удари й швидше вмикає досконалий режим.
+GlobScen:upgradeAraAbility2	bb29b217	Творець королів
+GlobScen:upgradeAraAbility2Desc	07352d07	Ще сильніші удари й ще швидший досконалий режим. (Потрібно: Ґондорський майстер меча)
+GlobScen:upgradeAraDamage1	aeb6d1f0	Королівське володіння мечем
+GlobScen:upgradeAraDamage1Desc	8b5ea2d9	Підсилює швидку атаку.
+GlobScen:upgradeAraDev1	6a667ad9	Нищівна атака
+GlobScen:upgradeAraDev1Desc	6a667ad9	Нищівна атака
+GlobScen:upgradeAraDev2	bdcfd6e9	Лють слідопита
+GlobScen:upgradeAraDev2Desc	38eb3dba	Нищівна атака, що б'є блискавкою.
+GlobScen:upgradeAraDev3	2ecaa316	Гнів пущі
+GlobScen:upgradeAraDev3Desc	22185ac2	Ще нищівніша атака, що підпалює ворогів. (Потрібно: Лють слідопита)
+GlobScen:upgradeAraDev4	7ed99f59	Гнів Нуменору
+GlobScen:upgradeAraDev4Desc	6f0f281b	Найнищівніша атака, що випускає коло вогняних куль. (Потрібно: Гнів пущі)
+GlobScen:upgradeAraHealth1	23b684a5	Сила каменю
+GlobScen:upgradeAraHealth1Desc	39919ff1	Назавжди збільшує здоров'я.
+GlobScen:upgradeAraHealth2	5ba0a1fd	Сила заліза
+GlobScen:upgradeAraHealth2Desc	8f7b6946	Назавжди збільшує здоров'я.  (Потрібно: Сила каменю)
+GlobScen:upgradeAraHealth3	a52318ab	Сила Братства
+GlobScen:upgradeAraHealth3Desc	61cc1497	Назавжди збільшує здоров'я.  (Потрібно: Сила заліза)
+GlobScen:upgradeAraHealth4	0983f1b0	Сила Вечірньої зорі
+GlobScen:upgradeAraHealth4Desc	9e7bf56d	Назавжди збільшує здоров'я.  (Потрібно: Сила Братства)
+GlobScen:upgradeAraRange1	fbb638b1	Ясенові стріли
+GlobScen:upgradeAraRange1Desc	fbb638b1	Ясенові стріли
+GlobScen:upgradeAraRange2	f5917ae2	Стріли дунаданів
+GlobScen:upgradeAraRange2Desc	9328c298	Ці благословенні ельфійські стріли завдають більше шкоди.
+GlobScen:upgradeAraRange3	1ea84ffb	Стріли Рівенделу
+GlobScen:upgradeAraRange3Desc	bea3a1ab	Ці стріли б'ють блискавкою при влучанні. (Потрібно: Стріли дунаданів)
+GlobScen:upgradeAraRange4	45994cc4	Мітрилові стріли
+GlobScen:upgradeAraRange4Desc	256c47d2	Ці чарівні стріли підпалюють ворогів. (Потрібно: Стріли Рівенделу)
+GlobScen:upgradeCharacter	118b3297	Герой
+GlobScen:upgradeCombo1	27e1f845	Рубач орків
+GlobScen:upgradeCombo1Desc	7b51d0e5	КОМБО: дієве комбо проти ворогів без щитів.
+GlobScen:upgradeCombo2	6d899724	Останній суд
+GlobScen:upgradeCombo2Desc	547e6049	КОМБО: пораньте, збийте з ніг і добийте сильного ворога.
+GlobScen:upgradeCombo3	d4e6d79a	Хитрість балроґа
+GlobScen:upgradeCombo3Desc	a546d490	КОМБО: пораньте, збийте з ніг і вразіть ворога цією атакою.
+GlobScen:upgradeCombo4	d5dfd91f	Темне визволення
+GlobScen:upgradeCombo4Desc	61d555b0	КОМБО: швидко розправляється з ворогами зі щитами.
+GlobScen:upgradeCombo5	571bf7df	Щитоламач
+GlobScen:upgradeCombo5Desc	efdb3af3	КОМБО: проти сильних ворогів - розбийте щит, поваліть на землю і вдарте.
+GlobScen:upgradeCombo6	decc7163	Удар блискавки
+GlobScen:upgradeCombo6Desc	a5082071	КОМБО: низка швидких і сильних ударів, що валить одного чи кількох ворогів без щитів.
+GlobScen:upgradeCombo7	45b5fa45	Молот Гельма
+GlobScen:upgradeCombo7Desc	512bf0a4	КОМБО: смертельне поєднання, що розбиває ворожі щити й б'є знову.
+GlobScen:upgradeCombo8	9d0a1fce	Швидке правосуддя
+GlobScen:upgradeCombo8Desc	7febe0c7	КОМБО: швидке поєднання, смертельне для ворогів без щитів.
+GlobScen:upgradeDamage1	1dc15b91	Сила Братства
+GlobScen:upgradeDamage1Desc	ad1ff5e7	Підсилює певну атаку члена Братства.
+GlobScen:upgradeDividerLeft	9ddd1ddf	£
+GlobScen:upgradeDividerRight	74beb8ea	¥
+GlobScen:upgradeDoneBuyingAreYouSure	ee0531e4	Ви закінчили купувати поліпшення?
+GlobScen:upgradeEarned	9b2fd01f	Здобуто
+GlobScen:upgradeEntryPopup1	7a698ad0	Очки досвіду можна витратити на поліпшення для поточного героя або всього Братства.
+GlobScen:upgradeEntryPopup2	aa51836c	Поліпшення Братства доступне лише героям, які досягли потрібного для нього рівня.
+GlobScen:upgradeEntryPopup3	68b4817b	Вітаємо!  В останній місії ви здобули досить досвіду, щоб підвищити рівень героя.
+GlobScen:upgradeFF	53eb632d	Подвійний удар
+GlobScen:upgradeFFDesc	d6886ed9	Руйнівне поєднання, що розбиває ворожі щити.
+GlobScen:upgradeFellowship	c4acfd77	Братство
+GlobScen:upgradeGanAbility1	33f9103a	Сила чарівника
+GlobScen:upgradeGanAbility1Desc	a5ceefb2	Чарівний щит завдає більше шкоди і тримається довше.
+GlobScen:upgradeGanAbility2	b3e990d5	Сила Палантира
+GlobScen:upgradeGanAbility2Desc	664f1852	Чарівний щит відкидає ворогів далі і тримається довше. (Потрібно: Сила чарівника)
+GlobScen:upgradeGanAbility3	fe0ffcb9	Чари Гаваней
+GlobScen:upgradeGanAbility3Desc	5a9ec1e6	Чарівний щит валить ворогів на землю і тримається довше. (Потрібно: Сила Палантира)
+GlobScen:upgradeGanDamage1	c4a3ce9f	Сила істарі
+GlobScen:upgradeGanDamage1Desc	c6dd024e	Підсилює дальню й нищівну атаки
+GlobScen:upgradeGanDev1	6a667ad9	Нищівна атака
+GlobScen:upgradeGanDev1Desc	6a667ad9	Нищівна атака
+GlobScen:upgradeGanDev2	029b2345	Туман війни
+GlobScen:upgradeGanDev2Desc	5e29bdd7	Ця атака викликає хмару туману, що збиває ворогів з ніг.
+GlobScen:upgradeGanDev3	9cd40475	Гнів Анору
+GlobScen:upgradeGanDev3Desc	04a0c878	Ще нищівніша атака, що створює коло блискавок. (Потрібно: Туман війни)
+GlobScen:upgradeGanDev4	4c58eb37	Полум'я Удуна
+GlobScen:upgradeGanDev4Desc	84ad783d	Найнищівніша атака, що створює коло полум'я і підпалює ворогів. (Потрібно: Гнів Анору)
+GlobScen:upgradeGanHealth1	23b684a5	Сила каменю
+GlobScen:upgradeGanHealth1Desc	de3a378a	Назавжди збільшує здоров'я.
+GlobScen:upgradeGanHealth2	5ba0a1fd	Сила заліза
+GlobScen:upgradeGanHealth2Desc	5e9e6dea	Назавжди збільшує здоров'я.  (Потрібно: Сила каменю)
+GlobScen:upgradeGanHealth3	a52318ab	Сила Братства
+GlobScen:upgradeGanHealth3Desc	3faf4933	Назавжди збільшує здоров'я.  (Потрібно: Сила заліза)
+GlobScen:upgradeGanRange1	988a9c70	Дальня атака
+GlobScen:upgradeGanRange1Desc	988a9c70	Дальня атака
+GlobScen:upgradeGanRange2	6525af3f	Світло Прочанина
+GlobScen:upgradeGanRange2Desc	2b5b9cec	Ця блискавка завдає більше шкоди.
+GlobScen:upgradeGanRange3	88f4c075	Світло горнил
+GlobScen:upgradeGanRange3Desc	dffc82b9	Цей чарівний снаряд підпалює ворогів. (Потрібно: Світло Прочанина)
+GlobScen:upgradeGanRange4	b0feaf07	Світло валарів
+GlobScen:upgradeGanRange4Desc	5fa38559	Цей снаряд чистого світла пронизує кількох ворогів і підпалює їх. (Потрібно: Світло горнил)
+GlobScen:upgradeGimAbility1	9537d78c	Знання Самотньої гори
+GlobScen:upgradeGimAbility1Desc	f63b21aa	Це особливе вміння підсилює удари й швидше вмикає досконалий режим.
+GlobScen:upgradeGimAbility2	83e2753f	Королівське володіння сокирою
+GlobScen:upgradeGimAbility2Desc	cb7c6cb5	Ще сильніші удари й ще швидший досконалий режим. (Потрібно: Знання Самотньої гори)
+GlobScen:upgradeGimDamage1	e11a45f9	Ґномівське володіння сокирою
+GlobScen:upgradeGimDamage1Desc	b6c9b48b	Підсилює потужну атаку.
+GlobScen:upgradeGimDev1	6a667ad9	Нищівна атака
+GlobScen:upgradeGimDev1Desc	6a667ad9	Нищівна атака
+GlobScen:upgradeGimDev2	e7c24c40	Ґномівська лють
+GlobScen:upgradeGimDev2Desc	38eb3dba	Нищівна атака, що б'є блискавкою.
+GlobScen:upgradeGimDev3	8c22fa31	Гнів гір
+GlobScen:upgradeGimDev3Desc	a452afe9	Ще нищівніша атака, що підпалює ворогів. (Потрібно: Ґномівська лють)
+GlobScen:upgradeGimDev4	08c09e29	Гнів Морії
+GlobScen:upgradeGimDev4Desc	5a5e3926	Найнищівніша атака, що випускає коло вогняних куль. (Потрібно: Гнів гір)
+GlobScen:upgradeGimHealth1	23b684a5	Сила каменю
+GlobScen:upgradeGimHealth1Desc	de3a378a	Назавжди збільшує здоров'я.
+GlobScen:upgradeGimHealth2	5ba0a1fd	Сила заліза
+GlobScen:upgradeGimHealth2Desc	5e9e6dea	Назавжди збільшує здоров'я.  (Потрібно: Сила каменю)
+GlobScen:upgradeGimHealth3	a52318ab	Сила Братства
+GlobScen:upgradeGimHealth3Desc	3faf4933	Назавжди збільшує здоров'я.  (Потрібно: Сила заліза)
+GlobScen:upgradeGimHealth4	fbe885d8	Сила Ґлоїна
+GlobScen:upgradeGimHealth4Desc	905bcc55	Назавжди збільшує здоров'я.  (Потрібно: Сила Братства)
+GlobScen:upgradeGimHealth5	10dcfe10	Сила Хазад-думу
+GlobScen:upgradeGimHealth5Desc	70f23e6a	Назавжди збільшує здоров'я.  (Потрібно: Сила Ґлоїна)
+GlobScen:upgradeGimRange1	92a83e5a	Метальні сокири
+GlobScen:upgradeGimRange1Desc	92a83e5a	Метальні сокири
+GlobScen:upgradeGimRange2	e80734df	Сокири Еребору
+GlobScen:upgradeGimRange2Desc	00df3197	Ці зачаровані метальні сокири завдають більше шкоди.
+GlobScen:upgradeGimRange3	51ea7fe7	Сокири Морії
+GlobScen:upgradeGimRange3Desc	b88df521	Ці зачаровані сокири б'ють блискавкою при влучанні. (Потрібно: Сокири Еребору)
+GlobScen:upgradeHobAbility1	2501d2d7	Плащ Галдіра
+GlobScen:upgradeHobAbility1Desc	57dc1f9e	Гобіт довше лишається непомітним в ельфійському плащі.
+GlobScen:upgradeHobAbility2	07c42622	Плащ Келеборна
+GlobScen:upgradeHobAbility2Desc	8a6ccbe8	Гобіт довше лишається непомітним в ельфійському плащі. (Потрібно: Плащ Галдіра)
+GlobScen:upgradeHobAbility3	dfe2b564	Плащ Ґаладріель
+GlobScen:upgradeHobAbility3Desc	1a0d188a	Гобіт довше лишається непомітним в ельфійському плащі. (Потрібно: Плащ Келеборна)
+GlobScen:upgradeHobDamage1	1b85e20b	Сила Старого
+GlobScen:upgradeHobDamage1Desc	664a33c6	Підсилює всі удари мечем, коли атакуєте ворога ззаду.
+GlobScen:upgradeHobDev1	6a667ad9	Нищівна атака
+GlobScen:upgradeHobDev1Desc	6a667ad9	Нищівна атака
+GlobScen:upgradeHobDev2	932f775f	Отруйний клинок
+GlobScen:upgradeHobDev2Desc	67c71783	Нищівна атака, що завдає тривалої шкоди.
+GlobScen:upgradeHobDev3	09bceb6f	Хмара тіні
+GlobScen:upgradeHobDev3Desc	85a7e847	Створює отруйну хмару, що завдає тривалої шкоди. (Потрібно: Отруйний клинок)
+GlobScen:upgradeHobDev4	5439f574	Хмара люті
+GlobScen:upgradeHobDev4Desc	ec8e5b44	Найнищівніша отруйна хмара, що завдає тривалої шкоди. (Потрібно: Хмара тіні)
+GlobScen:upgradeHobHealth1	23b684a5	Сила каменю
+GlobScen:upgradeHobHealth1Desc	39919ff1	Назавжди збільшує здоров'я.
+GlobScen:upgradeHobHealth2	5ba0a1fd	Сила заліза
+GlobScen:upgradeHobHealth2Desc	8f7b6946	Назавжди збільшує здоров'я.  (Потрібно: Сила каменю)
+GlobScen:upgradeHobHealth3	a52318ab	Сила Братства
+GlobScen:upgradeHobHealth3Desc	61cc1497	Назавжди збільшує здоров'я.  (Потрібно: Сила заліза)
+GlobScen:upgradeHobHealth4	4e73a616	Сила напіврослика
+GlobScen:upgradeHobHealth4Desc	9e7bf56d	Назавжди збільшує здоров'я.  (Потрібно: Сила Братства)
+GlobScen:upgradeHobHealth5	460bf450	Сила Беґінсів
+GlobScen:upgradeHobHealth5Desc	dd7e4e52	Назавжди збільшує здоров'я.  (Потрібно: Сила напіврослика)
+GlobScen:upgradeHobRange1	134cab51	Метальні ножі
+GlobScen:upgradeHobRange1Desc	134cab51	Метальні ножі
+GlobScen:upgradeHobRange2	f1f6b98c	Гобітове чуття
+GlobScen:upgradeHobRange2Desc	d97da7ad	Збільшує відстань, з якої гобіт може цілити у ворогів.
+GlobScen:upgradeHobRange3	2425638c	Отруйні кинджали
+GlobScen:upgradeHobRange3Desc	a6cee0f5	Кожен кинджал, що влучає у ворога, завдає тривалої шкоди.
+GlobScen:upgradeHobRange4	88b2e8a7	Морґульські кинджали
+GlobScen:upgradeHobRange4Desc	7e3fb4fb	Найсильніша дальня атака гобітів. (Потрібно: Отруйні кинджали)
+GlobScen:upgradeKill1	fcf846a9	Смертельний удар
+GlobScen:upgradeKill1Desc	fcf846a9	Смертельний удар
+GlobScen:upgradeLabel	335d2306	Поліпшення
+GlobScen:upgradeLegAbility1	9feb0258	Світло Лотлоріену
+GlobScen:upgradeLegAbility1Desc	f63b21aa	Це особливе вміння підсилює удари й швидше вмикає досконалий режим.
+GlobScen:upgradeLegAbility2	e38b9ab8	Дар Ґаладріель
+GlobScen:upgradeLegAbility2Desc	721ddb16	Ще сильніші удари й ще швидший досконалий режим. (Потрібно: Світло Лотлоріену)
+GlobScen:upgradeLegDamage1	3b7349aa	Ельфійське володіння луком
+GlobScen:upgradeLegDamage1Desc	fd1e0cfa	Один постріл - дві стріли у дві цілі.
+GlobScen:upgradeLegDev1	6a667ad9	Нищівна атака
+GlobScen:upgradeLegDev1Desc	6a667ad9	Нищівна атака
+GlobScen:upgradeLegDev2	b95513ef	Ельфійська лють
+GlobScen:upgradeLegDev2Desc	38eb3dba	Нищівна атака, що б'є блискавкою.
+GlobScen:upgradeLegDev3	bd345cfb	Гнів Елронда
+GlobScen:upgradeLegDev3Desc	0855004b	Ще нищівніша атака, що підпалює ворогів. (Потрібно: Ельфійська лють)
+GlobScen:upgradeLegHealth1	23b684a5	Сила каменю
+GlobScen:upgradeLegHealth1Desc	de3a378a	Назавжди збільшує здоров'я.
+GlobScen:upgradeLegHealth2	5ba0a1fd	Сила заліза
+GlobScen:upgradeLegHealth2Desc	5e9e6dea	Назавжди збільшує здоров'я.  (Потрібно: Сила каменю)
+GlobScen:upgradeLegHealth3	a52318ab	Сила Братства
+GlobScen:upgradeLegHealth3Desc	3faf4933	Назавжди збільшує здоров'я.  (Потрібно: Сила заліза)
+GlobScen:upgradeLegRange1	fbb638b1	Ясенові стріли
+GlobScen:upgradeLegRange1Desc	fbb638b1	Ясенові стріли
+GlobScen:upgradeLegRange2	c32ffbc8	Стріли Морок-лісу
+GlobScen:upgradeLegRange2Desc	172bfcf1	Ці благословенні ельфійські стріли завдають більше шкоди.
+GlobScen:upgradeLegRange3	b07c6204	Стріли Лотлоріену
+GlobScen:upgradeLegRange3Desc	652ed6fc	Ці стріли б'ють блискавкою при влучанні. (Потрібно: Стріли Морок-лісу)
+GlobScen:upgradeLegRange4	5920d7ce	Стріли валарів
+GlobScen:upgradeLegRange4Desc	39230863	Ці чарівні стріли підпалюють ворогів. (Потрібно: Стріли Лотлоріену)
+GlobScen:upgradeLegRange5	45994cc4	Мітрилові стріли
+GlobScen:upgradeLegRange5Desc	e133577b	Ці стріли пронизують і підпалюють усіх ворогів на своєму шляху. (Потрібно: Стріли валарів)
+GlobScen:upgradeLink1	1f677e85	Погибель орків
+GlobScen:upgradeLink1Desc	42f119d0	ЗВ'ЯЗКА: парируйте й миттєво вбийте орка, що нападає.
+GlobScen:upgradeLink2	055a64ef	Погибель воїнів
+GlobScen:upgradeLink2Desc	e56e6dea	ЗВ'ЯЗКА: парируйте й миттєво вбийте ворога людського зросту.
+GlobScen:upgradeLink3	3ae4e22a	Погибель Саурона
+GlobScen:upgradeLink3Desc	37b02a2e	ЗВ'ЯЗКА: парируйте й миттєво вбийте урука, що нападає.
+GlobScen:upgradeLocked	93133d90	Ще не відкрито.
+GlobScen:upgradeNA	968230b3	Н/Д
+GlobScen:upgradeNoMoney	12eb9626	Вам бракує очок досвіду, щоб купити це поліпшення.
+GlobScen:upgradePerfect1	81b1c789	Зона вбивства
+GlobScen:upgradePerfect1Desc	8eb775ab	Ви довше лишаєтеся в досконалому режимі під час бою.
+GlobScen:upgradePoints	e022fe0a	Очки досвіду
+GlobScen:upgradePointsColon	b2bb385c	Очки досвіду :
+GlobScen:upgradePurchased	ab46369a	Куплено
+GlobScen:upgradeRising1	2b9b1db4	Помста з колін
+GlobScen:upgradeRising1Desc	f7e34489	Атакуйте, підводячись, і заскочіть ворогів зненацька.
+GlobScen:upgradeSSS	85ae4f8d	Потрійний удар
+GlobScen:upgradeSSSDesc	6bb07f06	Швидке поєднання проти менших ворогів без щитів.
+GlobScen:upgradeWantToBuy	9effd654	Купити це поліпшення?
+GlobScen:useAbilities	077bf75e	Використайте поліпшення Братства
+GlobScen:wantToSave	d57266f4	Зберегти гру?
+GlobScen:wizardPath	603e68d8	Шлях чарівника
+GlobScen:yes	4daa7349	Так
+bla01:0x02010000	00000000	
+bla01:0x02010001	00000000	
+bla01:0x02010002	00000000	
+bla01:0x02010003	00000000	
+bla01:0x02010004	00000000	
+bla01:0x02010005	00000000	
+bla01:0x02010100	3c6d1e35	Ми відволікли його військо до Чорної Брами...
+bla01:0x02010200	d4a63d2f	Для нас надії немає... Це наш останній крок, щоб дати Фродо час... час покінчити зі злом, що шикується перед нами.
+bla01:0x02010300	74ee326c	Допоможіть!
+bla01:0x02010301	74ee326c	Допоможіть!
+bla01:0x02010400	4dfeecd0	Сюди!
+bla01:0x02010500	3ad8912c	Переможіть їх усіх, або ми загинемо!
+bla01:0x02010600	907cf9a9	Так велить Полум'я Арнору!
+bla01:0x02010700	82678533	Ви знаєте їхню слабкість! Скористайтеся нею!
+bla01:0x020c0000	e648f59a	Ти більше не говоритимеш за Саурона!
+bla01:0x020c0100	b26aebbd	Це ти... страждатимеш!
+bla01:0x020c0200	a95647e0	Це за Фродо!
+bla01:0x020c0300	3e99529c	По місцях!
+bla01:0x020c0400	4e382fb8	Стійте на місці, сини Ґондору, Рогану... брати мої!
+bla01:0x020c0500	d147088e	Паліть їх!
+bla01:0x020c0600	a945eeef	Якраз вчасно.
+bla01:0x020c0601	f29b6771	Щасливий жереб.
+bla01:0x020c0602	a228020a	Доля до мене прихильна.
+bla01:0x020d0000	30621063	Мій Володар, Саурон Великий, вітає вас...
+bla01:0x020d0100	bfa60f67	Щоб стати Королем, мало зламаного ельфійського клинка.
+bla01:0x020d0101	12a7209c	Он як... Бачу, напіврослик був тобі дорогий.
+bla01:0x020d0200	0f38c5c2	Знай, що напіврослик тяжко страждав у руках свого господаря.
+bla01:0x020d0300	6db40f8e	Вам не спинити назґулів!
+bla01:0x020d0400	b134279b	Геть, слабаку!
+bla01:0x020d0401	6a7fe4fe	Зустрінь свою загибель!
+bla01:0x020d0402	674be463	Ми вкрадемо твою душу!
+bla01:0x020d0403	6be86b93	Це не твоя справа.
+bla01:0x02110000	0e7bfbb2	Вони переб'ють нас усіх!
+bla01:0x02110001	32ca2cff	Тримайте їх!
+bla01:0x02110002	aea494a3	Тримайтеся, воїни!
+bla01:0x02110003	90c20ee5	Тримайте позиції, воїни Рогану!
+bla01:0x02120000	74ee326c	Допоможіть!
+bla01:0x02120100	4dfeecd0	Сюди!
+bla01:0x02120200	e82bcdb1	Слабкість минає.
+bla01:0x02120201	7f586931	Добрий дарунок.
+bla01:0x02130000	74ee326c	Допоможіть!
+bla01:0x02130100	4dfeecd0	Сюди!
+bla01:0x02130200	27908d9e	Нам бракує воїнів!
+bla01:0x02130201	6d6e9468	Їм немає кінця!
+bla01:0x02130300	eb6c897b	Дякую, друже!
+bla01:0x02130301	63e7459c	Мені вже не так болить.
+bla01:0x02130302	eeeb9cb4	Небезпека минула.
+bla01:0x02130303	f7386cba	Це легка рана!
+bla01:0x30000000	37eb16f8	Але в мене є знак, який мені велено тобі показати...
+bla01:0x30000001	8048c539	Мітрилова кольчуга Фродо! Бідолашний гобіт, мабуть, мертвий!
+bla01:0x30000002	0e7f9155	Я передам звістку твоєму господарю!
+bla01:0x30000003	042358f9	Примари Персня йдуть!
+bla01:0x30000004	5552f77b	Чорні вершники!
+bla01:0x30000005	63cc0685	Назад!
+bla01:0x30000006	0efa0391	Володар Саурон втратив терпіння.
+bla01:0x30000007	e64657db	Для нас надії немає.
+bla01:0x30000008	b5bcdba1	Це наш останній крок, щоб дати Фродо час...
+bla01:0x30000009	3adac552	...час покінчити зі злом, що шикується перед нами.
+bla01:0x3000000a	4719f004	Їх забагато!
+bla01:0x3000000b	9aa926cd	Бийся далі, Ґімлі!
+bla01:0x3000000c	82b19cc4	Схоже, переговори скінчено.
+bla01:0x3000000d	3906ef60	Займіть оборону!
+bla01:0x3000000e	42f40380	Розділіться... тримайте їх з усіх боків пагорба!
+bla01:0x3000000f	37eb16f8	Але в мене є знак, який мені велено тобі показати...
+bla01:0x30000010	8048c539	Мітрилова кольчуга Фродо! Бідолашний гобіт, мабуть, мертвий!
+bla01:0x30000011	0e7f9155	Я передам звістку твоєму господарю!
+bla01:0x30000012	042358f9	Примари Персня йдуть!
+bla01:0x30000013	5552f77b	Чорні вершники!
+bla01:0x30000014	63cc0685	Назад!
+bla01:0x30000015	0efa0391	Володар Саурон втратив терпіння.
+bla01:0x30000016	e64657db	Для нас надії немає.
+bla01:0x30000017	b5bcdba1	Це наш останній крок, щоб дати Фродо час...
+bla01:0x30000018	3adac552	...час покінчити зі злом, що шикується перед нами.
+bla01:0x30000019	4719f004	Їх забагато!
+bla01:0x3000001a	9aa926cd	Бийся далі, Ґімлі!
+bla01:0x3000001b	82b19cc4	Схоже, переговори скінчено.
+bla01:0x3000001c	3906ef60	Займіть оборону!
+bla01:0x3000001d	42f40380	Розділіться... тримайте їх з усіх боків пагорба!
+cir00:0x02010000	00000000	
+cir00:0x02010001	00000000	
+cir00:0x02010002	00000000	
+cir00:0x02010003	00000000	
+cir00:0x02010004	00000000	
+cir00:0x02010005	00000000	
+cir00:0x02080000	a94b977e	Створіння Саурона ++++++воюють між собою! Посічіть багатьох, і вони втечуть до вежі! Там тримають Фродо!
+cir00:0x020e0000	ea4fb30f	Чужинець!!
+cir00:0x020e0001	ea4fb30f	Чужинець!!
+cir00:0x020e0002	ea4fb30f	Чужинець!!
+cir00:0x020e0003	ea4fb30f	Чужинець!!
+cir00:0x020e0100	c6908615	Хапай цього малого!
+cir00:0x020e0200	987abe06	Я тебе вкорочу!
+cir00:0x02110000	cac80763	Пан Фродо в тій вежі, і щоб туди дістатися, мені треба здолати всіх цих орків!
+cir00:0x02110100	25438c90	Там, нагорі, двері... якби тільки туди залізти.
+cir00:0x02110200	64a6cc3e	І як мені через це пройти?
+cir00:0x02110201	64a6cc3e	І як мені через це пройти?
+cir00:0x02110202	64a6cc3e	І як мені через це пройти?
+cir00:0x02110300	9847285b	Може, це шлях усередину!
+cir00:0x02110301	9847285b	Може, це шлях усередину!
+cir00:0x02110400	cb67ead6	Сподіваюся, тут безпечно!
+cir00:0x02110500	191a48f2	Треба якось обернути це проти них!
+cir00:0x02110600	0f55e9d0	Це може їх відволікти!
+cir00:0x02110700	0f1b3086	Не хвилюйтеся, пане Фродо! Я вас не забув!
+cir00:0x02110701	0f1b3086	Не хвилюйтеся, пане Фродо! Я вас не забув!
+cir00:0x02110800	c5d5e83c	Може, це шлях у Вежу!
+cir00:0x02110801	c5d5e83c	Може, це шлях у Вежу!
+cir00:0x02110802	c5d5e83c	Може, це шлях у Вежу!
+cir00:0x02110803	c5d5e83c	Може, це шлях у Вежу!
+cir00:0x02110900	1f08b148	Схоже, тут можна вилізти!
+cir00:0x02110901	1f08b148	Схоже, тут можна вилізти!
+cir00:0x02110a00	eae0e914	Ну ж бо, Семвайзе. Мусиш знайти, як потрапити в ту вежу.
+cir00:0x02110b00	f035a653	Усіх мені не посікти!
+cir00:0x02110b01	f035a653	Усіх мені не посікти!
+cir00:0x02110b02	f035a653	Усіх мені не посікти!
+cir00:0x02110c00	920f5520	Може, відволічу їх цим!
+cir00:0x02110c01	920f5520	Може, відволічу їх цим!
+cir00:0x02110d00	8bdf5c6f	Здається, я вже набиваю руку!
+cir00:0x02110d01	8bdf5c6f	Здається, я вже набиваю руку!
+cir00:0x02110d02	8bdf5c6f	Здається, я вже набиваю руку!
+cir00:0x30000000	2dd3dbf3	Сем!
+cir00:0x30000001	74ee326c	Допоможіть!
+cir00:0x30000002	5ef8dbed	Цей хробак хотів мене штрикнути.
+cir00:0x30000003	a778ead8	...Не віддамо це місце смердючим щурам Мордору!
+cir00:0x30000004	faf599a0	У нас тут купа хлопців, що аж рвуться в бій.
+cir00:0x30000005	553647fb	Розбийте їх! Займіть найкращі місця! Покінчимо з цим... зараз!
+cir00:0x30000006	588a5975	Опустіть звідний міст!
+cir00:0x30000007	ef1ada4a	Нас трощать! Відступаємо!
+cir00:0x30000008	c783f1cb	У Вежу, хлопці! Хутчіш!
+cir00:0x30000009	2dd3dbf3	Сем!
+cir00:0x3000000a	74ee326c	Допоможіть!
+cir00:0x3000000b	5ef8dbed	Цей хробак хотів мене штрикнути.
+cir00:0x3000000c	a778ead8	...Не віддамо це місце смердючим щурам Мордору!
+cir00:0x3000000d	faf599a0	У нас тут купа хлопців, що аж рвуться в бій.
+cir00:0x3000000e	553647fb	Розбийте їх! Займіть найкращі місця! Покінчимо з цим... зараз!
+cir00:0x3000000f	588a5975	Опустіть звідний міст!
+cir00:0x30000010	ef1ada4a	Нас трощать! Відступаємо!
+cir00:0x30000011	c783f1cb	У Вежу, хлопці! Хутчіш!
+cir01:0x30000000	2661b7d1	Гей, покидьку! Руки геть від блискучої сорочки, вона моя.
+cir01:0x30000001	00000000	
+cir01:0x30000002	6f0e126e	Відпусти його, бо я тобі задам, оркова наволоч!
+cir01:0x30000003	8a50d50b	Сем!!!!!!
+cir01:0x30000004	4306b7ff	Ходімо, пане Фродо! Я знаю, як звідси вибратися!
+cir01:0x30000005	840076ea	Дякую, Семе.
+cir01:0x30000006	4084d7e2	Ми вже близько до Фатальної гори! Ще трохи, і ви позбудетеся того Персня!
+cir01:0x30000007	2661b7d1	Гей, покидьку! Руки геть від блискучої сорочки, вона моя.
+cir01:0x30000008	00000000	
+cir01:0x30000009	6f0e126e	Відпусти його, бо я тобі задам, оркова наволоч!
+cir01:0x3000000a	8a50d50b	Сем!!!!!!
+cir01:0x3000000b	4306b7ff	Ходімо, пане Фродо! Я знаю, як звідси вибратися!
+cir01:0x3000000c	840076ea	Дякую, Семе.
+cir01:0x3000000d	4084d7e2	Ми вже близько до Фатальної гори! Ще трохи, і ви позбудетеся того Персня!
+cra01:0x02010000	00000000	
+cra01:0x02010001	00000000	
+cra01:0x02010002	00000000	
+cra01:0x02010003	00000000	
+cra01:0x02010004	00000000	
+cra01:0x02010005	00000000	
+cra01:0x020c0000	7bff3715	Треба його здолати, пане Фродо! Зіпхнімо його разом із клятим Перснем у вогонь!
+cra01:0x020c0100	3b87629f	Ми не для того втекли з фортеці й пройшли милі димної пустки, щоб нас тепер зупинили!
+cra01:0x020d0000	c90b7d05	Геть від нас! Ти нам більше не Хазяїн! Ми Хазяїн! Ґолум вільний! Ґолум! Ґолум!
+cra01:0x020d0100	656435c5	Дай нам спокій! Ми тебе ненавидимо!
+cra01:0x020d0200	da76cba6	Ми присягаємо вбити Хазяїна... Присягаємо на... на скарбові-і-і...
+cra01:0x020d0300	c037a43a	Він кривдить нас! Кривдить бідного Смеаґола!
+cra01:0x020d0400	e79e1257	Зараз ми тебе зваримо!
+cra01:0x020d0500	df183ffc	Дурний гобіт! Хай воно тебе спалить!!!
+cra01:0x020d0600	e2773e0f	Дурний хазяїн, скарб мій!
+cra01:0x020d0700	cbfcf7f6	Лиходій! Не можна брати Скарб!
+cra01:0x020d0800	14ba60d9	Дурний гобіт не вб'є Скарба! Ми не дамо!!!
+cra01:0x020d0900	2821166e	Ніколи! Ми Хазяїн! Ми виграємо! Ми виграємо!
+cra01:0x020d0901	2821166e	Ніколи! Ми Хазяїн! Ми виграємо! Ми виграємо!
+cra01:0x020d0a00	b6655f1e	Ми завжди виграємо!!!
+cra01:0x020d0b00	2e35f724	Ми... завжди... виграємо!!!
+cra01:0x020e0000	44e00a6c	Віддай це!  Відкушений палець мене не спинить!
+cra01:0x020e0100	b89558ca	З Перснем ти не підеш, обіцяю!!
+cra01:0x020e0200	132a3aaa	Геть, плазуне!
+cra01:0x020e0300	fe3590f7	Ми в пастці!
+cra01:0x020e0400	e2ce7ed2	Не знаю, як тебе позбутися!
+cra01:0x020e0500	8a9cbdba	Ти навіжений, Смеаґоле! Ніколи не бачив тебе таким швидким!
+cra01:0x020e0600	fa29e3fe	Ти його ніколи не повернеш! Ніколи!
+cra01:0x020e0700	423f0b00	Твій час минув!
+cra01:0x020e0800	2b77f653	Нам усім кінець, Ґолуме! Тут усе валиться!
+cra01:0x020e0900	d89c8c0f	Ти слабнеш, правда?!
+cra01:0x020e0a00	2dbf13be	Не цього разу, Ґолуме!
+cra01:0x020e0b00	0fae7e8c	Цього разу не виграє ніхто!
+cra01:0x020e0c00	6b3c3a20	Цього разу все скінчено.
+cra01:0x30000000	72785582	Скарб! Мій Скарб!
+cra01:0x30000001	f386ee54	Наш Скарб! Наш!
+cra01:0x30000002	9fa61d47	Мій! ++++++
+cra01:0x30000003	b1a7ea3a	Ми тебе ненавидимо! Завжди ненавиділи!
+cra01:0x30000004	a1c6cdd5	Ми скрутимо йому брудну шийку!
+cra01:0x30000005	b32468ac	Назад, Семе!
+cra01:0x30000006	df183ffc	Дурний гобіт! Хай воно тебе спалить!!!
+cra01:0x30000007	c0c4e161	Скарб +++++мій!
+cra01:0x30000008	72785582	Скарб! Мій Скарб!
+cra01:0x30000009	f386ee54	Наш Скарб! Наш!
+cra01:0x3000000a	9fa61d47	Мій! ++++++
+cra01:0x3000000b	b1a7ea3a	Ми тебе ненавидимо! Завжди ненавиділи!
+cra01:0x3000000c	a1c6cdd5	Ми скрутимо йому брудну шийку!
+cra01:0x3000000d	b32468ac	Назад, Семе!
+cra01:0x3000000e	df183ffc	Дурний гобіт! Хай воно тебе спалить!!!
+cra01:0x3000000f	c0c4e161	Скарб +++++мій!
+hel01:0x02010000	00000000	
+hel01:0x02010001	00000000	
+hel01:0x02010002	00000000	
+hel01:0x02010003	00000000	
+hel01:0x02010004	00000000	
+hel01:0x02010005	00000000	
+hel01:0x02010100	99f93a04	За всіх вільних людей!
+hel01:0x02010101	1a5bfb54	Геть!!
+hel01:0x02010102	22369f8f	Назад!!
+hel01:0x02010200	13036940	Я тут, Леґоласе!
+hel01:0x02010300	bda3c9ec	Іду, Араґорне!
+hel01:0x020e0000	1107ff45	Хутчіш, Ґандальфе!
+hel01:0x020e0001	1107ff45	Хутчіш, Ґандальфе!
+hel01:0x020e0002	1107ff45	Хутчіш, Ґандальфе!
+hel01:0x020e0100	d8602269	Балісту заряджено!
+hel01:0x020e0101	d8602269	Балісту заряджено!
+hel01:0x020e0102	fe57350c	Оберніть їхні машини проти них!
+hel01:0x020e0103	fe57350c	Оберніть їхні машини проти них!
+hel01:0x020e0104	356607c4	Стріляй! Валіть їх!
+hel01:0x020e0105	356607c4	Стріляй! Валіть їх!
+hel01:0x020e0106	77f7f1f8	Спробуйте вистрілити з цього!
+hel01:0x020e0107	77f7f1f8	Спробуйте вистрілити з цього!
+hel01:0x020e0108	aac92c8d	Стріляйте з цих машин!
+hel01:0x020e0109	aac92c8d	Стріляйте з цих машин!
+hel01:0x020e010a	5a20f93b	Оберніть їхнє зло проти них!
+hel01:0x020e010b	5a20f93b	Оберніть їхнє зло проти них!
+hel01:0x020e0200	0dc9272b	Оберніть їхню зброю проти них!
+hel01:0x020e0201	0dc9272b	Оберніть їхню зброю проти них!
+hel01:0x020e0202	5980dcbb	Беріть їхні списи!
+hel01:0x020e0203	5980dcbb	Беріть їхні списи!
+hel01:0x020e0204	459b091c	Хапайте всю зброю!
+hel01:0x020e0205	459b091c	Хапайте всю зброю!
+hel01:0x020e0206	30b5aa22	Кидайте їхню зброю назад у них!
+hel01:0x020e0207	30b5aa22	Кидайте їхню зброю назад у них!
+hel01:0x020f0000	4703a0db	Вони не можуть йому протистояти!
+hel01:0x020f0001	9b0d0762	Мітрандир косить їх!
+hel01:0x020f0002	9b0d0762	Мітрандир косить їх!
+hel01:0x020f0003	42855b9e	Їхні удари йому байдужі!
+hel01:0x020f0004	303bef4c	Він демон!
+hel01:0x020f0005	303bef4c	Він демон!
+hel01:0x020f0100	9f2de7f4	Змітіть їх з поля!
+hel01:0x020f0101	89ff6ae4	Посічіть їх усіх!
+hel01:0x020f0102	7cd7041a	Назад! Назад!
+hel01:0x020f0103	41cb68c4	Він мій!
+hel01:0x020f0104	a60b2dbc	Поле наше!
+hel01:0x020f0105	b62b879b	До фортеці!
+hel01:0x020f0106	589e9483	Роган переможе!
+hel01:0x020f0200	7241909f	Геть!
+hel01:0x020f0201	7241909f	Геть!
+hel01:0x020f0202	7241909f	Геть!
+hel01:0x020f0203	ae7f4446	Де Саруман!?!
+hel01:0x020f0204	ae7f4446	Де Саруман!?!
+hel01:0x020f0205	93e4c162	Треба тікати!
+hel01:0x020f0206	93e4c162	Треба тікати!
+hel01:0x020f0207	93e4c162	Треба тікати!
+hel01:0x02100000	65223c81	Ґандальфе! З поверненням!
+hel01:0x02100100	98980637	Візьми кількох із цих, якщо не проти!
+hel01:0x02100200	03ded8e9	Швидко атакуйте цих урук-гаїв!
+hel01:0x02100201	03ded8e9	Швидко атакуйте цих урук-гаїв!
+hel01:0x02100202	03ded8e9	Швидко атакуйте цих урук-гаїв!
+hel01:0x02100203	667175e9	Раджу швидку атаку!
+hel01:0x02100204	667175e9	Раджу швидку атаку!
+hel01:0x02100205	667175e9	Раджу швидку атаку!
+hel01:0x02100206	970370b6	Атакуй швидко, Ґандальфе!
+hel01:0x02100207	970370b6	Атакуй швидко, Ґандальфе!
+hel01:0x02100208	970370b6	Атакуй швидко, Ґандальфе!
+hel01:0x02100300	959cfb32	Трощи їхні щити потужними ударами!
+hel01:0x02100301	46a10878	Проти щитів - потужні атаки!
+hel01:0x02100302	46a10878	Проти щитів - потужні атаки!
+hel01:0x02100303	46a10878	Проти щитів - потужні атаки!
+hel01:0x02100304	46a10878	Проти щитів - потужні атаки!
+hel01:0x02100305	46a10878	Проти щитів - потужні атаки!
+hel01:0x02100306	a5f25c3a	Бий потужно! Щити розколються!
+hel01:0x02100307	a5f25c3a	Бий потужно! Щити розколються!
+hel01:0x02100400	c0a28a10	У нового Ґандальфа ще той норов!
+hel01:0x02100401	c0a28a10	У нового Ґандальфа ще той норов!
+hel01:0x02110000	4b1c7f4c	Знищ їх своєю магією!
+hel01:0x02110001	789e4ef5	Збери силу і вивільни її!
+hel01:0x02110002	789e4ef5	Збери силу і вивільни її!
+hel01:0x02110003	611d9d05	Зосередь силу!
+hel01:0x02110004	2da5df1f	Обрушуй на них свою силу!
+hel01:0x02110005	d8ddd4ce	Посічи їх магією!
+hel01:0x02110006	f7824354	Атакуй цих урук-гаїв здалеку!
+hel01:0x02110100	79ade173	Відбивай їхні стріли!
+hel01:0x02110101	79ade173	Відбивай їхні стріли!
+hel01:0x02110102	80e71bad	Збивай їхні стріли!
+hel01:0x02110103	342776d7	Парируй їхні стріли!
+hel01:0x02110104	342776d7	Парируй їхні стріли!
+hel01:0x02110200	64f30d02	Прорідь їхні лави!
+hel01:0x30000000	bc936730	Леґоласе!
+hel01:0x30000001	886e9236	Ґандальфе!
+hel01:0x30000002	82680a4a	Сюди! Стіну треба захистити!
+hel01:0x30000003	d9a582ed	Хутчіш! Ідуть іще!
+hel01:0x30000004	ab1997b2	Нагору цією драбиною!
+hel01:0x30000005	1691fece	Ґандальфе! Допоможи очистити гать!
+hel01:0x30000006	c7ad544b	Несіть порох!
+hel01:0x30000007	2b85ac09	Убийте їх усіх!
+hel01:0x30000008	4518516f	Чекати не можна! До Араґорна!
+hel01:0x30000009	19f6c29c	Повертайтеся до свого господаря, створіння тіні!
+hel01:0x3000000a	bc936730	Леґоласе!
+hel01:0x3000000b	886e9236	Ґандальфе!
+hel01:0x3000000c	82680a4a	Сюди! Стіну треба захистити!
+hel01:0x3000000d	d9a582ed	Хутчіш! Ідуть іще!
+hel01:0x3000000e	ab1997b2	Нагору цією драбиною!
+hel01:0x3000000f	1691fece	Ґандальфе! Допоможи очистити гать!
+hel01:0x30000010	c7ad544b	Несіть порох!
+hel01:0x30000011	2b85ac09	Убийте їх усіх!
+hel01:0x30000012	4518516f	Чекати не можна! До Араґорна!
+hel01:0x30000013	19f6c29c	Повертайтеся до свого господаря, створіння тіні!
+ise01:0x02010000	00000000	
+ise01:0x02010001	00000000	
+ise01:0x02010002	00000000	
+ise01:0x02010003	00000000	
+ise01:0x02010004	00000000	
+ise01:0x02010005	00000000	
+ise01:0x02010100	39ad92be	Мене повернули, щоб я посів твоє місце і виправив твоє зло!
+ise01:0x02010101	22ad8f6c	Сарумане, ти ганьбиш наш Орден! Твій хитрий розум пожерла війна!
+ise01:0x02010200	639a384a	Сарумане, дерева Фанґорну прокинулися!
+ise01:0x02010300	446b716a	Пагони шукають, гілля трощить, коріння ховає все, що лишилося від твоєї марноти!
+ise01:0x02010301	446b716a	Пагони шукають, гілля трощить, коріння ховає все, що лишилося від твоєї марноти!
+ise01:0x02010400	2f6abbd9	Сарумане, настав час руйнування!
+ise01:0x02010401	2f6abbd9	Сарумане, настав час руйнування!
+ise01:0x02010500	fc31c1a9	Хай валари захистять тебе!
+ise01:0x02010501	fc31c1a9	Хай валари захистять тебе!
+ise01:0x02010600	8a07949f	Сарумане! ҐАНДАЛЬФ іде до Ісенґарда...
+ise01:0x02010700	16f55c20	...і вже не по твою пораду!
+ise01:0x02010800	04a8f9ae	Тепер я допоможу ентам зруйнувати останню опору!
+ise01:0x02010801	04a8f9ae	Тепер я допоможу ентам зруйнувати останню опору!
+ise01:0x020e0000	e993beac	Стійте на місці!
+ise01:0x020e0001	87feb358	Це не загроза!
+ise01:0x020e0100	41d67bef	Хто посмів!?!
+ise01:0x020e0200	7c731ebf	Посічіть його!!!
+ise01:0x020e0201	7c731ebf	Посічіть його!!!
+ise01:0x020e0300	b33d398f	Вогонь!!
+ise01:0x020e0400	d780f3a7	Легка здобич там, позаду! Хапайте його!
+ise01:0x020e0401	d780f3a7	Легка здобич там, позаду! Хапайте його!
+ise01:0x020e0402	d780f3a7	Легка здобич там, позаду! Хапайте його!
+ise01:0x020e0500	9c670a88	Посічіть його, хлопці!
+ise01:0x020e0600	389d6c93	Невже ви його не спините?!
+ise01:0x020e0700	5ed07a34	Захищайте вежі!!
+ise01:0x020e0800	e89228fd	Що ти таке??!
+ise01:0x020e0801	3499fb26	Я тебе зламаю!
+ise01:0x020e0802	edc75c0c	Що ж тебе здатне вбити?!
+ise01:0x020e0900	0c2241c8	Вони вбили нашого ватажка!!
+ise01:0x020e0901	0c2241c8	Вони вбили нашого ватажка!!
+ise01:0x020e0902	6a47b144	Їх не спинити!
+ise01:0x020e0903	6a47b144	Їх не спинити!
+ise01:0x020e0904	0ef063ee	Прорубайтеся крізь них!
+ise01:0x020e0905	0ef063ee	Прорубайтеся крізь них!
+ise01:0x020e0a00	4c958e40	В атаку! Проженіть його!
+ise01:0x02120000	a74c1d92	Над Ісенґардом здіймається дим++++++, година пізня, а ти простуєш до Ісенґарда по мою пораду.
+ise01:0x02120100	3216129a	Адже ти для цього прийшов, чи не так... друже мій?
+ise01:0x02120200	ea00002a	Це ти сієш страх серед безневинних.
+ise01:0x02120300	eb3cb026	Спалити їх усіх, кажу я, і край.
+ise01:0x02120400	bdb6700e	Стільки гніву! Мені тебе шкода!
+ise01:0x02120500	92c6a1fd	Ці дерева - давнє ++++++++божевілля. Їх треба спалити, поки вони не знищили всіх, хто +++живе поруч.
+ise01:0x02120600	efc1e665	Вам не спинити ентів!
+ise01:0x02120601	86b6349d	Трощіть їх!  Розчавлюйте!
+ise01:0x02120602	c48c0171	Ми розтрощимо їх усіх!
+ise01:0x02120603	4fdf30bd	Ми вкрай невдоволені!
+ise01:0x02120604	8dd2a3c6	Твій кінець настав!
+ise01:0x02120605	2f1e3217	Влучний удар!
+ise01:0x02120700	8d668a34	Поспішайте до Ісенґарда!
+ise01:0x02120701	706c2bdf	Поваліть Сарумана
+ise01:0x02120702	685f348b	Ми не терпітимемо вашого вогню!
+ise01:0x02120703	5d211bd3	Ви заплатите життям!
+ise01:0x02120704	e6077b28	Вам не витримати нашого гніву!
+ise01:0x02120705	74b347b9	Сьогодні вашому злу кінець!
+ise01:0x02120800	d09a9b16	Створіння Сарумана слабкі!
+ise01:0x02120801	3eb36d09	Ви самі себе засудили!
+ise01:0x02120802	3eb36d09	Ви самі себе засудили!
+ise01:0x02120803	7f22cb08	Нікому не втекти!
+ise01:0x02120804	c224504b	Похід на Ісенґард
+ise01:0x02120805	2413e57e	Ось вони! Он там, нагорі!
+ise01:0x02120806	5bb03583	Їм не втекти!
+ise01:0x02120807	5bb03583	Їм не втекти!
+ise01:0x02120900	56cd14f4	Така сила... і так змарнована!
+ise01:0x30000000	01227266	Поспішайте до Ісенґарда! Я розберуся з цими!
+ise01:0x30000001	01227266	Поспішайте до Ісенґарда! Я розберуся з цими!
+min00:0x02010000	00000000	
+min00:0x02010001	00000000	
+min00:0x02010002	00000000	
+min00:0x02010003	00000000	
+min00:0x02010004	00000000	
+min00:0x02010005	00000000	
+min00:0x02010100	dd3871ca	Наші катапульти вкрай важливі! Ними ми знищимо ті вежі!
+min00:0x02010101	dd3871ca	Наші катапульти вкрай важливі! Ними ми знищимо ті вежі!
+min00:0x02010200	75a9b43b	Поспішайте зі мною! Позичте мені ваші мечі!
+min00:0x02010300	c5150b78	Скидайте їхні драбини!  Інакше вони нас здолають!
+min00:0x02010400	107e2fae	Воїни Ґондору!+++ Не пустімо цих створінь на наші стіни! Від цього залежить доля Білого Міста!
+min00:0x02010500	4767c6b5	Облогові вежі! Валіть їх!
+min00:0x02010600	1b938cca	Спиніть їх катапультами!
+min00:0x02010700	53058b76	Боюся, Темний Володар виставить проти мого задуму страшні створіння...
+min00:0x02010800	e7050119	Темрява густішає.
+min00:0x02010900	426aed52	Стійте міцно! Стіни Ґондору мусять вистояти!
+min00:0x02010901	7ebcb1f8	Тримайте стіни, скільки зможете!
+min00:0x02010a00	0543e41c	Ґронд, викуваний злобою Темного Володаря!
+min00:0x02010b00	d8c20e50	Наша брама цього не витримає!
+min00:0x02040000	b04ef490	Хутчіш униз!
+min00:0x02040001	89e86965	Захищайте браму!
+min00:0x02040002	783cc276	Униз, до внутрішньої стіни!
+min00:0x02040003	4da2fddc	Униз, до брами!
+min00:0x02040004	b4d6a21f	Підкріпіть двір!
+min00:0x02040005	c0d94cc1	Усі воїни до брами!
+min00:0x02040100	88d19715	Звільніть місце!
+min00:0x02040101	7241909f	Геть!
+min00:0x02040102	7241909f	Геть!
+min00:0x02040103	3f2d5b79	Обережно!
+min00:0x02040200	e96ccf45	
+min00:0x02040300	18ebd24a	Спиніть їх! Негайно!!!
+min00:0x02040301	31d98847	Тут небезпечно!
+min00:0x02040302	cdf52b39	Сюди! Я... А-а-а!
+min00:0x02040303	8e8e7145	Допоможи нам, Ґандальфе!
+min00:0x02040304	89ad87af	Допоможіть тим воїнам!
+min00:0x02040305	ba4d392e	Орки на стінах!
+min00:0x02040306	9f0ab064	Вони лізуть через стіни!
+min00:0x02040307	1d21f5aa	Стійте на місці!
+min00:0x02040308	0e963b9d	Тримайтеся, воїни!
+min00:0x02040309	36fe7f7a	На стіни!
+min00:0x0204030a	36fe7f7a	На стіни!
+min00:0x0204030b	31d98847	Тут небезпечно!
+min00:0x0204030c	6a47b144	Їх не спинити!
+min00:0x0204030d	4f8140ff	Допоможіть воїнам!
+min00:0x0204030e	616f0d11	Ось вони!
+min00:0x0204030f	de0f3572	Спиніть їх!
+min00:0x02040400	3499fb26	Я тебе зламаю!
+min00:0x02040401	85f35b4d	Вам нас не спинити!
+min00:0x02040402	2effd594	Трощіть усе!
+min00:0x02040403	3bcf070a	Хапайте всіх!
+min00:0x02040404	dc73ecd1	Нагору! Вичистьте їх!
+min00:0x02040405	d9b1136a	Ми бенкетуватимемо в цьому місті!
+min00:0x02040406	7c731ebf	Посічіть його!!!
+min00:0x02040407	130362f7	Розчавіть їх усіх!
+min00:0x02040408	b62a1605	Їхнє місто розсипається!
+min00:0x02040409	63f6c1ce	Валіть їх!
+min00:0x0204040a	b7cc2956	Вони слабкі!!
+min00:0x0204040b	db4f3f16	Хапайте їх!!
+min00:0x0204040c	224f5427	Убийте їх усіх!
+min00:0x0204040d	e2d9f9ab	Посічіть їх!!
+min00:0x0204040e	17e84b24	Ти наступний!
+min00:0x0204040f	82cb2fc3	Знищіть його!
+min00:0x02040410	71c755cd	Ти ніщо!
+min00:0x02040411	0ea94599	Помри, слабаку!
+min00:0x02040412	fb51bdb3	Я тебе погашу!
+min00:0x02040413	51ec729e	Ти мій!
+min00:0x02040414	5cb48842	Косіть їх!
+min00:0x02040415	7f3a8712	За Темного Володаря!
+min00:0x02040416	213a454d	Їх розбито!
+min00:0x02040417	2b85ac09	Убийте їх усіх!
+min00:0x02040418	94e6ce33	Їхні стіни наші!!
+min00:0x02040419	6c537551	Паліть місто!!
+min00:0x0204041a	2ceec1ed	Стіна наша!
+min00:0x30000000	a190345a	Не впускайте їх!
+min00:0x30000001	a190345a	Не впускайте їх!
+min02:0x02010000	00000000	
+min02:0x02010001	00000000	
+min02:0x02010002	00000000	
+min02:0x02010003	00000000	
+min02:0x02010004	00000000	
+min02:0x02010005	00000000	
+min02:0x02100000	5a7a5810	Треба пройти за цю зовнішню браму!
+min02:0x02100100	b5bcd352	Пильнуйте! Рухайтеся обережно!
+min02:0x02100200	88a7492b	Катапульти!
+min02:0x02100201	8e55eec5	Стріляйте з цього по них!
+min02:0x02100202	533bd833	Стріляйте по них з їхніх же катапульт!
+min02:0x02100300	8efa944d	Сюди, нагору! Швидко!
+min02:0x02100400	c393ee4c	Засідка!
+min02:0x02100500	dfc4acab	Ти мене не спиниш.
+min02:0x02100600	eee961d8	Лізьте по руїнах! Швидко!
+min02:0x02100700	6d0c608e	Не туди!
+min02:0x02100701	6d0c608e	Не туди!
+min02:0x02100800	305c1b23	Беріть їх швидко!
+min02:0x02100900	869d23cd	Туди, нагору! Треба скористатися лебідкою брами!
+min02:0x02100a00	5e30fb5f	Бийте його знову і знову!
+min02:0x02100a01	5e30fb5f	Бийте його знову і знову!
+min02:0x02100b00	790ffb55	Мумак!
+min02:0x02110000	ac9b8d53	Похмуре видовище...
+min02:0x02110100	eaaf68b0	Я чую орків навіть звідси...
+min02:0x02110200	0b979708	Ходімо нагору і відчинимо браму!
+min02:0x02110300	c8774b50	Це пастка!
+min02:0x02110301	c8774b50	Це пастка!
+min02:0x02110302	c8774b50	Це пастка!
+min02:0x02110303	c8774b50	Це пастка!
+min02:0x02110400	89796bbd	Не грайся з ним. Убий його!
+min02:0x02110500	fb51bcad	Чудові катапульти!
+min02:0x02110600	05583560	Орки! З усіх боків!
+min02:0x02110700	2e0516d6	Такий розклад мені до вподоби!
+min02:0x02110800	52ee16bd	Ха! Хай ідуть!
+min02:0x02110900	6e862d98	Оце те, що треба!
+min02:0x02110a00	957fde83	Так сокирою працювати веселіше!
+min02:0x02120000	0115a9bd	Треба пройти повз нього!
+min02:0x02120100	63706d6b	Відкиньте їх - скористаймося лебідкою!
+min02:0x02120101	63706d6b	Відкиньте їх - скористаймося лебідкою!
+min02:0x02120200	6d0c608e	Не туди!
+min02:0x02120201	26c330dc	Не йдіть туди!
+min02:0x02120300	f1d146fb	Вони вже тут!
+min02:0x02120400	286d93a2	Добийте тих лучників!
+min02:0x30000000	206149f8	Маючи присягу ++++++++вірності від давно мертвого війська,|Араґорн нарешті повертається до Білого Міста.
+min02:0x30000001	567da8c7	Він вирушить на північ, а тоді крізь Південну Браму Ґондору...
+min02:0x30000002	83d4152f	...сюди, на велику битву нашого часу.
+min02:0x30000003	30ecb6e9	Вежа наша!
+min02:0x30000004	8dfedce8	Хтось іде!
+min02:0x30000005	cd88a18c	Вони намагаються нас перекрити!
+min02:0x30000006	fb8b65d4	Роги Рогану! Нарешті допомога!
+min02:0x30000007	90aebfcd	Поспішайте до них, поки битву не виграно!
+min02:0x30000008	c6b32d85	Мерзенне створіння з півдня!
+min02:0x30000009	eda5d517	Це більша ласка, ніж заслуговує цей ґном!
+min02:0x3000000a	206149f8	Маючи присягу ++++++++вірності від давно мертвого війська,|Араґорн нарешті повертається до Білого Міста.
+min02:0x3000000b	567da8c7	Він вирушить на північ, а тоді крізь Південну Браму Ґондору...
+min02:0x3000000c	83d4152f	...сюди, на велику битву нашого часу.
+min02:0x3000000d	30ecb6e9	Вежа наша!
+min02:0x3000000e	8dfedce8	Хтось іде!
+min02:0x3000000f	cd88a18c	Вони намагаються нас перекрити!
+min02:0x30000010	fb8b65d4	Роги Рогану! Нарешті допомога!
+min02:0x30000011	90aebfcd	Поспішайте до них, поки битву не виграно!
+min02:0x30000012	c6b32d85	Мерзенне створіння з півдня!
+min02:0x30000013	eda5d517	Це більша ласка, ніж заслуговує цей ґном!
+min04:0x02010000	00000000	
+min04:0x02010001	00000000	
+min04:0x02010002	00000000	
+min04:0x02010003	00000000	
+min04:0x02010004	00000000	
+min04:0x02010005	00000000	
+min04:0x02010100	6d26b8e1	Мужність - найкращий захист від бурі, що насувається!
+min04:0x02010200	d105d635	Назад! Їхні постріли б'ють в одні й ті самі місця!
+min04:0x02010300	8c468391	Вони живі! Їх можна повалити!
+min04:0x02010301	56ae4e56	Сліпа сила тобі не допоможе!
+min04:0x02010302	f79e21ce	Я очищу місто від вашого кодла!
+min04:0x02010400	a6d07980	Навіть одержимі мусять упасти!
+min04:0x02010500	a62bdbfb	Повертайтеся в небуття, що на вас чекає!
+min04:0x02010501	a29fb252	Ти мені не рівня, поріддя Саурона!
+min04:0x020f0000	0c5c4c22	Захищайте наше місто!
+min04:0x020f0001	0c5c4c22	Захищайте наше місто!
+min04:0x020f0002	0c5c4c22	Захищайте наше місто!
+min04:0x020f0003	0c5c4c22	Захищайте наше місто!
+min04:0x020f0004	0c5c4c22	Захищайте наше місто!
+min04:0x020f0100	2b03650a	Тікайте!
+min04:0x020f0101	2b03650a	Тікайте!
+min04:0x020f0102	2b03650a	Тікайте!
+min04:0x020f0103	2b03650a	Тікайте!
+min04:0x020f0200	2df7e4ae	Ховайтеся!
+min04:0x020f0201	2df7e4ae	Ховайтеся!
+min04:0x020f0202	2df7e4ae	Ховайтеся!
+min04:0x020f0203	2df7e4ae	Ховайтеся!
+min04:0x020f0300	97e6cf8e	Наші домівки горять!
+min04:0x020f0301	97e6cf8e	Наші домівки горять!
+min04:0x020f0302	97e6cf8e	Наші домівки горять!
+min04:0x020f0303	97e6cf8e	Наші домівки горять!
+min04:0x020f0400	491a4170	Захистіть нас!
+min04:0x020f0401	491a4170	Захистіть нас!
+min04:0x020f0402	491a4170	Захистіть нас!
+min04:0x020f0403	491a4170	Захистіть нас!
+min04:0x020f0500	b47231b3	Врятуйте нас, благаю!
+min04:0x020f0501	b47231b3	Врятуйте нас, благаю!
+min04:0x020f0502	b47231b3	Врятуйте нас, благаю!
+min04:0x020f0503	b47231b3	Врятуйте нас, благаю!
+min04:0x020f0600	b8752cfe	Усе пропало!
+min04:0x020f0601	b8752cfe	Усе пропало!
+min04:0x020f0700	3371646c	Заберіть мене звідси!
+min04:0x020f0701	3371646c	Заберіть мене звідси!
+min04:0x020f0702	3371646c	Заберіть мене звідси!
+min04:0x020f0703	3371646c	Заберіть мене звідси!
+min04:0x020f0800	47b1882a	Вони переб'ють нас усіх!
+min04:0x020f0900	571d9c20	Допоможіть!!
+min04:0x020f0a00	6660b38d	Ви захистите нас?!
+min04:0x020f0b00	16e05f4c	Захищайте це місто!
+min04:0x020f0c00	2c42c473	Тримайте стрій!
+min04:0x020f0c01	2c42c473	Тримайте стрій!
+min04:0x020f0c02	2c42c473	Тримайте стрій!
+min04:0x020f0d00	e60adc61	Шикуйтеся! Шикуйтеся!
+min04:0x020f0e00	8365f25b	Стійте міцно! Не відступати!
+min04:0x020f0f00	3f2d5b79	Обережно!
+min04:0x020f1000	b8376b80	Катапульта! Вогняна атака!
+min04:0x020f1001	5a248806	Вогняні кулі!!
+min04:0x020f1002	dece8321	Обережно! Вогонь згори!
+min04:0x020f1003	8ec5699a	Вогняні атаки!!
+min04:0x020f1100	b33d0794	Місто горить!
+min04:0x020f1200	2a63fa17	Нам його не спинити!
+min04:0x020f1201	9295f4eb	Тролі! Величезні тролі!
+min04:0x020f1300	52a9524a	Не підпускайте його!
+min04:0x020f1301	c39d48d2	Тримайте цих потвор подалі!!
+min04:0x020f1302	4445757a	Вони рвуть місто на шматки!!
+min04:0x020f1303	3fc02fa0	Стережіться його молота!
+min04:0x020f1400	ea744dbe	Ніхто його не спинить!
+min04:0x020f1401	4d3ab2da	Він проривається!
+min04:0x020f1500	bfb98346	Паліть усе!
+min04:0x020f1501	be8aacc8	Усе згорить!
+min04:0x020f1502	3d13edf2	Підсмажте їх!
+min04:0x020f1503	f848e4f8	Дивіться, як горять!
+min04:0x020f1600	30034738	Легка здобич, хлопці!
+min04:0x020f1601	7f5d61de	Зрівняйте з землею!
+min04:0x020f1602	2effd594	Трощіть усе!
+min04:0x020f1603	d1691966	Розчавіть їх!
+min04:0x020f1700	a2496fbb	Розпоріть їх!
+min04:0x020f1701	91733af3	Трощіть їхнє місто!
+min04:0x020f1702	d60404d6	Ми всередині! Тепер убивайте!
+min04:0x020f1703	1529eb5b	Убийте їх тут!
+min04:0x020f1704	1f21fcb0	Смерть вам усім!
+min04:0x020f1800	49b0de8b	Мінас-Тіріт у вогні!
+min04:0x30000000	eed064ae	Тут ми стоятимемо!
+min04:0x30000001	bec47186	Ворог вирізає твій народ! Треба врятувати всіх, кого зможемо!
+min04:0x30000002	1529eb5b	Убийте їх тут!
+min04:0x30000003	fad9be62	Відступаємо!
+min04:0x30000004	5b15e808	Цей бій скінчено.
+min04:0x30000005	d96dd5a8	Тікайте до внутрішніх стін!
+min04:0x30000006	1f21fcb0	Смерть вам усім!
+min04:0x30000007	eed064ae	Тут ми стоятимемо!
+min04:0x30000008	bec47186	Ворог вирізає твій народ! Треба врятувати всіх, кого зможемо!
+min04:0x30000009	1529eb5b	Убийте їх тут!
+min04:0x3000000a	fad9be62	Відступаємо!
+min04:0x3000000b	5b15e808	Цей бій скінчено.
+min04:0x3000000c	d96dd5a8	Тікайте до внутрішніх стін!
+min04:0x3000000d	1f21fcb0	Смерть вам усім!
+osg01:0x02010000	00000000	
+osg01:0x02010001	00000000	
+osg01:0x02010002	00000000	
+osg01:0x02010003	00000000	
+osg01:0x02010004	00000000	
+osg01:0x02010005	00000000	
+osg01:0x02120000	f72a1681	Хапай цього!
+osg01:0x02120001	115036e7	До них!
+osg01:0x02120002	d0d81935	Попався!
+osg01:0x02120003	dba4454d	Він упаде!
+osg01:0x02120100	ad696d49	Хапайте цих слабаків!
+osg01:0x02120101	616f0d11	Ось вони!
+osg01:0x02120102	616f0d11	Ось вони!
+osg01:0x02120103	a395bd6b	Помри!!
+osg01:0x02120200	4f1cd64e	Шпигуни з Ґондору! Хапайте їх!
+osg01:0x02120300	a3d6272c	Легке м'ясо, хлопці!
+osg01:0x02150000	d4dfa34e	Бачиш! Бачиш, куди він нас завів!
+osg01:0x02150001	d4dfa34e	Бачиш! Бачиш, куди він нас завів!
+osg01:0x02150100	289a6228	Обережно! Він веде нас у саму гущу битви!
+osg01:0x02150101	289a6228	Обережно! Він веде нас у саму гущу битви!
+osg01:0x02150200	59272b9a	Треба злізти з цих дахів!
+osg01:0x02150201	59272b9a	Треба злізти з цих дахів!
+osg01:0x02150300	3d5e8782	Глухий кут! Теж мені провідник!
+osg01:0x02150301	3d5e8782	Глухий кут! Теж мені провідник!
+osg01:0x02150400	c12baf56	Тут усе затоплено!
+osg01:0x02150401	c12baf56	Тут усе затоплено!
+osg01:0x02150500	225fb704	Не зупиняйтеся!
+osg01:0x02150501	225fb704	Не зупиняйтеся!
+osg01:0x02150502	c17c3e21	Не зупиняйтеся, пане Фродо!
+osg01:0x02150503	c17c3e21	Не зупиняйтеся, пане Фродо!
+osg01:0x02150600	8b7e472e	Ми змогли!
+osg01:0x02150601	8b7e472e	Ми змогли!
+osg01:0x02160000	cd892e3d	Вони побачили Товстуна! Дурний гобіт!
+osg01:0x02160001	cd892e3d	Вони побачили Товстуна! Дурний гобіт!
+osg01:0x02160002	cd892e3d	Вони побачили Товстуна! Дурний гобіт!
+osg01:0x02160100	af8dea1e	Хазяїне! Тут нагорі злі орки!!
+osg01:0x02160101	af8dea1e	Хазяїне! Тут нагорі злі орки!!
+osg01:0x02160200	a2b1b468	Сюди, нагору! Ми чуємо носом дорогу!
+osg01:0x02160300	7cdede03	Назґул повертається!
+osg01:0x02160400	af7246ed	Гидкі примари, вічно женуться за Хазяїном!
+osg01:0x02160500	32222b77	Ми знайшли це, так, знайшли. Тепер униз!
+osg01:0x02160501	32222b77	Ми знайшли це, так, знайшли. Тепер униз!
+osg01:0x02160502	32222b77	Ми знайшли це, так, знайшли. Тепер униз!
+osg01:0x02160600	c201073f	Смеаґол покаже! Добрий Смеаґол!
+osg01:0x02160601	c201073f	Смеаґол покаже! Добрий Смеаґол!
+osg01:0x02160602	c201073f	Смеаґол покаже! Добрий Смеаґол!
+osg01:0x02160603	c201073f	Смеаґол покаже! Добрий Смеаґол!
+osg01:0x02160700	1a68e05f	Швидко! Треба проскочити це якомога швидше!
+osg01:0x02160701	1a68e05f	Швидко! Треба проскочити це якомога швидше!
+osg01:0x02160800	9b7ed4ad	Тут! Ми знайшли вхід!!
+osg01:0x02160801	9b7ed4ad	Тут! Ми знайшли вхід!!
+osg01:0x02160802	9b7ed4ad	Тут! Ми знайшли вхід!!
+osg01:0x02160803	9b7ed4ad	Тут! Ми знайшли вхід!!
+osg01:0x02160900	cd9e1eb4	Тихо й швидко, як тіні, треба йти.
+osg01:0x02160901	cd9e1eb4	Тихо й швидко, як тіні, треба йти.
+osg01:0x02160a00	c8c27c68	Не можна лишатися! Ми дали їм нас побачити! Нагору! Нагору!
+osg01:0x02160b00	742f9937	Орки-лучники!
+osg01:0x02160b01	742f9937	Орки-лучники!
+osg01:0x02160c00	d7ae9a77	Тепер обережно, бо приєднаєшся до мертвих у цьому лихому місті.
+osg01:0x02160c01	d7ae9a77	Тепер обережно, бо приєднаєшся до мертвих у цьому лихому місті.
+osg01:0x02160d00	86d118e5	Ми не повернемо назад! Ми пройдемо!
+osg01:0x02160d01	86d118e5	Ми не повернемо назад! Ми пройдемо!
+osg01:0x02160e00	629bb9a1	Так, о так. Ми чуємо запах волі.
+osg01:0x02160e01	629bb9a1	Так, о так. Ми чуємо запах волі.
+osg01:0x02160e02	629bb9a1	Так, о так. Ми чуємо запах волі.
+osg01:0x02160f00	f8a46ec2	Вони шукають Перстень!!
+osg01:0x02161000	7dfbb5cf	Жах! Жах! Не дай їм тебе побачити!
+osg01:0x02161001	7dfbb5cf	Жах! Жах! Не дай їм тебе побачити!
+osg01:0x02161002	7dfbb5cf	Жах! Жах! Не дай їм тебе побачити!
+osg01:0x02161100	0265b5d1	Сюди! Годі гратися! Треба тікати!
+osg01:0x02161101	0265b5d1	Сюди! Годі гратися! Треба тікати!
+osg01:0x02161102	0265b5d1	Сюди! Годі гратися! Треба тікати!
+osg01:0x02161103	a80e32a0	Сюди! Гобіти тікають. Скарб тікає!
+osg01:0x02161104	a80e32a0	Сюди! Гобіти тікають. Скарб тікає!
+osg01:0x02161105	a80e32a0	Сюди! Гобіти тікають. Скарб тікає!
+osg01:0x02161200	35e45cc3	Дурні гобіти!
+osg01:0x02161201	35e45cc3	Дурні гобіти!
+osg01:0x02161300	79dc1a3c	Ходімо, Хазяїне! Тепер тільки сюди!
+osg01:0x02161301	79dc1a3c	Ходімо, Хазяїне! Тепер тільки сюди!
+osg01:0x02161302	79dc1a3c	Ходімо, Хазяїне! Тепер тільки сюди!
+osg01:0x02161303	ad1f2ff2	Швидко!
+osg01:0x02161304	ad1f2ff2	Швидко!
+osg01:0x02161305	ad1f2ff2	Швидко!
+osg01:0x02161306	14f3f9df	Уже недалеко!
+osg01:0x02161307	14f3f9df	Уже недалеко!
+osg01:0x02161308	14f3f9df	Уже недалеко!
+osg01:0x02161309	14f3f9df	Уже недалеко!
+osg01:0x02161400	dfa24842	Просто не зупиняйтеся!!!
+osg01:0x02161500	45d0fde3	Він скривдить нас! Скривдить бідного Смеаґола!
+osg01:0x02161600	39869e65	Перстень кличе його, Семе... Око майже на мені...
+osg01:0x02161601	39869e65	Перстень кличе його, Семе... Око майже на мені...
+osg01:0x30000000	610f0a7b	Пане Фродо!  Пригніться!
+osg01:0x30000001	8956ed9c	Ходімо, гобіти! Іще довгий шлях! Смеаґол покаже дорогу... за мною!
+osg01:0x30000002	694618e2	Фродо!
+osg01:0x30000003	e55a8037	Ні-і-і!
+osg01:0x30000004	ce17de17	Тікаймо, швидше!  Добрий Смеаґол виведе нас!
+osg01:0x30000005	4beaa450	Швидше, гобітики, швидше!  Бачите?  Бачите?  Ми вас вивели!
+osg01:0x30000006	9b40d5d1	Смеаґол пильнує хазяїна!
+osg01:0x30000007	610f0a7b	Пане Фродо!  Пригніться!
+osg01:0x30000008	8956ed9c	Ходімо, гобіти! Іще довгий шлях! Смеаґол покаже дорогу... за мною!
+osg01:0x30000009	694618e2	Фродо!
+osg01:0x3000000a	e55a8037	Ні-і-і!
+osg01:0x3000000b	ce17de17	Тікаймо, швидше!  Добрий Смеаґол виведе нас!
+osg01:0x3000000c	4beaa450	Швидше, гобітики, швидше!  Бачите?  Бачите?  Ми вас вивели!
+osg01:0x3000000d	9b40d5d1	Смеаґол пильнує хазяїна!
+pal01:0x02010000	00000000	
+pal01:0x02010001	00000000	
+pal01:0x02010002	00000000	
+pal01:0x02010003	00000000	
+pal01:0x02010004	00000000	
+pal01:0x02010005	00000000	
+pal01:0x02010100	ddf9b4b4	Я звільню розум твоїх слуг і навчу їх страху! Вони стануть тобі непотрібні!
+pal01:0x02010200	56ae4e56	Сліпа сила тобі не допоможе!
+pal01:0x02010300	d4880167	Я повалю вас, потвори!
+pal01:0x02010400	a62bdbfb	Повертайтеся в небуття, що на вас чекає!
+pal01:0x02010500	a6d07980	Навіть одержимі мусять упасти!
+pal01:0x02010600	a29fb252	Ти мені не рівня, поріддя Саурона!
+pal01:0x02010700	3e1350cb	Повертайтеся у свої ями!
+pal01:0x02010800	31f710a6	Ви лише відтягуєте свій кінець!
+pal01:0x02100000	6fcc1738	Я розумію, чому люди бояться цього місця!
+pal01:0x02100100	8de7bbb4	Геть, безмозка тварюко!
+pal01:0x02100200	756005f3	Вони збираються тут великою силою!
+pal01:0x02100300	dfc4acab	Ти мене не спиниш.
+pal01:0x02100400	47ec6382	Назад, мерзото!
+pal01:0x02100500	8de7bbb4	Геть, безмозка тварюко!
+pal01:0x02100600	56644076	Твій час минув.
+pal01:0x02100700	c0a3ea5f	Тобі мене не перебороти!
+pal01:0x02120000	40c1fa16	Гадаю, до кінця бою я обжену ельфа за рахунком!
+pal01:0x02120001	40c1fa16	Гадаю, до кінця бою я обжену ельфа за рахунком!
+pal01:0x02120100	c4bd5c8e	Цим спершу треба збити пиху.
+pal01:0x02120200	48d19d76	На відміну від тебе, мене вчили!
+pal01:0x02120300	7545aae1	Здавайся зараз!
+pal01:0x02120400	3231b927	Дай покажу, як це робиться!
+pal01:0x02120500	2e671b32	Бачу, ти не в гуморі!
+pal01:0x02120600	c1810199	Ну й потворо ж ти!
+pal01:0x02120700	f7c722b0	Тут ти мені вклонишся!
+pal01:0x02130000	71464cac	Що це за лихе чаклунство?!
+pal01:0x02130100	6a9e22b0	Назад, слуги темряви!
+pal01:0x02130200	eed25bab	Я покладу край твоєму злу тут і зараз!
+pal01:0x02130300	6a9e22b0	Назад, слуги темряви!
+pal01:0x02130400	6d6e9468	Їм немає кінця!
+pal01:0x02130500	b85270d1	Якщо мушу тебе знищити - знищу!
+pal01:0x02130600	3d152809	Злобне створіння!
+pal01:0x02130700	b7e6cd9c	Ти мені не рівня!
+pal01:0x02140000	30b172b3	Не певен, що з такого місця можна повернутися!
+pal01:0x02140001	30b172b3	Не певен, що з такого місця можна повернутися!
+pal01:0x02140100	e9f64418	Мій старий батечко дещо сказав би про це!
+pal01:0x02140200	6188b85b	Переможе тільки один!
+pal01:0x02140300	bea86111	Як же їх позбутися!!
+pal01:0x02140400	8dae298e	Вони все лізуть і лізуть на нас!
+pal01:0x02140500	3e3b429c	Сема Хороброго не здолати!
+pal01:0x02140600	2a1a391a	Мені знадобиться вся моя сила!
+pal01:0x02140700	7d2b9c4d	Ну, Семвайзе! Час ставати героєм!
+pal01:0x02160000	beeb8c04	Це давнє, лихе місце.
+pal01:0x02160100	4d868f75	Я покажу, хто вміє битися!
+pal01:0x02160200	9e9e8f1b	Здохніть, потвори!
+pal01:0x02160300	7166d99a	Зараз я тебе візьму!
+pal01:0x02160400	631f9df4	Це якесь нове зло!
+pal01:0x02160500	a8c45510	Повертайся в тінь!
+pal01:0x02160600	d827b2c1	Стань до бою, якщо смієш!
+pal01:0x02160700	a39c3565	Тебе більше не буде!
+pal01:0x02170000	1ee9304c	Сауроне, заради Ґондору я стану проти тебе!
+pal01:0x02170100	c35a9fcf	Це мерзенне, мерзенне місце!
+pal01:0x02170200	60b61692	Помри, потворо з ями!
+pal01:0x02170300	9904fe10	Іде якесь нове зло!
+pal01:0x02170400	d778bc8d	Ти шукаєш смерті?
+pal01:0x02170500	318fc150	Скорися кращому!
+pal01:0x02170600	e2759057	Я покажу тобі, як треба битися!
+pal01:0x02170700	701eb250	Знаєш, тобі не перемогти!
+pal01:0x02180000	4bf232d8	Не певен, що йти сюди було доброю думкою!
+pal01:0x02180100	fbfb2bc7	Я ще можу тебе здивувати!
+pal01:0x02180200	b6ad4fbe	Я, може, й малий, але міцний!
+pal01:0x02180300	f87dcbb5	Гаразд... покінчимо з цим!
+pal01:0x02180400	7d2916f8	Малі ширяни йдуть по тебе!
+pal01:0x02180500	9b20ac64	Ну, тепер ти мене розлютив!
+pal01:0x02180600	e809cfc6	Здається, в мене до цього хист.
+pal01:0x02180700	00ccd6d2	Гобіти - не закуска!
+pal01:0x02190000	946357e0	О, як мило - особистий камін Темного Володаря!
+pal01:0x02190100	b32f6f03	Мало який гобіт так володіє мечем, як я!
+pal01:0x02190200	c7943404	Здається, ти натрапив не на того гобіта!
+pal01:0x02190300	c757c0c1	Здається, я кращий боєць!
+pal01:0x02190400	56e3ee12	Я з давнього роду воїнів!
+pal01:0x02190500	8d3cb7ee	Мабуть, це тебе дивує!
+pal01:0x02190600	e52fcc4e	У мене все добре, дякую!
+pal01:0x02190700	6b3dfbc3	Одразу видно, хто тут професіонал!
+pal02:0x02010000	00000000	
+pal02:0x02010001	00000000	
+pal02:0x02010002	00000000	
+pal02:0x02010003	00000000	
+pal02:0x02010004	00000000	
+pal02:0x02010005	00000000	
+pat01:0x02010000	00000000	
+pat01:0x02010001	00000000	
+pat01:0x02010002	00000000	
+pat01:0x02010003	00000000	
+pat01:0x02010004	00000000	
+pat01:0x02010005	00000000	
+pat01:0x02010100	44767d9d	На війні доводиться багато чим ризикувати.
+pat01:0x020f0000	65b0c254	Ходімо, мертві блукають цією стежкою... але ми мусимо пройти її до кінця.
+pat01:0x020f0100	d1bfda4f	Будьте напоготові! Ці духи оживляють давні кістки!
+pat01:0x020f0101	d1bfda4f	Будьте напоготові! Ці духи оживляють давні кістки!
+pat01:0x020f0102	d1bfda4f	Будьте напоготові! Ці духи оживляють давні кістки!
+pat01:0x020f0200	3e8a372c	Прорубайтеся!!
+pat01:0x020f0201	3e8a372c	Прорубайтеся!!
+pat01:0x020f0300	756005f3	Вони збираються тут великою силою!
+pat01:0x020f0301	756005f3	Вони збираються тут великою силою!
+pat01:0x020f0400	2ef07087	Сюди! Хутко!
+pat01:0x020f0401	2ef07087	Сюди! Хутко!
+pat01:0x020f0500	f64d1c59	Обережно! Не зупиняйтеся!
+pat01:0x020f0501	f64d1c59	Обережно! Не зупиняйтеся!
+pat01:0x020f0600	ead372bc	Хоч яка небезпека, ми мусимо перейти!
+pat01:0x020f0601	ead372bc	Хоч яка небезпека, ми мусимо перейти!
+pat01:0x020f0700	551d4a4d	Стійте й бийтеся!
+pat01:0x020f0701	551d4a4d	Стійте й бийтеся!
+pat01:0x020f0800	ecf1dbe2	Ми вже близько!
+pat01:0x020f0900	b72e9387	Ось як це відчинити!
+pat01:0x020f0a00	9eafc1f5	Добре бились, друзі!
+pat01:0x020f0a01	6474cd50	Треба йти далі!
+pat01:0x020f0a02	6fcc1738	Я розумію, чому люди бояться цього місця!
+pat01:0x020f0b00	b76e2256	Ходімо! Ми зламали їхні чари!
+pat01:0x020f0b01	b76e2256	Ходімо! Ми зламали їхні чари!
+pat01:0x02110000	3c74b3cf	Яке військо стало б блукати в такому місці?
+pat01:0x02110100	e7e9c245	Я не можу поранити привида!
+pat01:0x02110200	910833fe	Мене не вчили вбивати мертвих!
+pat01:0x02110300	82bdbbfc	Схоже, це пастка!
+pat01:0x02110400	9e960459	Нам не пройти!
+pat01:0x02110500	f28de9ba	Ґноми ніколи не збудували б таких хирлявих штук!
+pat01:0x02110600	8b899faf	Мені дуже не подобається це місце...
+pat01:0x02110700	e2f5e255	Ми тут у пастці, як щури!
+pat01:0x02110800	17d11d9e	Ці клинки ріжуть, хоч і іржаві!
+pat01:0x02110801	17d11d9e	Ці клинки ріжуть, хоч і іржаві!
+pat01:0x02110900	98a98f51	Я просто хотів налякати ЇХ!
+pat01:0x02110a00	9fdd1061	На твоєму місці я б зараз парирував!
+pat01:0x02110a01	9fdd1061	На твоєму місці я б зараз парирував!
+pat01:0x02110a02	9fdd1061	На твоєму місці я б зараз парирував!
+pat01:0x02110a03	c992fa42	Парируй їхні атаки!
+pat01:0x02110a04	c992fa42	Парируй їхні атаки!
+pat01:0x02110b00	9e36a7ab	Ця Примарна гора повна несподіванок!
+pat01:0x02110b01	9e36a7ab	Ця Примарна гора повна несподіванок!
+pat01:0x02110c00	e82bf31a	Ти нічого не знаєш про ґномську впертість?
+pat01:0x02110c01	e82bf31a	Ти нічого не знаєш про ґномську впертість?
+pat01:0x02110c02	e82bf31a	Ти нічого не знаєш про ґномську впертість?
+pat01:0x02110c03	07216946	Навіть вони тепер бояться ґнома!
+pat01:0x02110d00	0e2a2636	Вони явно не хочуть нас пускати!
+pat01:0x02110d01	0e2a2636	Вони явно не хочуть нас пускати!
+pat01:0x02110d02	d202e02f	Старе, але працює!
+pat01:0x02110d03	d202e02f	Старе, але працює!
+pat01:0x02110e00	c6fe03f9	Не дивно, що ніхто не виживає на цих шляхах!
+pat01:0x02110e01	c6fe03f9	Не дивно, що ніхто не виживає на цих шляхах!
+pat01:0x02110e02	81ba97be	Доля нам усміхається!!
+pat01:0x02110e03	81ba97be	Доля нам усміхається!!
+pat01:0x02110e04	7e6df8b8	Нарешті вибралися!
+pat01:0x02120000	11bf1dce	Я не боюся мертвих.
+pat01:0x02120100	49c71672	Духи мертвих!
+pat01:0x02120200	85e0609a	Ще примари!
+pat01:0x02120300	e37dc7db	Якісь нові чари!
+pat01:0x02120400	9b346b30	Ми в пастці! Треба швидко знайти, як перебратися...
+pat01:0x02120500	0cb575c2	Примари повернулися!
+pat01:0x02120600	acdd7627	Як нам це пройти?
+pat01:0x02120700	3eb6050c	Це головна брама!
+pat01:0x02120800	f546b073	Тут збираються мертві. Це місце великого зла.
+pat01:0x02120900	dd6f782d	Їм немає кінця!!
+pat01:0x02120a00	3f371bf6	Не бійся, Ґімлі. Тобі це не личить.
+pat01:0x02120b00	1e9db7fe	Їхні тумани клубочаться й тут!
+pat01:0x02120c00	616f0d11	Ось вони!
+pat01:0x30000000	5b606883	Шлях закрито. Його проклали ті, хто мертвий, і мертві його стережуть. Шлях закрито.
+pat01:0x30000001	79bc8e64	Повітря важке від злоби.
+pat01:0x30000002	95890d54	Сюди!
+pat01:0x30000003	f08c9f64	Зараз згодиться будь-який шлях!
+pat01:0x30000004	5b606883	Шлях закрито. Його проклали ті, хто мертвий, і мертві його стережуть. Шлях закрито.
+pat01:0x30000005	79bc8e64	Повітря важке від злоби.
+pat01:0x30000006	95890d54	Сюди!
+pat01:0x30000007	f08c9f64	Зараз згодиться будь-який шлях!
+pat02:0x02010000	00000000	
+pat02:0x02010001	00000000	
+pat02:0x02010002	00000000	
+pat02:0x02010003	00000000	
+pat02:0x02010004	00000000	
+pat02:0x02010005	00000000	
+pat02:0x020c0000	f0359ac8	Забутий народе! До мене!
+pat02:0x020c0100	2828d8cb	Ніхто не повертається з моєї гори!
+pat02:0x020c0101	35e44a38	Вам не пережити цієї дороги!!
+pat02:0x020c0102	6af5467f	До мене, побратими!
+pat02:0x020c0103	1f65a828	Шлях закрито! Ми, мертві, стережемо його!
+pat02:0x020c0104	2a560c51	Я кличу вас із сірих сутінків!
+pat02:0x020c0105	9b62bf6a	З темряви гори... Прийдіть!
+pat02:0x020d0000	77c5dc2d	Навіть у живій смерті вони коряться!
+pat02:0x020d0100	9c84c33f	...Поверніть собі честь! Коли цю землю очистять від Саурона, ви здобудете спокій і підете. Що скажете!
+pat02:0x020d0200	8cda3c20	Я тебе подолаю!
+pat02:0x30000000	190f62cf	...де Король давно мертвих вершить долю ненароджених.
+pat02:0x30000001	6b227a18	Його треба змусити скоритися.
+pat02:0x30000002	690b603f	Хто ввійшов у мої володіння???
+pat02:0x30000003	1566cecb	Той, хто змусить тебе дотримати присяги!
+pat02:0x30000004	99a59355	Мертві не пропускають живих!
+pat02:0x30000005	61f0f5aa	Вітре гори... я наказую тобі!
+pat02:0x30000006	dee45137	Бийтеся за мене, і я звільню вас від цієї живої смерті! Що скажете!
+pat02:0x30000007	d925b9d6	Я скоряю-у-уся!!++++++
+pat02:0x30000008	c4449a42	Треба вибиратися звідси!!!
+pat02:0x30000009	61f0f5aa	Вітре гори... я наказую тобі!
+pat02:0x3000000a	61f0f5aa	Вітре гори... я наказую тобі!
+pat02:0x3000000b	190f62cf	...де Король давно мертвих вершить долю ненароджених.
+pat02:0x3000000c	6b227a18	Його треба змусити скоритися.
+pat02:0x3000000d	690b603f	Хто ввійшов у мої володіння???
+pat02:0x3000000e	1566cecb	Той, хто змусить тебе дотримати присяги!
+pat02:0x3000000f	99a59355	Мертві не пропускають живих!
+pat02:0x30000010	61f0f5aa	Вітре гори... я наказую тобі!
+pat02:0x30000011	dee45137	Бийтеся за мене, і я звільню вас від цієї живої смерті! Що скажете!
+pat02:0x30000012	d925b9d6	Я скоряю-у-уся!!++++++
+pat02:0x30000013	c4449a42	Треба вибиратися звідси!!!
+pat02:0x30000014	61f0f5aa	Вітре гори... я наказую тобі!
+pat02:0x30000015	61f0f5aa	Вітре гори... я наказую тобі!
+pat03:0x02010000	00000000	
+pat03:0x02010001	00000000	
+pat03:0x02010002	00000000	
+pat03:0x02010003	00000000	
+pat03:0x02010004	00000000	
+pat03:0x02010005	00000000	
+pat03:0x020c0000	6e0aadae	Хутчіш! Усе валиться!
+pat03:0x020c0100	b53c7e2d	Усе обвалюється! Хутчіш!!!
+pat03:0x020c0200	c7d4519c	Мертві ще тут!
+pat03:0x020c0201	c7d4519c	Мертві ще тут!
+pat03:0x020e0000	4499aa26	Ми тут у пастці!
+pat03:0x020e0100	9e836e04	Хитрі привидики!
+pat03:0x020e0101	3a53059d	Тепер мене не спинити!
+pat03:0x020f0000	21d0cedd	Прохід завалено!!!
+pat03:0x020f0100	eef46cf2	Треба вибратися!
+pat03:0x30000000	23efa77a	Невже ми зазнали поразки?
+pat03:0x30000001	87e3929e	Мертві битимуться, коли твої люди будуть найближче до нас!
+pat03:0x30000002	23efa77a	Невже ми зазнали поразки?
+pat03:0x30000003	87e3929e	Мертві битимуться, коли твої люди будуть найближче до нас!
+pel02:0x02010000	00000000	
+pel02:0x02010001	00000000	
+pel02:0x02010002	00000000	
+pel02:0x02010003	00000000	
+pel02:0x02010004	00000000	
+pel02:0x02010005	00000000	
+pel02:0x02100000	3b9f3e78	Відкиньте їх!
+pel02:0x02100100	734c6314	Не можна дати знищити рогірімів!
+pel02:0x02100200	27ca76ab	Мумакіли готові до атаки!
+pel02:0x02100300	356607c4	Стріляй! Валіть їх!
+pel02:0x02100400	fe57350c	Оберніть їхні машини проти них!
+pel02:0x02100500	86aa56d6	Проженіть їх! Хутчіш!
+pel02:0x02100600	c5bcd7a6	Готуйтеся! Вони шлють підкріплення!
+pel02:0x02110000	637fab17	Люди Сходу! Уперед!
+pel02:0x02110001	8a17d39b	В атаку, люди Сходу!
+pel02:0x02110002	a347407e	Випустіть військо!
+pel02:0x02110003	5b0e4bb8	Уперед, істерлінги!
+pel02:0x02110100	92ffd3e0	Без жалю!
+pel02:0x02110101	224f5427	Убийте їх усіх!
+pel02:0x02110102	6f65e09b	Перешикуватися!
+pel02:0x02110103	2b3978d5	Перешикувати піхоту!
+pel02:0x02110200	f8f82e2d	Так! Смерть - наше ім'я!
+pel02:0x02110201	7e1f1d79	Вони слабкі!
+pel02:0x02110202	5a0a773c	Так! Знищіть їх!
+pel02:0x02110300	6c53758c	Не дайте їм вас спинити!
+pel02:0x02110301	bc051c5c	Рубайте їх!
+pel02:0x02110302	3bcf070a	Хапайте всіх!
+pel02:0x02110303	9cae3216	Не лишайте нікого живим!
+pel02:0x02110400	8ec7bd63	Мумакіли! Уперед!
+pel02:0x02110401	13f9b96e	Трощіть їх усіх!
+pel02:0x02110402	31d346cc	Уперед, люди Гараду!
+pel02:0x02110403	4f15d54e	Знищіть їх усіх!
+pel02:0x02110404	9cae3216	Не лишайте нікого живим!
+pel02:0x02110405	9f2de7f4	Змітіть їх з поля!
+pel02:0x02110500	62ab675b	Мумакіли знову йдуть!
+pel02:0x02120000	8c72a0ca	Схоже, нас оточують!
+pel02:0x02120100	1ef6d746	Та це лише два війська. Чого ти хвилюєшся?
+pel02:0x02120200	1da6de74	Тоді краще візьмімося за цих хлопців!
+pel02:0x02120300	f9a72e04	Здається, вони зігнали ще кількох!
+pel02:0x02120400	0f0ead94	Ну от, здається, ти його розлютив!
+pel02:0x02120500	c435393f	Їх усіх затопчуть!
+pel02:0x02120600	f82f15f2	Я б остерігався його ніг!
+pel02:0x02120700	dfd60a9b	Доведеться пробиватися туди з боєм!
+pel02:0x02130000	27908d9e	Нам бракує воїнів!
+pel02:0x02130100	3eab7f71	Рогіріми тяжко страждають!
+pel02:0x02130200	3eab7f71	Рогіріми тяжко страждають!
+pel02:0x02130201	be93105c	Рогірімів майже винищено!
+pel02:0x02160000	74ee326c	Допоможіть!
+pel02:0x02160100	4dfeecd0	Сюди!
+pel02:0x02160200	eba82750	Ні!! Тримайтеся подалі!
+pel02:0x30000000	616f0d11	Ось вони!
+pel02:0x30000001	248c310b	Істерлінги!
+pel02:0x30000002	df5d1f80	Орки!
+pel02:0x30000003	3bcf070a	Хапайте всіх!
+pel02:0x30000004	1f6fb851	Мумакіли трощать усе на своєму шляху! Спиніть їх, поки вони не дісталися Еовін і Мері!
+pel02:0x30000005	2dbdbbc2	Пані, я вас не покину!
+pel02:0x30000006	1fda5bed	Їх треба врятувати!
+pel02:0x30000007	770146e4	Мері!
+pel02:0x30000008	9a34865a	Жалюгідний воїне!
+pel02:0x30000009	90fa607d	Я вб'ю тебе, якщо ти його торкнешся!
+pel02:0x3000000a	58b0e450	Убити мене? Дурню. Жоден живий чоловік не може мене вбити!
+pel02:0x3000000b	a75f9480	Я не чоловік! Перед тобою жінка!
+pel02:0x3000000c	e63468e0	У мене немає сокири, досить великої для цього!
+pel02:0x3000000d	6eef07fd	Дивіться! Мертві прийшли... врятувати живих!
+pel02:0x3000000e	626dcae3	Запізно!
+pel02:0x3000000f	9a381c6b	Ми не впоралися!
+pel02:0x30000010	34751ebc	Допоможіть їм!
+pel02:0x30000011	1f0bfee4	Спиніть цього звіра!
+pel02:0x30000012	6a62fa51	Король-Чаклун кружляє над нами!
+pel02:0x30000013	28a6701e	Атакуйте його! Швидко!
+pel02:0x30000014	62ab675b	Мумакіли знову йдуть!
+pel02:0x30000015	616f0d11	Ось вони!
+pel02:0x30000016	248c310b	Істерлінги!
+pel02:0x30000017	df5d1f80	Орки!
+pel02:0x30000018	3bcf070a	Хапайте всіх!
+pel02:0x30000019	1f6fb851	Мумакіли трощать усе на своєму шляху! Спиніть їх, поки вони не дісталися Еовін і Мері!
+pel02:0x3000001a	2dbdbbc2	Пані, я вас не покину!
+pel02:0x3000001b	1fda5bed	Їх треба врятувати!
+pel02:0x3000001c	770146e4	Мері!
+pel02:0x3000001d	9a34865a	Жалюгідний воїне!
+pel02:0x3000001e	90fa607d	Я вб'ю тебе, якщо ти його торкнешся!
+pel02:0x3000001f	58b0e450	Убити мене? Дурню. Жоден живий чоловік не може мене вбити!
+pel02:0x30000020	a75f9480	Я не чоловік! Перед тобою жінка!
+pel02:0x30000021	e63468e0	У мене немає сокири, досить великої для цього!
+pel02:0x30000022	6eef07fd	Дивіться! Мертві прийшли... врятувати живих!
+pel02:0x30000023	626dcae3	Запізно!
+pel02:0x30000024	9a381c6b	Ми не впоралися!
+pel02:0x30000025	34751ebc	Допоможіть їм!
+pel02:0x30000026	1f0bfee4	Спиніть цього звіра!
+pel02:0x30000027	6a62fa51	Король-Чаклун кружляє над нами!
+pel02:0x30000028	28a6701e	Атакуйте його! Швидко!
+pel02:0x30000029	62ab675b	Мумакіли знову йдуть!
+she01:0x02010000	00000000	
+she01:0x02010001	00000000	
+she01:0x02010002	00000000	
+she01:0x02010003	00000000	
+she01:0x02010004	00000000	
+she01:0x02010005	00000000	
+she01:0x020c0000	74ee326c	Допоможіть!
+she01:0x020c0001	5f870265	Назад! !
+she01:0x020c0002	5f870265	Назад! !
+she01:0x020c0100	00000000	
+she01:0x020c0200	71429459	Гей! Що це?!
+she01:0x020c0201	71429459	Гей! Що це?!
+she01:0x020c0300	f759baa4	У нас чужинець! Хапайте його, хлопці!
+she01:0x020c0400	ce8c1e67	Та це лише малий недомірок!
+she01:0x020c0500	ef40d066	Штрикни його!
+she01:0x020c0501	ef40d066	Штрикни його!
+she01:0x020c0600	00000000	
+she01:0x020c0700	58acf438	Що це тут у нас?!!
+she01:0x020c0800	bfa449ca	Підкрастися до нас надумав? Хапайте його!
+she01:0x020c0900	494e4a53	Попався! Мала наволоч!
+she01:0x020c0a00	0aa873b5	Он він!
+she01:0x020c0b00	c9336a75	Хапаймо його!
+she01:0x020f0000	de94599e	Гаразд, Семвайзе. Пан Фродо покладається на тебе. Хоч би що.
+she01:0x020f0001	de94599e	Гаразд, Семвайзе. Пан Фродо покладається на тебе. Хоч би що.
+she01:0x020f0100	bb69561c	Павук!
+she01:0x020f0200	496fef3f	Ну, як хочеш!!!
+she01:0x020f0201	496fef3f	Ну, як хочеш!!!
+she01:0x020f0300	3845c422	Семвайзе Ґемджі... у що ти цього разу вплутався?!
+she01:0x020f0301	3845c422	Семвайзе Ґемджі... у що ти цього разу вплутався?!
+she01:0x020f0302	3845c422	Семвайзе Ґемджі... у що ти цього разу вплутався?!
+she01:0x020f0400	694618e2	Фродо!
+she01:0x020f0401	369da31d	Його треба врятувати!
+she01:0x020f0402	369da31d	Його треба врятувати!
+she01:0x020f0403	f772f75e	Тримайтеся, пане Фродо!
+she01:0x020f0404	f772f75e	Тримайтеся, пане Фродо!
+she01:0x020f0405	e823cc94	Швидше, Семвайзе! Швидше!
+she01:0x020f0406	e823cc94	Швидше, Семвайзе! Швидше!
+she01:0x020f0407	a6a1323c	Ну ж бо, ти зможеш, Семе! Так, зможеш!
+she01:0x020f0408	a6a1323c	Ну ж бо, ти зможеш, Семе! Так, зможеш!
+she01:0x020f0409	f263168f	Тримайтеся! Я йду!
+she01:0x020f040a	f263168f	Тримайтеся! Я йду!
+she01:0x020f040b	19492875	Тримайтеся, пане Фродо! Я йду!
+she01:0x020f040c	19492875	Тримайтеся, пане Фродо! Я йду!
+she01:0x020f040d	2d74102e	Я тут, пане Фродо!!
+she01:0x020f040e	2d74102e	Я тут, пане Фродо!!
+she01:0x020f040f	e30d3947	Пане Фродо! Де ви?!
+she01:0x020f0410	e30d3947	Пане Фродо! Де ви?!
+she01:0x020f0411	efb83acc	Не можна гаяти часу!
+she01:0x020f0412	efb83acc	Не можна гаяти часу!
+she01:0x020f0413	56350b65	Я тут, пане Фродо! Я тут!
+she01:0x020f0414	56350b65	Я тут, пане Фродо! Я тут!
+she01:0x020f0415	80b34995	Ти божевільний, Семвайзе Ґемджі... Сам знаєш!
+she01:0x020f0416	80b34995	Ти божевільний, Семвайзе Ґемджі... Сам знаєш!
+she01:0x020f0417	694618e2	Фродо!
+she01:0x020f0500	a84b1c85	Ти мене не спиниш!
+she01:0x020f0501	63c531b2	Ти мене зовсім не спиниш!
+she01:0x020f0502	03a4e27d	Ну ж бо, Семвайзе! Не підведи пана Фродо!
+she01:0x020f0600	e1e0ea81	Я не збираюся дати тобі мене спинити!!
+she01:0x020f0700	f569df03	Не так просто, як ти думаєш!
+she01:0x020f0701	f569df03	Не так просто, як ти думаєш!
+she01:0x020f0702	7e7388af	Лети звідси!!
+she01:0x020f0703	7e7388af	Лети звідси!!
+she01:0x020f0704	bbdddf0a	Ні!!!
+she01:0x020f0705	490b34d7	Геть! Забирайтеся!!!
+she01:0x020f0706	4fa6b731	Не зупиняйся, Семвайзе! Вони не відступають!
+she01:0x020f0707	4fa6b731	Не зупиняйся, Семвайзе! Вони не відступають!
+she01:0x020f0800	3c9ab075	З дороги!
+she01:0x020f0801	3c9ab075	З дороги!
+she01:0x020f0900	3fa248d3	Геть з дороги!!
+she01:0x020f0901	3fa248d3	Геть з дороги!!
+she01:0x020f0902	0ea90523	Назад! Назад!!
+she01:0x020f0903	0ea90523	Назад! Назад!!
+she01:0x020f0904	5f083051	Е, ні!
+she01:0x020f0a00	bea86111	Як же їх позбутися!!
+she01:0x020f0b00	7000a0e9	Треба якось обійти!
+she01:0x020f0c00	56350b65	Я тут, пане Фродо! Я тут!
+she01:0x020f0d00	9ec78618	Повз це мені не прокрастися!!
+she01:0x020f0d01	9ec78618	Повз це мені не прокрастися!!
+she01:0x020f0e00	651de7f3	Але це, може, й спрацює...
+she01:0x020f0f00	4450511a	Розбігайтеся, маленькі потвори!
+she01:0x020f0f01	4450511a	Розбігайтеся, маленькі потвори!
+she01:0x020f1000	9cff7d46	Назад, жалюгідні створіння!
+she01:0x020f1001	9cff7d46	Назад, жалюгідні створіння!
+she01:0x020f1002	9cff7d46	Назад, жалюгідні створіння!
+she01:0x020f1100	544cb4a4	Ось куди мені треба...
+she01:0x020f1200	4b9cb3a2	Ну ж бо, мерзото!
+she01:0x020f1300	322979d6	Більше ти його не торкнешся!
+she01:0x020f1400	b8d46d74	Саме так!
+she01:0x020f1500	71f38cb5	Тобі потрібен я!
+she01:0x020f1600	1fe6927a	...і я теж тебе дістану!
+she01:0x020f1700	55623b33	Байдуже...
+she01:0x020f1800	e0fa3b20	...який ти завбільшки!
+she01:0x020f1900	a396a6ed	...я рубатиму тебе...
+she01:0x020f1a00	47e55442	...і різатиму тебе...
+she01:0x020f1b00	8bc70167	...аж поки ти...
+she01:0x020f1c00	00b106ef	...не відпустиш його!!!!!
+she01:0x020f1d00	2d49e0d0	Я розчавив твоїх дітей...
+she01:0x020f1e00	bad488b7	Ну ж бо, покінчимо з цим!
+she01:0x020f1f00	0ed8b786	Ну ж бо!
+she01:0x020f2000	cc89697b	Ти і я!
+she01:0x020f2100	e7e947cc	Востаннє!
+she01:0x020f2200	8cf3a72f	За пана Фродо!!!!!
+she01:0x020f2300	f49511bf	Рятуйте! Вони з усіх боків!
+she01:0x02100000	15a09edc	Допоможи, будь ласка, допоможи, Семе!
+she01:0x02100001	15a09edc	Допоможи, будь ласка, допоможи, Семе!
+she01:0x02100100	4fd51b0e	Ох, Семе! Знайди мене!
+she01:0x02100101	4fd51b0e	Ох, Семе! Знайди мене!
+she01:0x02100200	2dd3dbf3	Сем!
+she01:0x02100201	74ee326c	Допоможіть!
+she01:0x02100202	4dfeecd0	Сюди!
+she01:0x02100203	e7bac32f	Рятуйте! Рятуйте!
+she01:0x02100204	4fd51b0e	Ох, Семе! Знайди мене!
+she01:0x02100205	4fd51b0e	Ох, Семе! Знайди мене!
+she01:0x02100206	70727386	Агов! Є тут хто?!
+she01:0x02100207	70727386	Агов! Є тут хто?!
+she01:0x02100208	dd0b9a2f	Смеаґоле! Де ти?!
+she01:0x02100209	5fc2dc9a	Він завів нас у пастку!
+she01:0x0210020a	aca908cb	Семе, допоможи!
+she01:0x0210020b	aca908cb	Семе, допоможи!
+she01:0x0210020c	33653505	О ні-і! Геть!
+she01:0x0210020d	aa75a4a1	Смеаґоле?! Семе?!
+she01:0x0210020e	80d71548	Рятуйте!!
+she01:0x0210020f	9a60e1e1	О ні-і-і-і!!
+she01:0x02100210	9a60e1e1	О ні-і-і-і!!
+she01:0x02100211	9a60e1e1	О ні-і-і-і!!
+she01:0x02100212	9a60e1e1	О ні-і-і-і!!
+she01:0x02100213	15a09edc	Допоможи, будь ласка, допоможи, Семе!
+she01:0x02100214	15a09edc	Допоможи, будь ласка, допоможи, Семе!
+she01:0x02100215	e6592fbd	Наза-а-ад!!!
+she01:0x02100216	e6592fbd	Наза-а-ад!!!
+she01:0x02100217	2dd3dbf3	Сем!
+she01:0x02100218	2dd3dbf3	Сем!
+she01:0x02100219	0e431d19	Рятуйте! Рятуйте!
+she01:0x0210021a	2dd3dbf3	Сем!
+she01:0x02100300	59252416	Допоможи, Семе!
+she01:0x02100301	59252416	Допоможи, Семе!
+she01:0x02100302	74ee326c	Допоможіть!
+she01:0x02100303	74ee326c	Допоможіть!
+she01:0x02100400	a497f2fb	Aiya Earendil Elenion Ancalima!
+she01:0x02100401	a497f2fb	Aiya Earendil Elenion Ancalima!
+she01:0x02100500	6d8a6f91	Геть від мене!
+she01:0x02100600	4fd51b0e	Ох, Семе! Знайди мене!
+she01:0x02100700	3be346b1	Назад!
+she01:0x02100701	3be346b1	Назад!
+she01:0x02100702	a497f2fb	Aiya Earendil Elenion Ancalima!
+she01:0x02100703	a497f2fb	Aiya Earendil Elenion Ancalima!
+she01:0x02100704	33653505	О ні-і! Геть!
+she01:0x02100705	33653505	О ні-і! Геть!
+she01:0x02100706	6d8a6f91	Геть від мене!
+she01:0x02100707	6d8a6f91	Геть від мене!
+she01:0x02100800	80d71548	Рятуйте!!
+she01:0x30000000	07822654	Та надія живе завжди.
+she01:0x30000001	840c7700	Семе... Семе!
+she01:0x30000002	e55a8037	Ні-і-і!
+she01:0x30000003	2db3a342	Ти мене не спиниш!
+she01:0x30000004	fe71dc9e	Вернися! Я ще не скінчив...!!
+she01:0x30000005	3098e6ce	Пане Фродо!
+she01:0x30000006	6cae99d4	Це Сем! Прокиньтеся!
+she01:0x30000007	192e266e	Не спить... мертвий.
+she01:0x30000008	7b03c756	Схоже, стара Шелоб тут розважилася!
+she01:0x30000009	bb68ec6e	Мала наволоч прокинеться... і пожалкує, що народилася!
+she01:0x3000000a	af60beb5	Несіть його назад до фортеці!
+she01:0x3000000b	07822654	Та надія живе завжди.
+she01:0x3000000c	840c7700	Семе... Семе!
+she01:0x3000000d	e55a8037	Ні-і-і!
+she01:0x3000000e	2db3a342	Ти мене не спиниш!
+she01:0x3000000f	fe71dc9e	Вернися! Я ще не скінчив...!!
+she01:0x30000010	3098e6ce	Пане Фродо!
+she01:0x30000011	6cae99d4	Це Сем! Прокиньтеся!
+she01:0x30000012	192e266e	Не спить... мертвий.
+she01:0x30000013	7b03c756	Схоже, стара Шелоб тут розважилася!
+she01:0x30000014	bb68ec6e	Мала наволоч прокинеться... і пожалкує, що народилася!
+she01:0x30000015	af60beb5	Несіть його назад до фортеці!
+bla01:F4:0x20000000	31f4cb02	Тепер ми станемо свідками дня, коли мужність людей пройде останнє випробування.
+bla01:F4:0x20000001	00e6fd74	Чи настане година вовків, і доба людей обвалиться?
+bla01:F4:0x20000002	0ed496be	Око Саурона буде на нас, і нашу зухвалість воно сприйме за силу.
+bla01:F4:0x20000003	96037258	Ми маємо втримати його погляд, доки неймовірне не стане дійсністю...
+bla01:F4:0x20000004	7e3f8be5	...доки надія не переможе все.
+bla01:F5:0x20000400	cc50e3ab	Мої задуми завершилися днем великої жертви.
+bla01:F5:0x20000401	c0efa286	Ґондор зруйнований у найбільшій битві нашої доби.
+bla01:F5:0x20000402	1855bb89	Але ворог збирає сили, і війну ще не виграно, бо Перстень досі цілий.
+bla01:F5:0x20000403	1a27478a	Останні живі люди побачили повернення свого Короля.
+bla01:F5:0x20000404	9bfaa51a	Надто довго ніхто не кидав йому виклику.
+bla01:F5:0x20000405	bb611bc3	І тепер ми разом рушаємо на землі Саурона, щоб востаннє відволікти його,
+bla01:F5:0x20000406	0c12038f	і дати Фродо останній шанс.
+cra01:F4:0x20000000	812c28c4	Усе зведеться до одного випробування, однієї миті.
+cra01:F4:0x20000001	986ee217	Ми ще побачимо Шир.
+cra01:F4:0x20000002	1b6a5431	Від усього, що було раніше, залежатиме все життя Середзем'я.
+cra01:F5:0x20000400	021a5544	Перстень знищено, і все, що створила його сила, минає.
+cra01:F5:0x20000401	e0699423	Ті, хто був прив'язаний до долі Єдиного, тепер вільні.
+cra01:F5:0x20000402	e76b365f	Настають дні Короля, і хай вони будуть благословенні, доки стоять трони валарів.
+cra01:F5:0x20000403	38b3573c	Жоден учинок Ґандальфа за життя не був марним.  Ми ще не знаємо всього його задуму.
+cra01:F5:0x20000404	c3f4ca96	Третя доба Середзем'я була моєю добою, і Саурон був моїм ворогом.
+cra01:F5:0x20000405	580beb8e	Я запалював +++надію, таємний вогонь Анора, у серцях інших.
+cra01:F5:0x20000406	8d47414d	Саурон у своїй жадобі зв'язав усю силу в Єдиному.
+cra01:F5:0x20000407	c96fcbfe	Як Саурон змішав свою кров із золотом Персня, так і я злився зі своєю магією.
+cra01:F5:0x20000408	328b7840	Тікайте, дурні!
+cra01:F5:0x20000409	4dbe3266	Для всіх, хто тут живе, я сплів лише чари довіри й братства, дані задарма.
+cra01:F5:0x2000040a	828deecf	Ті, що +++тепер житимуть без мене.  Моя справа скінчена.
+cra01:F5:0x2000040b	5a82226d	Справа +++інших лише починається.
+fro03:F4:0x20000000	b08a8238	Око Саурона звертається до Ґондору, останнього вільного краю людей.
+fro03:F4:0x20000001	1d5d609a	Його війна проти цієї країни прийде швидко.
+fro03:F4:0x20000002	f00ad441	Він чує, що Перстень близько, а сили Персненосця згасають.
+fro03:F4:0x20000003	c84e8901	Зрештою цю війну мають вирішити найменші...
+fro03:F4:0x20000004	ce86d084	...бо Перстень хотів, щоб його знайшли.
+fro03:F4:0x20000005	6b70b059	Усе почалося, коли я побачив його в Торбиному Куті...
+fro03:F4:0x20000006	00047687	...але згодом зрозумів, як хитро він повернувся у світ.
+fro03:F4:0x20000007	86427677	Загадки в темряві, скарбе мій...
+fro03:F4:0x20000008	dd46775d	Та питання потребували відповідей...
+fro03:F4:0x20000009	92cbd3bd	...таємниць, які знав лише Мінас-Тіріт, давнє місто людей.
+fro03:F4:0x2000000a	08b60cc5	Рік 3434 другої доби...
+fro03:F4:0x2000000b	a6ed27f2	...це оповідь про Ісілдура, Короля Ґондору, і про знахідку Персня Влади.
+fro03:F4:0x2000000c	33f9aa49	Він прийшов до мене, Єдиний Перстень.  Він стане реліквією мого Королівства.
+fro03:F4:0x2000000d	7ee2ebb8	Мої нащадки будуть прив'язані до його долі, бо я не дам Персню шкоди.
+fro03:F4:0x2000000e	2561943f	Він мені дорогоцінний.
+fro03:F4:0x2000000f	dffcad97	Тієї миті мені стало ясно, що треба зробити.
+fro03:F4:0x20000010	d694ed7c	Я задумав велику війну, але покладуся на інших як на знаряддя долі.
+fro03:F4:0x20000011	a695dade	Араґорнові, спадкоємцю трону, судилося вести війну.
+fro03:F4:0x20000012	0e6ab764	Я бачив воїнів усіх народів пліч-о-пліч із ним.
+fro03:F4:0x20000013	f7045124	Разом ми влаштуємо велику пастку під мурами Мінас-Тіріта.
+fro03:F4:0x20000014	43241cc8	Але наша війна лише відволікає: щоб знищити Саурона, Перстень треба донести до Фатальної гори.
+fro03:F4:0x20000015	44dc8a5d	І тут наша доля буде в руках двох маленьких гобітів.
+fro03:F4:0x20000016	54a5303e	Бо вони, як і ми, будуть у великій небезпеці.
+fro03:F6:0x20000801	371f1af7	Ну, Елайджа непогано грає.
+fro03:F6:0x20000802	8401a246	Найкращий гравець - Елайджа.
+fro03:F6:0x20000803	19ab1f2e	Ну, тут я можу себе похвалити.
+fro03:F6:0x20000804	40eda71a	Я точно граю краще за них обох.
+fro03:F6:0x20000805	5da7b4cf	Елайджа має шалений хист просто...
+fro03:F6:0x20000806	affa7d4b	взяти консоль і пройти гру.~~~~~~
+fro03:F6:0x20000807	1e0b4e7b	У мене навіть контролер літав, і, нічого не торкаючись,~~~~~~
+fro03:F6:0x20000808	18db68e9	я проходив гру.  Таке бувало лише кілька разів, але...~~~~~~
+fro03:F6:0x20000809	9dcf37b5	Я серйозно граю десь три-чотири роки ~~~~~~
+fro03:F6:0x2000080a	77d70254	У нього добре виходить, але я досвідченіший гравець.~~~~~~
+fro03:F6:0x2000080b	a1d87043	Але я вчуся, я б переміг Елайджу, якби взявся.~~~~~~
+fro03:F6:0x2000080c	8a3e6eaa	Я точно граю краще за Дома.~~~~~~
+fro03:F6:0x2000080d	8453dd0a	Дом, знаєте, гарно говорить про гру.~~~~~~
+fro03:F6:0x2000080e	b930271a	О, гляньте, я в ударі.~~~~~~
+fro03:F6:0x2000080f	320227e0	Каже, що вже так добре грає.  Я кажу: "Гаразд, давай".~~~~~~
+fro03:F6:0x20000810	29d7f34c	Тричі поспіль його переміг.~~~~
+fro03:F6:0x20000811	25da2ecf	Біллі грає краще, але не блискуче.~~~~~~
+fro03:F6:0x20000812	23dd34e5	Біллі жахливий.~~~
+fro03:F6:0x20000813	3645c48b	Він один із найгірших гравців усіх часів.~~~~~~
+fro03:F6:0x20000814	083eba96	Гадаю, у мене особливий дар до ігор...~~~~~~
+fro03:F6:0x20000815	ca45e3c1	Граєте вдвох, кажете: "Біллі, тисни 'x'", а він:~~~~~~
+fro03:F6:0x20000816	a120ee73	"Стривай..е..де...яка з них 'x'?"~~~~~~
+fro03:F6:0x20000817	ecdfe636	...просто я ще не розгорнув цей подарунок сам собі.~~
+fro03:F8:0x20001000	be6b1be7	Мордор...єдине місце в Середзем'ї, яке ми не хочемо бачити зблизька.~~~
+fro03:F8:0x20001001	ff480785	Єдине місце, куди ми йдемо...і куди не можемо дістатися.
+fro03:F8:0x20001002	80211fba	Визнаймо, пане Фродо, ми заблукали.
+fro03:F8:0x20001003	a642bdac	У фільмі Сем як персонаж дуже, гм...~~
+fro03:F8:0x20001004	3fcb05cf	Він часто сумує, у ньому є щось комічне.~~~~
+fro03:F8:0x20001005	cd24276e	Героєм його роблять доброта й порядність.~~~~
+fro03:F8:0x20001006	177c9b95	І хоробрість перед великою небезпекою.~~
+fro03:F8:0x20001007	d7de019c	Я йду до Мордору сам.~~~~~~~~
+fro03:F8:0x20001008	089b9bc7	Звісно, що йдеш!
+fro03:F8:0x20001009	de260054	І я йду з тобою!~
+fro03:F8:0x2000100a	a3bd3b67	Але гра - це бойовик про війну,~~
+fro03:F8:0x2000100b	b378f6a9	тож у грі найбільше видно ту сторону Сема,~~~~~
+fro03:F8:0x2000100c	975f744a	де він героїчний боєць.~
+fro03:F8:0x2000100d	4c0d47d8	Я можу справді битися з орками, а не~~~
+fro03:F8:0x2000100e	1399ad1f	зупиняти удар, бо перед тобою каскадер, якого не можна поранити.~~~~~~
+fro03:F8:0x2000100f	4cc87d9e	Справді відчуваєш, що ти у фільмі й ведеш його~~~~
+fro03:F8:0x20001010	4d0b5e3e	Коли я вперше взяв контролер до рук,~~~~
+fro03:F8:0x20001011	f7b50eff	я побачив дуже схожого на себе героя.~~~~~
+fro03:F8:0x20001012	3c4d282e	Це нагадало мені зйомки сцен~~~~~
+fro03:F8:0x20001013	b0dd9bfa	Усе було точнісінько як на знімальному майданчику, і~~~~~
+fro03:F8:0x20001014	bd90f8b2	при цьому повністю інтерактивно.~~~~~~
+fro03:F8:0x20001015	768f2137	Гра неймовірна.~~~~~
+fro03:F9:0x20001400	fff74758	Світ змінюється...
+fro03:F9:0x20001401	42e7ad06	хто тепер має силу встояти проти армій Ісенґарда...
+fro03:F9:0x20001402	a4769e42	і Мордору.
+fro03:F9:0x20001404	b933b3d8	Сьогодні я
+fro03:F9:0x20001405	811193ba	озвучував Сарумана
+fro03:F9:0x20001406	df6990de	у грі.
+fro03:F9:0x20001407	00f1575c	Саруман Білий - голова ордену.
+fro03:F9:0x20001408	2859e085	І він вважає, що може стати Володарем Перстенів.
+fro03:F9:0x20001409	a697c8df	Ми мусимо приєднатися до Саурона.
+fro03:F9:0x2000140a	609919ae	Сила Сарумана - в його голосі.
+fro03:F9:0x2000140b	53c009a7	Ніхто не встоїть перед волею Сарумана.
+fro03:F9:0x2000140c	8c79e76a	Він не просто чарівник, що творить дива.
+fro03:F9:0x2000140d	8385794b	Він переконає найнесподіваніших людей
+fro03:F9:0x2000140e	2d389533	Таке враження він справляє:
+fro03:F9:0x2000140f	b6bffade	всемогутній.
+fro03:F9:0x20001410	226ff72c	Не дайте йому говорити.  Він нас зачарує.
+fro03:F9:0x20001411	cc0acd6f	Це трохи як шахи.
+fro03:F9:0x20001412	c72c0873	Але, знаєте, якщо робити все правильно, ви мене переможете.
+fro03:F9:0x20001413	a37e4cb9	Якщо помилитеся, програєте ви.
+fro03:Fb:0x20001c00	fd2c8619	Я витягну тебе, Сарумане, як отруту з рани.
+fro03:Fb:0x20001c01	ee063420	Літній день, я в англійському офісі EA...
+fro03:Fb:0x20001c02	87a40075	...де озвучував гру, у яку тепер можна грати.
+fro03:Fb:0x20001c03	8d3ed872	Цікаво, що Ґандальфів багато.
+fro03:Fb:0x20001c04	d2ca410c	Є я, а на зйомках фільму був ще мій дублер.
+fro03:Fb:0x20001c05	a530652d	Були Ґандальфи-каскадери, що билися й крутилися
+fro03:Fb:0x20001c06	c9ed6466	Є цифрові Ґандальфи, яких іноді видно в масових сценах фільму.
+fro03:Fb:0x20001c07	cae5b89e	А ще є Ґандальф цієї гри.
+fro03:Fb:0x20001c08	7e93fb64	Ґандальфові сім тисяч років, але він творить дива і досі бадьорий...
+fro03:Fb:0x20001c09	08ed73b2	...і шкода, що Ґандальф у фільмі не такий спритний, як у грі.
+fro03:Fb:0x20001c0a	771e5904	Може, наймудріші з вас оберуть Ґандальфа, може, найпроникливіші.
+fro03:Fb:0x20001c0b	b9d04222	Хіба Ґандальф не всіх улюблений герой?~~~~
+fro03:Fb:0x20001c0c	7078ea7b	Мій - точно.~~~~
+fro03:Fb:0x20001c0d	260d37b4	На жаль, у вашу гру я граю чудово.~~~~
+fro03:Fb:0x20001c0e	1a02caf9	Якщо не можеш зніматися у фільмі, грай у гру.~~~~~
+fro03:Fb:0x20001c0f	bcb1caf6	Це майже те саме.~~~~~~
+fro03:Fc:0x20002000	4c3592d7	Один Перстень, щоб усіх скорити...
+fro03:Fc:0x20002001	68942acc	...один Перстень, щоб усіх знайти.
+fro03:Fc:0x20002002	4816d774	Один Перстень, щоб усіх зібрати...
+fro03:Fc:0x20002003	f3fe55ee	...і в темряві скувати.
+fro03:Fc:0x20002005	25d53661	У фільмі Фродо не бере участі в битвах,
+fro03:Fc:0x20002006	3e425e79	...тож я завжди був слабким і обтяженим Перснем.
+fro03:Fc:0x20002007	76a4518f	А тут я веду Фродо в пригоди, яких у нього не було.
+fro03:Fc:0x20002008	78f84a2a	Тепер мною можна грати, це найкраще!
+fro03:Fc:0x20002009	9c8405c1	Фродо б'ється трохи незграбніше...
+fro03:Fc:0x2000200a	daefc73c	...не так витончено, як Араґорн, а тим паче Леґолас.
+fro03:Fc:0x2000200b	12afdcf7	Це простий бій, без викрутасів, дуже прямолінійний.
+fro03:Fc:0x2000200c	29af6f0c	Дуже круто взяти свого героя з фільму...
+fro03:Fc:0x2000200d	1e7151d4	...і перенести його в гру...
+fro03:Fc:0x2000200e	406fbd45	...це чудово.
+fro03:Fc:0x2000200f	c4c2cf4b	Я візьмуся за це страшне завдання!
+fro03:Fc:0x20002010	00cef43a	Обираючи Фродо, ви обираєте й Персненосця, це круто.
+fro03:Fc:0x20002011	ef612566	Я трохи упереджений.
+fro03:Fd:0x20002401	7c64c771	Молодці!  Ви пройшли гру.
+fro03:Fd:0x20002402	d193006e	Та не зовсім.  Ви щойно відкрили інших героїв.
+fro03:Fd:0x20002403	a84d20e2	Серед них я, Піпін.
+fro03:Fd:0x20002404	90df2ef5	Тож тепер можна взяти мене, Мері чи когось іще
+fro03:Fd:0x20002405	1d274973	туди, де вони не бували, наприклад...
+fro03:Fd:0x20002406	7d7dc21d	в Осґіліат чи на Шляхи Мертвих.
+fro03:Fd:0x20002407	5ca5c754	Так, візьміть Піпіна на Шляхи Мертвих.
+fro03:Fd:0x20002408	8660607b	Подивимося, що було б, якби він туди пішов.
+fro03:Fd:0x20002409	1f6c324b	Розважмося.
+fro03:Fe:0x20002801	3f696e29	Вітаю з проходженням гри~~~~
+fro03:Fe:0x20002802	849d0cdf	дуже, дуже добре.
+fro03:Fe:0x20002803	973264c9	Ви швидші за мене, я проходив її років три з половиною.~~~
+fro03:Fe:0x20002804	b3b20718	Але яке хвилювання!  Шалене хвилювання!~~
+fro03:Fe:0x20002805	23473655	Ви відкрили ще двох героїв.~~~
+fro03:Fe:0x20002806	cf5ee271	Можна взяти Мері чи Піпіна й пройти будь-яку історію.~~~~~
+fro03:Fe:0x20002807	d63a0b3c	Можна побути трохи з Шелоб~~~~~
+fro03:Fe:0x20002808	1714c5a1	можна піти з Фарамиром і подивитися, який у нього шлях~~~~~~
+fro03:Fe:0x20002809	400173cf	Можна побути з Ґандальфом, бо він дуже дбайливий,~~~~~~~~~~
+fro03:Fe:0x2000280a	d0b5defd	він для вас як батько, і, може, у вас із цим проблеми.~~~~~~
+fro03:Fe:0x2000280b	7d790694	Робіть що хочете, ідіть куди хочете
+fro03:Fe:0x2000280c	2eb6bcba	з Мері й Піпіном.  Це наш подарунок вам як гравцям.
+fro03:Fe:0x2000280d	ebaae520	Молодці.
+fro03:Ff:0x20002c00	3090e2d4	Що вони вкрали?
+fro03:Ff:0x20002c01	9574ebfa	Мою...
+fro03:Ff:0x20002c02	fb030d10	...Скарб!!!
+fro03:Ff:0x20002c04	d1f279d3	Ґолум для мене - як залежний, якому потрібна доза...
+fro03:Ff:0x20002c05	2818dde1	...такий собі наркоман Персня.
+fro03:Ff:0x20002c06	90fa3a45	Ми мусимо мати Скарб!
+fro03:Ff:0x20002c07	a65d7529	Бо ми багато працюємо із захопленням руху...
+fro03:Ff:0x20002c08	f5e5ee14	...і аніматори уважно стежать за мітками на екрані...
+fro03:Ff:0x20002c09	a916bc2e	Аніматори ключових кадрів повторюють кожен вираз.
+fro03:Ff:0x20002c0a	74bb87c1	Уся будова його обличчя і те, як воно рухається, - з мого обличчя.~~~~~
+fro03:Ff:0x20002c0b	87a4bf95	Це три етапи:~~~
+fro03:Ff:0x20002c0c	f05b6e51	Я знімаюся на майданчику з Елайджею та Шоном, ми граємо всі сцени разом.~~~~~
+fro03:Ff:0x20002c0d	5217665f	Потім у студії захоплення руху повторюю кожну сцену.~~~~~
+fro03:Ff:0x20002c0e	0a78db57	Потім записую остаточний голос.~~~
+fro03:Ff:0x20002c0f	7f2b40a4	Так, скарбе!
+fro03:Ff:0x20002c10	30c8e65f	Голос народився з двох речей.
+fro03:Ff:0x20002c11	dc9872d4	Перше - пошук психологічної причини, чому він так говорить.
+fro03:Ff:0x20002c12	d78c53b0	А фізично він узявся від котів.
+fro03:Ff:0x20002c13	3afb257a	Удома в нас було три коти, і вони так неймовірно корчаться.
+fro03:Ff:0x20002c14	373c56d5	Коли вони відкашлюють клубки шерсті, то роблять...
+fro03:Ff:0x20002c15	0df5ad4d	...отак, і це стало...
+fro03:Ff:0x20002c16	29b13907	Ґолум!  Ґолум!  Ґолум!
+fro03:Ff:0x20002c17	b24f91cb	Я ще не робив переозвучення для самого фільму.
+fro03:Ff:0x20002c18	5a025661	Я знову вчуся думати, що це паралельна подорож, хоч і в грі.
+fro03:Ff:0x20002c19	452131d4	Тож було приємно побувати там, куди я ще піду у фільмах.~~~
+fro03:Ff:0x20002c1a	04c8c731	Мабуть, незвичний спосіб...~~~
+fro03:Ff:0x20002c1b	65d49fce	...коли озвучуєш гру раніше, ніж переозвучуєш фільм.~~~
+fro03:Ff:0x20002c1c	deeb49bd	Ми забираємо Скарб, і ми будемо Хазяїном!~~~
+fro03:F10:0x20003000	aca7dbbd	Фарамир, принц Ґондору,
+fro03:F10:0x20003001	4244934c	був одним із небагатьох, хто встояв перед силою Персня.
+fro03:F10:0x20003002	95603b28	Але Фарамир і Боромир були братами,
+fro03:F10:0x20003003	0cb7433f	і цілком можливо, що до Рівенделу пішов Фарамир.
+fro03:F10:0x20003004	7a92fb39	І тоді Фарамир міг вижити й повернутися до Ґондору.
+fro03:F10:0x20003005	61dc9b8c	Тепер ми це перевіримо,
+fro03:F10:0x20003006	acf1baf7	відкривши героя Фарамира.
+fro03:F10:0x20003007	6ee37e78	Подивіться самі, що ще він міг зробити у Війні Персня.
+fro03:F10:0x20003008	7dc5e535	Щасти.
+fro03:F11:0x20003400	08a486bb	ТІКАЙТЕ!
+fro03:F11:0x20003402	490ad7f4	У фільмі Піпін не воїн.
+fro03:F11:0x20003403	feb3590a	Він гобіт, якого затягло в усе це.
+fro03:F11:0x20003404	3d75d358	Але в грі видно, яким був би Піпін,
+fro03:F11:0x20003405	51c4c311	якби він був воїном, розумієте?
+fro03:F11:0x20003406	32903b64	Я дуже хочу пограти
+fro03:F11:0x20003407	372bc459	Пеленнорські поля й усе таке за Піпіна.~~
+fro03:F11:0x20003408	e8e7b7f6	Сподіваюся, кожен спробує Піпіна.~~~~~
+fro03:F11:0x20003409	9f0d8605	Я кину виклик усьому.
+fro03:F11:0x2000340a	fba1a660	Піпін класний.  Піпін - це головне.
+fro03:F12:0x20003800	c0783437	Здається, ми помилилися, що покинули Шир, Піпіне.
+fro03:F12:0x20003802	1fdabf58	У Ширі, знаєте, Мері милий і привітний.
+fro03:F12:0x20003803	1a30f2ec	А коли вдягає бойове вбрання,
+fro03:F12:0x20003804	38bd5ae3	він виглядає грізно.
+fro03:F12:0x20003805	33e6267b	Думаю, ті, хто обере Мері в цій грі,
+fro03:F12:0x20003806	a13ac8a7	- це найрозумніші люди у світі.
+fro03:F12:0x20003807	b34598eb	Ну як тобі таке?
+fro03:F12:0x20003808	fa90ac53	Гобіти б'ються передусім серцем
+fro03:F12:0x20003809	7c65203a	І він б'ється хитро, ловить нагоду, він, е, знаєте~~
+fro03:F12:0x2000380a	703a9d1e	не має надто великої фізичної сили.~~~
+fro03:F12:0x2000380b	ffb71d47	Але він хитрий, має ~~~~~трохи підступу й розуму.
+fro03:F12:0x2000380c	c01e6c46	Він, мабуть, ~~~~~один із найкращих комп'ютерних героїв усіх ~~~~~~часів.
+fro03:F13:0x20003c00	8878a43f	Назґул!
+fro03:F13:0x20003c01	9f38663f	Гравцям варто спершу відкрити Фарамира, бо
+fro03:F13:0x20003c02	6eb2df42	він має багато вмінь.
+fro03:F13:0x20003c03	6fb0ee75	Він чудовий мечник,
+fro03:F13:0x20003c04	d5fc67e2	чудовий лучник,
+fro03:F13:0x20003c05	bdaabbec	а ще він мудрий.
+fro03:F13:0x20003c06	2d173508	Починати варто з Фарамира.
+fro03:F13:0x20003c07	89343a4a	У грі Фарамир б'ється дуже енергійно.
+fro03:F13:0x20003c08	a6db7dd8	Це безупинна, шалена, наелектризована дія.
+fro03:F13:0x20003c09	b1364e72	Гра повністю передає хвилювання
+fro03:F13:0x20003c0a	fc43a832	фільму "Повернення короля" в усьому,
+fro03:F13:0x20003c0b	ddde129e	і, гадаю, більшого годі й бажати.
+hel01:F4:0x20000002	64fd1998	Сила ворога зростає.
+hel01:F4:0x20000003	57c05e4c	Саурон руками Сарумана знищить народ Рогану.
+hel01:F4:0x20000004	e5f897e2	На Гельмову Падь!
+hel01:F4:0x20000005	9cae3216	Нікого не залишайте живим!
+hel01:F4:0x20000006	35a6fbcd	Ісенґард вирвався на волю.
+hel01:F4:0x20000007	2c42b370	Вони прорвалися!
+hel01:F4:0x20000008	0195f8dd	Фортецю прорвано!
+hel01:F4:0x20000009	fa1eb9ef	Відступайте! Відступайте!
+hel01:F4:0x2000000a	4f65354f	Назад! Назад! Швидше!++++++++
+hel01:F4:0x2000000b	97a9f544	Чекайте мене п'ятого дня. На світанку дивіться на схід.
+hel01:F4:0x2000000c	a10e03d3	Чарівник не запізнюється і не приходить зарано.
+hel01:F4:0x2000000d	886e9236	Ґандальф!
+hel01:F4:0x2000000e	b4ca5dc7	Він приходить саме тоді, коли має намір.
+hel01:F4:0x2000000f	f52b5354	До Короля!
+hel01:F5:0x20000400	a0c662e0	Перемога!  Ми перемогли!
+hel01:F5:0x20000401	0f84bb95	Гнів Саурона буде страшний, а відплата швидка.
+hel01:F5:0x20000402	51032987	Битва за Гельмову Падь скінчилася...
+hel01:F5:0x20000403	bd3cfa34	...битва за Середзем'я тільки починається.
+ise01:F4:0x20000000	8216729c	Відпустіть ріку!++++++++++
+ise01:F5:0x20000400	a32db204	Не випадок привів Мері й Піпіна до лісу Фанґорн.
+ise01:F5:0x20000401	68336821	Тікай, Мері!
+ise01:F5:0x20000402	f14e1776	Воно говорить, Мері!  Дерево говорить!
+ise01:F5:0x20000403	86616fa2	Дерево?  ++++++++++Я не дерево!  Я ент!
+ise01:F5:0x20000404	8deaae03	Ми, енти, +++++давно вже не переймалися війнами людей і чарівників...
+ise01:F5:0x20000405	15619d29	...++++++++++а тепер станеться те, чого не бувало цілу добу.
+ise01:F5:0x20000406	5ac58f53	Енти йдуть на війну.+++++
+ise01:F5:0x20000407	4c6af99d	Ходімо, друзі, останній похід ентів!++++++++++
+ise01:F5:0x20000408	bd0eb32b	А тепер те, що почалося в Гельмовій Паді, буде завершено.
+ise01:F5:0x20000409	fedaccd6	Ісенґард треба очистити...
+ise01:F5:0x2000040a	3cf3ff3f	...і в тіні дерев Фанґорну урук-хаї Сарумана не знайдуть притулку.
+min00:F4:0x20000000	97a7279c	Коли Саурон дізнається, що Перстень у руках гобіта, його потягне до нього.
+min00:F4:0x20000001	486d5d18	Доля дала нам чотирьох, і він не знає, хто несе Перстень.
+min00:F4:0x20000002	3b06aaee	Ця плутанина й буде приманкою в моїй пастці.
+min00:F4:0x20000003	f7f8fb04	Ти що, не розумієш?
+min00:F4:0x20000004	d964ba0c	Ворог думає, що Перстень у тебе.
+min00:F4:0x20000005	9fbc8b90	Він іде по тебе.
+min00:F4:0x20000006	d290fd95	Тоді прийде війна, і Роган поскаче на поміч Ґондору...
+min00:F4:0x20000007	6831d6b6	...ударивши з півночі, бо Ісенґард уже очищено.
+min00:F4:0x20000008	5268e0fc	Араґорн іде крізь тінь смерті...
+min00:F4:0x20000009	a6373f53	...щоб покликати до Білого Міста військо, якому не дасть ради навіть Саурон.
+min00:F4:0x2000000a	aa68967f	Із Піпіном я вирушаю до Мінас-Тіріта...
+min00:F4:0x2000000b	093472b1	...ковадла, на якому ми маємо розбити армії Саурона...
+min00:F4:0x2000000c	bfb4362b	...щоб виграти для Фродо й Сема досить часу.
+min00:F4:0x2000000d	98157abc	До мене дійшли чутки про цього Араґорна, сина Араторна, і кажу вам зараз...
+min00:F4:0x2000000e	790d3eb8	...я не вклонюся цьому слідопиту з півночі!
+min00:F4:0x2000000f	9a4c7f50	Чи є хоч якась надія, Ґандальфе...
+min00:F4:0x20000010	20dc5dab	...для Фродо й Сема?
+min00:F4:0x20000011	d6b5574b	Надії ніколи не було багато.
+min00:F4:0x20000012	3c5ab9f1	Лише надія дурня.
+min00:F4:0x20000013	f234220c	Саме під цими мурами вирішиться доля нашого часу.
+min04:F4:0x20000000	1f263252	Ми врятували стількох, скількох змогли...
+min04:F4:0x20000001	2ebb90c8	...але брама проломлена, і скоро ми залишимо своїх мертвих на семи ярусах Мінас-Тіріта
+min04:F4:0x20000002	66018c19	Моя участь у цій битві скінчена.
+min04:F4:0x20000003	64a87574	Наша доля тепер у руках гобіта й Короля.
+osg01:F4:0x20000000	bdcc2cf3	Моє серце сповнене і великої надії, і смутку.
+osg01:F4:0x20000001	06690af7	Заради задуму я мушу наразити найменшого з нас на найбільшу небезпеку.
+osg01:F4:0x20000002	5c0caf85	Могутні завжди прагнули Персня, і завжди марно.
+osg01:F4:0x20000003	4a57c902	Ісілдуре!
+osg01:F4:0x20000004	276ec2a9	Доля дала мені гобіта, стійкого до чар Персня й хороброго від природи.
+osg01:F4:0x20000005	a55020a6	Але він не може лишатися в Ширі!
+osg01:F4:0x20000006	340a8691	Ні!  Ні, не може.
+osg01:F4:0x20000007	592137fa	Та нести Перстень мало одного відважного серця Фродо.
+osg01:F4:0x20000008	96e0550d	Йому потрібен супутник...
+osg01:F4:0x20000009	3cc6d712	Я тебе дістану, Довгоногий!
+osg01:F4:0x2000000a	be90f022	...і провідник, що знає ворога й стежки до Мордору...
+osg01:F4:0x2000000b	975c67e5	...бо всі троє зв'язані долею Персня й одне одного.
+osg01:F4:0x2000000c	9af2079c	Ми клянемося служити!  Клянемося!
+osg01:F4:0x2000000d	5c8fd9f8	Ти знаєш дорогу до Мордору?
+osg01:F4:0x2000000e	571960da	Так...
+osg01:F4:0x2000000f	cd61f3cc	Поки ми тримаємо погляд Саурона, вони мусять донести Перстень до вогню Фатальної гори...
+osg01:F4:0x20000010	c189f8e5	...а якщо їх схоплять, на них чекає біда, і всю надію буде втрачено.
+osg01:F4:0x20000011	8878a43f	Назґул!
+osg01:F4:0x20000012	d06f98f7	Ховайтеся!
+osg01:F4:0x20000014	905823ed	Куди ти?!
+osg01:F5:0x20000400	6ba5918b	Смеаґол не скривдить нас!
+osg01:F5:0x20000401	4efeb863	А тепер Перстень наближається до вогню Фатальної гори, на біду всім, хто йде цим шляхом.
+osg01:F5:0x20000402	a8f5d337	Де ти?  Смеаґоле?
+osg01:F5:0x20000403	08157e45	Хазяїн дбає про нас.
+osg01:F5:0x20000404	9b54442e	Треба скрутити йому його брудну шийку!
+osg01:F5:0x20000405	5ffac0ce	Убий його!  Убий його!
+osg01:F5:0x20000406	81071161	Убий обох!
+osg01:F5:0x20000407	28928366	Так!  Ні, ні!
+osg01:F5:0x20000408	6590a133	Це надто ризиковано!  Надто ризиковано!
+osg01:F5:0x20000409	a8f5d337	Де ти?  Смеаґоле?
+osg01:F5:0x2000040a	6448958f	Ми можемо дати їй це зробити...
+osg01:F5:0x2000040b	b4a88027	...так, вона може це зробити!
+osg01:F5:0x2000040c	33cce3f7	Так, скарбе, вона може...
+osg01:F5:0x2000040d	651e2372	...а тоді ми забираємо його, коли вони помруть...
+osg01:F5:0x2000040e	529935fb	...коли вони помруть...
+osg01:F5:0x2000040f	48d169f3	Ходімо, гобіти!  Ще довгий шлях попереду!
+osg01:F5:0x20000410	e72d6338	Смеаґол покаже вам дорогу!
+osg01:F5:0x20000411	b9dba28f	За мною...
+pat01:F4:0x20000000	80de09fc	Щоб виграти війну, Саурон має повірити, що ми обернемо Перстень проти нього.
+pat01:F4:0x20000001	a981d4f9	Це відверне його погляд, ослабить кордони й заманить його армії в пастку.
+pat01:F4:0x20000002	46b94712	Для цього я приготував шлях для повернення Короля Ґондору.
+pat01:F4:0x20000003	f21aa6ec	Саурон повірить, що Перстень отримав Араґорн, спадкоємець Ісілдура.
+pat01:F4:0x20000004	d8ec2ff8	Араґорн несе єдину зброю, якої Саурон не терпить...
+pat01:F4:0x20000005	023e3957	...і єдину силу, перед якою можуть схилитися мертвий король і його військо.
+pat01:F4:0x20000006	3550c4c9	Щоб влаштувати цю пастку, Араґорн і його друзі мусять дійти до Двіморберґу.
+pat01:F4:0x20000007	cfaa1215	Глибоко в цій примарній горі на них чекають страшні випробування.
+pat01:F4:0x20000008	a7362cc0	Вони мають подолати гнів проклятого царства й викликати його короля.
+pat01:F4:0x20000009	8aff071f	Із темряви Араґорн покличе військо, якого не витримає навіть орда Саурона...
+pat01:F4:0x2000000a	78bfd0c3	...бо живі не втримають Мінас-Тіріт без люті давно померлих.
+pat01:F5:0x20000400	d14f35f5	Араґорн мусить піднятися над страхом...
+pat01:F5:0x20000401	3ca465f0	...бо як Король він має протистояти злобі Саурона...
+pat01:F5:0x20000402	82ba0dab	...і об'єднати всіх, хто боїться Мордору.
+pat01:F5:0x20000403	fd0fa017	Спершу Араґорн і його друзі мають зламати волю Короля Мертвих...
+pat01:F5:0x20000404	d505e775	...бо Ісілдур прокляв його, і тепер спадкоємець мусить приборкати його злобу.
+pat01:F5:0x20000405	25cf3781	Без цієї перемоги наша справа буде втрачена навіки.
+pat02:F4:0x20000000	34fa9bc8	Шлях Араґорна веде його крізь це жахливе місце...
+pel02:F4:0x20000000	5b27361f	Знадобиться вся моя майстерність і вся наша удача...
+pel02:F4:0x20000001	a915832e	...щоб спрацювала пастка, яку готували цілі віки.
+pel02:F4:0x20000002	f91e1c6a	Зрештою все вирішиться тут, на полях Пеленнору...
+pel02:F4:0x20000003	e715e51e	...перед брамою Мінас-Тіріта.
+pel02:F4:0x20000004	1f71d1ee	З півдня Араґорн приведе військо з-за могили...
+pel02:F4:0x20000005	ba251f91	...але, може, надто пізно...
+pel02:F4:0x20000006	d47499cd	...бо проти нашої твердині Темний Володар кличе і людей, і звірів...
+pel02:F4:0x20000007	0df429f3	...військо могутніх сил, страшніше, ніж ми можемо уявити...
+pel02:F4:0x20000008	a76e5e21	...а з півночі, на мій заклик, Роган поскаче на війну й на кінець світу.
+she01:F4:0x20000000	586c50c1	Зрада Ґолума ще може зруйнувати наш задум...
+she01:F4:0x20000001	2e3216ea	...і привести Фродо до загибелі...
+she01:F4:0x20000002	67e4f034	Ти не бачиш, так?
+she01:F4:0x20000003	71bac0eb	Скарб буде нашим...
+she01:F4:0x20000004	4d4117cf	Він веде нас у пастку!
+she01:F4:0x20000005	a462f5d5	...щойно гобітики помруть!
+she01:F4:0x20000006	c7afc9b3	...та надія завжди живе.

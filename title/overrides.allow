@@ -1,0 +1,422 @@
+# Donor gate allowlist (RULES R-D1): overrides at these VAs are applied, all others are skipped.
+# One hex VA per line, then '#': symbol, who confirmed it and how (portkit remap / Ghidra + test).
+0x12F880  # D3D::SetPushBufferSize (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x12AA40  # SetRenderState_FogColor (D3D8) portkit remap, high: 51/64 bytes fixed
+0x12AB40  # SetRenderState_NormalizeNormals (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x12B040  # SetTextureState_BumpEnv (D3D8) portkit remap, high: 51/64 bytes fixed
+0x12B0B0  # SetTextureState_BorderColor (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x12B910  # SetRenderState_ZEnable (D3D8) portkit remap, high: 39/64 bytes fixed
+0x12B9A0  # SetRenderState_StencilEnable (D3D8) portkit remap, high: 76/128 bytes fixed
+0x12C290  # CreateVertexShader (D3D8) portkit remap, high: 60/64 bytes fixed
+0x12C3D0  # SetVertexShaderConstant1 (D3D8) portkit remap, high: 37/64 bytes fixed
+0x12C430  # SetVertexShaderConstant4 (D3D8) portkit remap, high: 44/64 bytes fixed
+0x12C4E0  # SetVertexShaderConstantNotInline (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x12C600  # SetStreamSource (D3D8) portkit remap, high: 45/64 bytes fixed
+0x12C7F0  # SetShaderConstantMode (D3D8) portkit remap, high: 41/64 bytes fixed
+0x12CA60  # SetVertexShader (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x130350  # CreateVertexBuffer2 (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x1303A0  # VertexBuffer_Lock2 (D3D8) portkit remap, high: 42/64 bytes fixed
+0x12CC60  # SetTransform (D3D8) portkit remap, high: 36/64 bytes fixed
+0x130270  # D3D::KickOffAndWaitForIdle (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x12CF90  # GetDisplayMode (D3D8) portkit remap, high: 41/64 bytes fixed
+0x12D390  # GetBackBuffer2 (D3D8) portkit remap, high: 34/64 bytes fixed
+0x12D870  # SetIndices (D3D8) portkit remap, high: 41/64 bytes fixed
+0x12D930  # GetDisplayFieldStatus (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x130420  # CreatePixelShader (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x1304D0  # SetPixelShader (D3D8) portkit remap, high: 30/64 bytes fixed
+0x12EAF0  # Resource_Release (D3D8) portkit remap, high: 44/64 bytes fixed
+0x12EBD0  # Resource_Register (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x12F6D0  # Swap (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x12E850  # CreateTexture2 (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x12E910  # Texture_LockRect (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x12A2A0  # Clear (D3D8) portkit remap, high: 43/64 bytes fixed
+0x12FCF0  # InsertCallback (D3D8) portkit remap, high: 40/64 bytes fixed
+0x12E090  # DrawVertices (D3D8) portkit remap, high: 40/64 bytes fixed
+0x12E130  # DrawIndexedVertices (D3D8) portkit remap, high: 44/64 bytes fixed
+0x135C80  # Surface_GetDesc (D3D8) portkit remap, high: XbSymbolDatabase OOVPA unique hit (XDK 5558) at a Ghidra function start; donor sig missed (other XDK)
+0x135CA0  # Surface_LockRect (D3D8) portkit remap, high: 25/32 bytes fixed
+0x13F477  # IDirectSound_DownloadEffectsImage (DSOUND) portkit remap, high: 31/39 bytes fixed
+0x13F5AE  # DirectSoundDoWork (DSOUND) portkit remap, high: 21/41 bytes fixed
+0x14058A  # IDirectSound_SetI3DL2Listener (DSOUND) portkit remap, high: 25/32 bytes fixed
+0x140566  # IDirectSound_CreateSoundBuffer (DSOUND) portkit remap, high: 29/36 bytes fixed
+0x140750  # DirectSoundCreate (DSOUND) portkit remap, high: 48/64 bytes fixed
+0x148816  # XInputGetCapabilities (XAPILIB) portkit remap, high: 50/64 bytes fixed
+0x148A61  # XInputSetState (XAPILIB) portkit remap, high: 39/51 bytes fixed
+0x148ADD  # XGetDeviceChanges (XAPILIB) portkit remap, high: 60/64 bytes fixed
+0x12F8A0  # Direct3D_CreateDevice (D3D8) portkit remap, high: OOVPA Direct3D_CreateDevice unique hit at a function start (donor signature missed: other XDK)
+0x12D3E0  # GetDepthStencilSurface2 (D3D8) portkit remap, high: OOVPA D3DDevice_GetDepthStencilSurface2 unique hit at a function start (donor signature missed: other XDK)
+0x12D630  # SetTexture (D3D8) portkit remap, high: OOVPA D3DDevice_SetTexture unique hit at a function start (donor signature missed: other XDK)
+0x147CF3  # XInitDevices (XAPILIB) portkit remap, high: OOVPA XInitDevices unique hit at a function start (donor signature missed: other XDK)
+0x1489EE  # XInputGetState (XAPILIB) portkit remap, high: OOVPA XInputGetState unique hit at a function start (donor signature missed: other XDK)
+0x12CBD0  # D3DDevice_SetGammaRamp (D3D8) OOVPA unique hit at a Ghidra start; HLE stores the ramp (NV2A RAMDAC write faulted, 2026-11-02)
+# ---- DSOUND (Audio, 2026-11-02): kApi entries identified at their game call sites (0x80DC0..0x81C60) ----
+0x140750  # DirectSoundCreate (game call site + OOVPA wrapper)
+0x13F5AE  # DirectSoundDoWork (game call site + OOVPA wrapper)
+0x13E9C2  # IDirectSound_Release (game call site + OOVPA wrapper)
+0x13F477  # IDirectSound_DownloadEffectsImage (game call site + OOVPA wrapper)
+0x14058A  # IDirectSound_SetI3DL2Listener (game call site + OOVPA wrapper)
+0x140566  # IDirectSound_CreateSoundBuffer (game call site + OOVPA wrapper)
+0x14038F  # IDirectSound_CommitDeferredSettings (game call site + OOVPA wrapper)
+0x13E9D8  # IDirectSoundBuffer_Release (game call site + OOVPA wrapper)
+0x13F49E  # IDirectSoundBuffer_SetEG (game call site + OOVPA wrapper)
+0x13F4BA  # IDirectSoundBuffer_SetHeadroom (game call site + OOVPA wrapper)
+0x13F4D6  # IDirectSoundBuffer_SetMixBinVolumes (game call site + OOVPA wrapper)
+0x13F4F2  # IDirectSoundBuffer_Play (game call site + OOVPA wrapper)
+0x13F516  # IDirectSoundBuffer_Stop (game call site + OOVPA wrapper)
+0x13F52E  # IDirectSoundBuffer_StopEx (game call site + OOVPA wrapper)
+0x13F552  # IDirectSoundBuffer_SetLoopRegion (game call site + OOVPA wrapper)
+0x13F572  # IDirectSoundBuffer_GetStatus (game call site + OOVPA wrapper)
+0x13F58E  # IDirectSoundBuffer_GetCurrentPosition (game call site + OOVPA wrapper)
+0x13F9A0  # IDirectSoundBuffer_SetFrequency (game call site + OOVPA wrapper)
+0x13F9BC  # IDirectSoundBuffer_SetMixBins (game call site + OOVPA wrapper)
+0x13FF80  # IDirectSoundBuffer_SetFormat (game call site + OOVPA wrapper)
+0x13FF9C  # IDirectSoundBuffer_SetBufferData (game call site + OOVPA wrapper)
+# DSOUND guards: every entry of this title's DSOUND section (gen_entries.py from lift 20261102-97da5973a9d5)
+0x13E740  # dsound_guard
+0x13E75F  # dsound_guard
+0x13E770  # dsound_guard
+0x13E792  # dsound_guard
+0x13E7A9  # dsound_guard
+0x13E7CE  # dsound_guard
+0x13E80A  # dsound_guard
+0x13E82B  # dsound_guard
+0x13E874  # dsound_guard
+0x13E878  # dsound_guard
+0x13E8A1  # dsound_guard
+0x13E8D8  # dsound_guard
+0x13E8F8  # dsound_guard
+0x13E92C  # dsound_guard
+0x13E94E  # dsound_guard
+0x13E975  # dsound_guard
+0x13E993  # dsound_guard
+0x13E9C2  # dsound_guard
+0x13E9D8  # dsound_guard
+0x13E9EE  # dsound_guard
+0x13EA38  # dsound_guard
+0x13EA5A  # dsound_guard
+0x13EA77  # dsound_guard
+0x13EAB1  # dsound_guard
+0x13EB15  # dsound_guard
+0x13EB46  # dsound_guard
+0x13EB6B  # dsound_guard
+0x13EBD9  # dsound_guard
+0x13EC26  # dsound_guard
+0x13EC3F  # dsound_guard
+0x13EC52  # dsound_guard
+0x13EC75  # dsound_guard
+0x13EC92  # dsound_guard
+0x13ECA3  # dsound_guard
+0x13ED78  # dsound_guard
+0x13EE3C  # dsound_guard
+0x13EE8D  # dsound_guard
+0x13EEDC  # dsound_guard
+0x13EF35  # dsound_guard
+0x13EF86  # dsound_guard
+0x13F00B  # dsound_guard
+0x13F060  # dsound_guard
+0x13F341  # dsound_guard
+0x13F378  # dsound_guard
+0x13F38D  # dsound_guard
+0x13F3DB  # dsound_guard
+0x13F429  # dsound_guard
+0x13F477  # dsound_guard
+0x13F49E  # dsound_guard
+0x13F4BA  # dsound_guard
+0x13F4D6  # dsound_guard
+0x13F4F2  # dsound_guard
+0x13F516  # dsound_guard
+0x13F52E  # dsound_guard
+0x13F552  # dsound_guard
+0x13F572  # dsound_guard
+0x13F58E  # dsound_guard
+0x13F5AE  # dsound_guard
+0x13F5D7  # dsound_guard
+0x13F5F2  # dsound_guard
+0x13F6BD  # dsound_guard
+0x13F790  # dsound_guard
+0x13F7BA  # dsound_guard
+0x13F7D5  # dsound_guard
+0x13F86C  # dsound_guard
+0x13F890  # dsound_guard
+0x13F8AD  # dsound_guard
+0x13F8D1  # dsound_guard
+0x13F8E9  # dsound_guard
+0x13F904  # dsound_guard
+0x13F952  # dsound_guard
+0x13F9A0  # dsound_guard
+0x13F9BC  # dsound_guard
+0x13F9D8  # dsound_guard
+0x13FAA1  # dsound_guard
+0x13FAEE  # dsound_guard
+0x13FB74  # dsound_guard
+0x13FBB8  # dsound_guard
+0x13FC44  # dsound_guard
+0x13FCF2  # dsound_guard
+0x13FF32  # dsound_guard
+0x13FF80  # dsound_guard
+0x13FF9C  # dsound_guard
+0x13FFBC  # dsound_guard
+0x140067  # dsound_guard
+0x140101  # dsound_guard
+0x14011C  # dsound_guard
+0x14021E  # dsound_guard
+0x140243  # dsound_guard
+0x1402A8  # dsound_guard
+0x14038F  # dsound_guard
+0x1403A7  # dsound_guard
+0x140443  # dsound_guard
+0x14054B  # dsound_guard
+0x140566  # dsound_guard
+0x14058A  # dsound_guard
+0x1405AA  # dsound_guard
+0x1406E3  # dsound_guard
+0x140750  # dsound_guard
+0x140797  # dsound_guard
+0x1407DE  # dsound_guard
+0x1407F6  # dsound_guard
+0x140845  # dsound_guard
+0x14085D  # dsound_guard
+0x1408C5  # dsound_guard
+0x1408F9  # dsound_guard
+0x140922  # dsound_guard
+0x140949  # dsound_guard
+0x140992  # dsound_guard
+0x1409EB  # dsound_guard
+0x140A28  # dsound_guard
+0x140A47  # dsound_guard
+0x140ABC  # dsound_guard
+0x140C31  # dsound_guard
+0x140C58  # dsound_guard
+0x140CBD  # dsound_guard
+0x140CD1  # dsound_guard
+0x140CE8  # dsound_guard
+0x140D29  # dsound_guard
+0x140DC2  # dsound_guard
+0x140E6B  # dsound_guard
+0x140EA5  # dsound_guard
+0x140ECF  # dsound_guard
+0x140F67  # dsound_guard
+0x140FCA  # dsound_guard
+0x14105B  # dsound_guard
+0x1410C8  # dsound_guard
+0x14112B  # dsound_guard
+0x1411A4  # dsound_guard
+0x1411D0  # dsound_guard
+0x14123E  # dsound_guard
+0x14128E  # dsound_guard
+0x1412B3  # dsound_guard
+0x141315  # dsound_guard
+0x141397  # dsound_guard
+0x141429  # dsound_guard
+0x141460  # dsound_guard
+0x1414A5  # dsound_guard
+0x1414CC  # dsound_guard
+0x1414DD  # dsound_guard
+0x1415BC  # dsound_guard
+0x141667  # dsound_guard
+0x1416A9  # dsound_guard
+0x1416BF  # dsound_guard
+0x14170F  # dsound_guard
+0x14172A  # dsound_guard
+0x141771  # dsound_guard
+0x141847  # dsound_guard
+0x14189C  # dsound_guard
+0x1418EF  # dsound_guard
+0x1419E1  # dsound_guard
+0x1419FF  # dsound_guard
+0x141A18  # dsound_guard
+0x141A3A  # dsound_guard
+0x141A58  # dsound_guard
+0x141A8E  # dsound_guard
+0x141AB5  # dsound_guard
+0x141AD5  # dsound_guard
+0x141AF7  # dsound_guard
+0x141B82  # dsound_guard
+0x141C53  # dsound_guard
+0x141C74  # dsound_guard
+0x141CE1  # dsound_guard
+0x141CF8  # dsound_guard
+0x141D1D  # dsound_guard
+0x141D7E  # dsound_guard
+0x141E02  # dsound_guard
+0x141EE3  # dsound_guard
+0x141EFE  # dsound_guard
+0x141F19  # dsound_guard
+0x141FA8  # dsound_guard
+0x142004  # dsound_guard
+0x14201F  # dsound_guard
+0x1420B8  # dsound_guard
+0x142119  # dsound_guard
+0x14211D  # dsound_guard
+0x14213F  # dsound_guard
+0x14215B  # dsound_guard
+0x1421A6  # dsound_guard
+0x1422B9  # dsound_guard
+0x142341  # dsound_guard
+0x1423F2  # dsound_guard
+0x142646  # dsound_guard
+0x1426C8  # dsound_guard
+0x14273C  # dsound_guard
+0x142918  # dsound_guard
+0x14297D  # dsound_guard
+0x142A01  # dsound_guard
+0x142A55  # dsound_guard
+0x142B3B  # dsound_guard
+0x142CAA  # dsound_guard
+0x142E3C  # dsound_guard
+0x142F86  # dsound_guard
+0x143011  # dsound_guard
+0x14302F  # dsound_guard
+0x143046  # dsound_guard
+0x1431C0  # dsound_guard
+0x143281  # dsound_guard
+0x143319  # dsound_guard
+0x1433AB  # dsound_guard
+0x1433C7  # dsound_guard
+0x143430  # dsound_guard
+0x143495  # dsound_guard
+0x1435CF  # dsound_guard
+0x143654  # dsound_guard
+0x14375B  # dsound_guard
+0x143793  # dsound_guard
+0x14395F  # dsound_guard
+0x14397A  # dsound_guard
+0x14397E  # dsound_guard
+0x1439F0  # dsound_guard
+0x143A33  # dsound_guard
+0x143B74  # dsound_guard
+0x143CF3  # dsound_guard
+0x143D66  # dsound_guard
+0x143DA8  # dsound_guard
+0x143E87  # dsound_guard
+0x143ECE  # dsound_guard
+0x143F2F  # dsound_guard
+0x143F98  # dsound_guard
+0x143FB2  # dsound_guard
+0x14400E  # dsound_guard
+0x144073  # dsound_guard
+0x1440C5  # dsound_guard
+0x144164  # dsound_guard
+0x1441B2  # dsound_guard
+0x144262  # dsound_guard
+0x144280  # dsound_guard
+0x144310  # dsound_guard
+0x144334  # dsound_guard
+0x14434E  # dsound_guard
+0x14439B  # dsound_guard
+0x1443F3  # dsound_guard
+0x14442C  # dsound_guard
+0x144447  # dsound_guard
+0x144484  # dsound_guard
+0x144504  # dsound_guard
+0x14451F  # dsound_guard
+0x144528  # dsound_guard
+0x144576  # dsound_guard
+0x144604  # dsound_guard
+0x14463D  # dsound_guard
+0x14465B  # dsound_guard
+0x144693  # dsound_guard
+0x14472D  # dsound_guard
+0x1447AA  # dsound_guard
+0x1447F7  # dsound_guard
+0x1448B4  # dsound_guard
+0x144940  # dsound_guard
+0x1449A1  # dsound_guard
+0x144A4C  # dsound_guard
+0x144B7B  # dsound_guard
+0x144C65  # dsound_guard
+0x144FED  # dsound_guard
+0x145007  # dsound_guard
+0x145035  # dsound_guard
+0x1450E8  # dsound_guard
+0x14513A  # dsound_guard
+0x145162  # dsound_guard
+0x14523A  # dsound_guard
+0x1452B3  # dsound_guard
+0x1452E0  # dsound_guard
+0x1453AF  # dsound_guard
+0x145482  # dsound_guard
+0x1455C1  # dsound_guard
+0x145765  # dsound_guard
+0x14581E  # dsound_guard
+0x145855  # dsound_guard
+0x14588C  # dsound_guard
+0x1458E7  # dsound_guard
+0x145949  # dsound_guard
+0x1459C0  # dsound_guard
+0x1459FD  # dsound_guard
+0x145A3C  # dsound_guard
+0x145AB6  # dsound_guard
+0x145AE2  # dsound_guard
+0x145B05  # dsound_guard
+0x145BAA  # dsound_guard
+0x145C77  # dsound_guard
+0x145DF7  # dsound_guard
+0x145ED4  # dsound_guard
+0x145EEF  # dsound_guard
+0x145F6C  # dsound_guard
+0x145FD8  # dsound_guard
+0x145FE0  # dsound_guard
+0x14600D  # dsound_guard
+0x14605D  # dsound_guard
+0x146071  # dsound_guard
+0x14608E  # dsound_guard
+0x1460A6  # dsound_guard
+0x1460D5  # dsound_guard
+0x146165  # dsound_guard
+0x146196  # dsound_guard
+0x1461D2  # dsound_guard
+0x14623A  # dsound_guard
+0x1462CB  # dsound_guard
+0x14633D  # dsound_guard
+0x14638B  # dsound_guard
+0x1463E5  # dsound_guard
+0x146487  # dsound_guard
+0x1464D5  # dsound_guard
+0x14652C  # dsound_guard
+0x146600  # dsound_guard
+0x146676  # dsound_guard
+0x1466B5  # dsound_guard
+0x146733  # dsound_guard
+0x146740  # dsound_guard
+0x14681F  # dsound_guard
+0x146825  # dsound_guard
+0x1468C3  # dsound_guard
+0x1468D0  # dsound_guard
+0x1468D4  # dsound_guard
+0x14694B  # dsound_guard
+0x146973  # dsound_guard
+0x1469B8  # dsound_guard
+0x1469D5  # dsound_guard
+0x12F8A0  # Direct3D_CreateDevice (already)
+0x130210  # D3D MakeSpace: push sink (Render, 2026-11-02; callers 0x12AA90 etc. reserve via m_pThreshold)
+0x1300D0  # D3D MakeRequestedSpace (stdcall 2, ret 8): push sink
+0x12D110  # SetRenderTarget (D3D8) portkit remap, high: manual: Ghidra 2026-11-02: (pRT, pZ), RT 0 keeps CDevice+0x19F4, sets +0x19F4/+0x19F8; game calls it (8 sites)
+0x12D400  # D3DDevice_SetViewport (OOVPA unique): HLE keeps the viewport (Render, 2026-11-02)
+0x12CD80  # D3DDevice_GetViewport (OOVPA unique): HLE
+0x12E480  # D3DDevice_Begin (OOVPA unique): immediate mode HLE (Render, 2026-11-02)
+0x12E4C0  # D3DDevice_End (OOVPA unique): immediate mode HLE
+0x12FD90  # D3D KickOff (fastcall; callers SetFence/KickPushBuffer/MakeRequestedSpace): no-op, GPU idle (Render 2026-11-02)
+0x12FEB0  # D3D_SetFence (OOVPA unique): fence counter
+0x12CDF0  # D3DDevice_BlockOnFence (OOVPA unique): no wait
+0x12FF60  # D3D_BlockOnTime (OOVPA unique): no wait
+0x12D900  # D3DDevice_IsBusy (OOVPA unique): FALSE
+0x12CE30  # BlockUntilVerticalBlank (D3D8) portkit remap, high: manual: Ghidra 2026-11-02: KeWaitForSingleObject(CDevice+0x1DAC vblank event) after clearing +0x1DB0; the game's frame loop waits here
+0x12CE10  # D3DDevice_SetVerticalBlankCallback (Ghidra: stores CDevice+0x1DA8; game passes 0xBEDE0): HLE calls it each vblank (Render 2026-11-02)
+0x12FD60  # D3DDevice_BeginPush (Ghidra: lazy flush + BeginStateBig(count+1)): HLE (Render 2026-11-02)
+0x12FD80  # D3DDevice_EndPush (OOVPA unique): decodes the game pushes
+0x135A30  # D3D lazy state flush (Ghidra: dirty-flag dispatcher, bad jump table at 0x137F07): no-op
+0x1487B4  # XInputOpen (XAPILIB) portkit remap, high: manual: Ghidra 2026-11-02: stdcall 16 (ret 10h), device check + SetLastError(ERROR_INVALID_PARAMETER); game callers 0xC00F0/0xC0170
+0x14880A  # XInputClose (XAPILIB) portkit remap, high: manual: Ghidra 2026-11-02: stdcall 4, game callers 0xC0170/0xC0570
+0x148ABB  # XGetDevices (XAPILIB) portkit remap, high: manual: OOVPA XGetDevices unique hit (donor sig was low)
+0x12E5B0  # D3DDevice_RunPushBuffer (OOVPA v5558 unique): counted, not drawn yet (Render 2026-11-02)
+0x12D7E0  # D3DDevice_SetPalette (OOVPA, 6 game callers; Ghidra: refcounts Common, pushes palette DMA): HLE keeps it per stage (Render 2026-11-02)
+0x12A6C0  # SetRenderState_Simple_push_stub (D3D8) portkit remap, high: manual: byte layout: mov eax,[g_Device.put]; add 8; cmp threshold; store ecx/edx; ret (fastcall); 9 game callers pass NV methods 0x300..0x364
+0x12C6D0  # D3DDevice_LoadVertexShader (Render, 2026-11-02) XbSymbolDatabase v5028 OOVPA hit; Ghidra: pushes 0x1E9C + handle program words; called by the game's skinning-program cache FUN_000c9930
+0x12C730  # D3DDevice_SelectVertexShader (Render, 2026-11-02) XbSymbolDatabase v5455 OOVPA hit; Ghidra: pushes 0x1E94/0x1EA0 program start; called by FUN_000c9930 and SetVertexShader
+0xBCB90  # movie "last frame decoded" (ROTK game code, thunk -> FUN_000bcf10; only caller the decode loop FUN_001134b0) Render 2026-11-02: Ghidra decomp + ROTK_SKIP_MOVIES run
+0xA32F0  # FUN_000A32F0 view setup (frustum tanX/planes at view+0x2F0..0x30C), Polish widescreen; screen session 2026-11-02: decompiled (Ghidra, function start in functions.tsv, cdecl caller 0xA2AAF/0xA3774) + run test (polish trace + side strips)
+0xBEE00  # FrameCounter (ROTK game code: mov eax,[0x1E2F14]; ret) dev-rotk 2026-11-02: main-loop spin FUN_000D03A0 0xD03D3 on it -> blocking vblank wait; lifter disasm + fps_check Hel01
+0x9C930  # FUN_0009C930 session/profile defaults (language ENG, subtitles 0x16D5A4 = 0) dev-rotk 2026-11-06: Ghidra decomp; uk sets subtitles on after it (kernel runtime_glue.cpp)
+0xF7BE0  # FUN_000F7BE0 subtitle lines draw (y 0x158D1C/0x158D20, 0.057 per line), Polish subtitles at the bottom; dev-rotk 2026-11-06: Ghidra decomp + subs_position test
+0x9EB20  # FUN_0009EB20 frame step (dt = vblank ticks x [0x154338]), Polish 120 fps: 1/120 during the call under ROTK_FPS=120; dev-rotk 2026-11-06: lifted disasm + fps120 test

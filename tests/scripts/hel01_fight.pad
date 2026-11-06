@@ -1,0 +1,1149 @@
+# hel01_fight.pad: Hel01 prologue (ROTK_SKIP_MOVIES=1) fought to its end: attack combos (X X Y),
+# parry (X), short walks toward the crowd; never START (pause) or BACK. Frames 300..20000.
+300 press X
+312 press X
+324 press Y
+346 stick L 0.30 -0.86 54
+376 stick L 0.17 0.82 33
+406 stick L -0.13 -0.86 25
+436 press X
+448 press X
+460 press Y
+482 stick L 0.13 0.89 60
+512 press X
+524 press X
+536 press Y
+558 press X
+570 press X
+582 press Y
+604 press X
+616 press X
+628 press Y
+650 press X
+662 press X
+674 press Y
+696 press X
+708 press X
+720 press Y
+742 stick L 0.72 -0.42 29
+772 press X
+784 press X
+796 press Y
+818 press X
+830 press X
+842 press Y
+864 press X
+876 press X
+888 press Y
+910 press X
+922 press X
+934 press Y
+956 stick L 0.14 -0.62 26
+986 press X
+998 press X
+1010 press Y
+1032 stick L -0.88 -0.59 54
+1062 press X
+1074 press X
+1086 press Y
+1108 press X
+1120 press X
+1132 press Y
+1154 press X
+1166 press X
+1178 press Y
+1200 press X
+1212 press X
+1224 press Y
+1246 press X
+1258 press X
+1270 press Y
+1292 press X
+1304 press X
+1316 press Y
+1338 press X
+1350 press X
+1362 press Y
+1384 stick L 0.15 0.05 41
+1414 press X
+1426 press X
+1438 press Y
+1460 press X
+1472 press X
+1484 press Y
+1506 press X
+1518 press X
+1530 press Y
+1552 stick L -0.16 0.51 29
+1582 press X
+1594 press X
+1606 press Y
+1628 press X
+1640 press X
+1652 press Y
+1674 press X
+1686 press X
+1698 press Y
+1720 stick L 0.12 0.58 40
+1750 press X
+1762 press X
+1774 press Y
+1796 press X
+1808 press X
+1820 press Y
+1842 press X
+1854 press X
+1866 press Y
+1888 press X
+1900 press X
+1912 press Y
+1934 stick L -0.81 -0.46 24
+1964 stick L 0.40 0.29 48
+1994 press X
+2006 press X
+2018 press Y
+2040 press X
+2052 press X
+2064 press Y
+2086 press X
+2098 press X
+2110 press Y
+2132 stick L -0.08 -0.66 27
+2162 press X
+2174 press X
+2186 press Y
+2208 stick L -0.43 0.48 45
+2238 press X
+2250 press X
+2262 press Y
+2284 press X
+2296 press X
+2308 press Y
+2330 stick L -0.10 0.10 28
+2360 press X
+2372 press X
+2384 press Y
+2406 press X
+2418 press X
+2430 press Y
+2452 press X
+2464 press X
+2476 press Y
+2498 press X
+2510 press X
+2522 press Y
+2544 press X
+2556 press X
+2568 press Y
+2590 press X
+2602 press X
+2614 press Y
+2636 press X
+2648 press X
+2660 press Y
+2682 stick L -0.65 -0.54 34
+2712 stick L 0.66 -0.64 38
+2742 stick L -0.16 -0.26 56
+2772 press X
+2784 press X
+2796 press Y
+2818 stick L 0.72 0.90 23
+2848 press X
+2860 press X
+2872 press Y
+2894 press X
+2906 press X
+2918 press Y
+2940 press X
+2952 press X
+2964 press Y
+2986 press X
+2998 press X
+3010 press Y
+3032 press X
+3044 press X
+3056 press Y
+3078 press X
+3090 press X
+3102 press Y
+3124 press X
+3136 press X
+3148 press Y
+3170 press X
+3182 press X
+3194 press Y
+3216 press X
+3228 press X
+3240 press Y
+3262 stick L 0.97 -0.12 27
+3292 press X
+3304 press X
+3316 press Y
+3338 stick L -1.00 -0.70 26
+3368 press X
+3380 press X
+3392 press Y
+3414 press X
+3426 press X
+3438 press Y
+3460 stick L -0.58 -0.25 60
+3490 press X
+3502 press X
+3514 press Y
+3536 press X
+3548 press X
+3560 press Y
+3582 press X
+3594 press X
+3606 press Y
+3628 stick L 0.70 0.99 49
+3658 press X
+3670 press X
+3682 press Y
+3704 press X
+3716 press X
+3728 press Y
+3750 stick L 0.50 0.48 50
+3780 press X
+3792 press X
+3804 press Y
+3826 stick L -0.95 0.90 53
+3856 press X
+3868 press X
+3880 press Y
+3902 press X
+3914 press X
+3926 press Y
+3948 press X
+3960 press X
+3972 press Y
+3994 press X
+4006 press X
+4018 press Y
+4040 press X
+4052 press X
+4064 press Y
+4086 press X
+4098 press X
+4110 press Y
+4132 stick L 0.69 0.04 30
+4162 press X
+4174 press X
+4186 press Y
+4208 stick L 0.08 0.01 60
+4238 stick L 0.62 0.97 32
+4268 press X
+4280 press X
+4292 press Y
+4314 press X
+4326 press X
+4338 press Y
+4360 press X
+4372 press X
+4384 press Y
+4406 stick L 0.04 -0.29 21
+4436 press X
+4448 press X
+4460 press Y
+4482 press X
+4494 press X
+4506 press Y
+4528 press X
+4540 press X
+4552 press Y
+4574 stick L 0.21 -0.31 42
+4604 press X
+4616 press X
+4628 press Y
+4650 press X
+4662 press X
+4674 press Y
+4696 stick L -0.55 -0.61 33
+4726 press X
+4738 press X
+4750 press Y
+4772 press X
+4784 press X
+4796 press Y
+4818 press X
+4830 press X
+4842 press Y
+4864 stick L 0.82 -0.31 25
+4894 press X
+4906 press X
+4918 press Y
+4940 stick L -0.22 0.42 32
+4970 press X
+4982 press X
+4994 press Y
+5016 stick L 0.58 -0.33 45
+5046 press X
+5058 press X
+5070 press Y
+5092 press X
+5104 press X
+5116 press Y
+5138 stick L -0.68 0.99 21
+5168 stick L 0.81 0.61 29
+5198 press X
+5210 press X
+5222 press Y
+5244 press X
+5256 press X
+5268 press Y
+5290 press X
+5302 press X
+5314 press Y
+5336 press X
+5348 press X
+5360 press Y
+5382 stick L 0.10 -0.96 26
+5412 press X
+5424 press X
+5436 press Y
+5458 press X
+5470 press X
+5482 press Y
+5504 press X
+5516 press X
+5528 press Y
+5550 press X
+5562 press X
+5574 press Y
+5596 press X
+5608 press X
+5620 press Y
+5642 stick L -0.50 -0.41 35
+5672 press X
+5684 press X
+5696 press Y
+5718 press X
+5730 press X
+5742 press Y
+5764 press X
+5776 press X
+5788 press Y
+5810 press X
+5822 press X
+5834 press Y
+5856 stick L 0.48 0.80 57
+5886 press X
+5898 press X
+5910 press Y
+5932 press X
+5944 press X
+5956 press Y
+5978 press X
+5990 press X
+6002 press Y
+6024 press X
+6036 press X
+6048 press Y
+6070 stick L -0.70 0.02 48
+6100 press X
+6112 press X
+6124 press Y
+6146 press X
+6158 press X
+6170 press Y
+6192 press X
+6204 press X
+6216 press Y
+6238 stick L -0.72 0.24 27
+6268 press X
+6280 press X
+6292 press Y
+6314 press X
+6326 press X
+6338 press Y
+6360 press X
+6372 press X
+6384 press Y
+6406 press X
+6418 press X
+6430 press Y
+6452 press X
+6464 press X
+6476 press Y
+6498 stick L 0.12 -0.50 37
+6528 stick L -0.80 -0.10 21
+6558 press X
+6570 press X
+6582 press Y
+6604 press X
+6616 press X
+6628 press Y
+6650 press X
+6662 press X
+6674 press Y
+6696 press X
+6708 press X
+6720 press Y
+6742 press X
+6754 press X
+6766 press Y
+6788 press X
+6800 press X
+6812 press Y
+6834 press X
+6846 press X
+6858 press Y
+6880 press X
+6892 press X
+6904 press Y
+6926 press X
+6938 press X
+6950 press Y
+6972 press X
+6984 press X
+6996 press Y
+7018 press X
+7030 press X
+7042 press Y
+7064 press X
+7076 press X
+7088 press Y
+7110 press X
+7122 press X
+7134 press Y
+7156 press X
+7168 press X
+7180 press Y
+7202 press X
+7214 press X
+7226 press Y
+7248 press X
+7260 press X
+7272 press Y
+7294 press X
+7306 press X
+7318 press Y
+7340 press X
+7352 press X
+7364 press Y
+7386 stick L -0.76 -0.12 24
+7416 press X
+7428 press X
+7440 press Y
+7462 press X
+7474 press X
+7486 press Y
+7508 stick L -0.39 -0.76 29
+7538 press X
+7550 press X
+7562 press Y
+7584 press X
+7596 press X
+7608 press Y
+7630 press X
+7642 press X
+7654 press Y
+7676 press X
+7688 press X
+7700 press Y
+7722 stick L -0.06 0.49 26
+7752 press X
+7764 press X
+7776 press Y
+7798 press X
+7810 press X
+7822 press Y
+7844 press X
+7856 press X
+7868 press Y
+7890 press X
+7902 press X
+7914 press Y
+7936 stick L -0.14 0.03 41
+7966 press X
+7978 press X
+7990 press Y
+8012 press X
+8024 press X
+8036 press Y
+8058 stick L -0.27 -0.32 49
+8088 press X
+8100 press X
+8112 press Y
+8134 stick L -0.34 0.25 52
+8164 press X
+8176 press X
+8188 press Y
+8210 stick L 0.84 -0.54 26
+8240 stick L -0.46 0.81 31
+8270 press X
+8282 press X
+8294 press Y
+8316 stick L -0.16 0.82 36
+8346 press X
+8358 press X
+8370 press Y
+8392 press X
+8404 press X
+8416 press Y
+8438 press X
+8450 press X
+8462 press Y
+8484 press X
+8496 press X
+8508 press Y
+8530 press X
+8542 press X
+8554 press Y
+8576 press X
+8588 press X
+8600 press Y
+8622 press X
+8634 press X
+8646 press Y
+8668 stick L 0.79 -0.46 21
+8698 press X
+8710 press X
+8722 press Y
+8744 press X
+8756 press X
+8768 press Y
+8790 stick L 0.71 -0.87 27
+8820 press X
+8832 press X
+8844 press Y
+8866 press X
+8878 press X
+8890 press Y
+8912 press X
+8924 press X
+8936 press Y
+8958 press X
+8970 press X
+8982 press Y
+9004 press X
+9016 press X
+9028 press Y
+9050 stick L 0.05 -0.52 27
+9080 press X
+9092 press X
+9104 press Y
+9126 press X
+9138 press X
+9150 press Y
+9172 stick L 0.86 0.26 53
+9202 press X
+9214 press X
+9226 press Y
+9248 press X
+9260 press X
+9272 press Y
+9294 press X
+9306 press X
+9318 press Y
+9340 stick L -0.31 -0.96 36
+9370 stick L -0.96 0.01 32
+9400 press X
+9412 press X
+9424 press Y
+9446 stick L -0.11 0.32 47
+9476 press X
+9488 press X
+9500 press Y
+9522 press X
+9534 press X
+9546 press Y
+9568 press X
+9580 press X
+9592 press Y
+9614 press X
+9626 press X
+9638 press Y
+9660 press X
+9672 press X
+9684 press Y
+9706 stick L -0.54 -0.60 60
+9736 stick L 0.98 0.96 28
+9766 stick L 0.25 0.76 47
+9796 stick L -0.83 0.68 52
+9826 press X
+9838 press X
+9850 press Y
+9872 press X
+9884 press X
+9896 press Y
+9918 stick L -0.41 -0.08 30
+9948 press X
+9960 press X
+9972 press Y
+9994 stick L -0.27 -0.34 55
+10024 press X
+10036 press X
+10048 press Y
+10070 stick L 0.76 -0.56 31
+10100 stick L -0.24 -0.05 52
+10130 press X
+10142 press X
+10154 press Y
+10176 stick L 0.55 -0.82 25
+10206 stick L 0.17 -0.21 39
+10236 press X
+10248 press X
+10260 press Y
+10282 stick L 0.17 0.06 29
+10312 press X
+10324 press X
+10336 press Y
+10358 press X
+10370 press X
+10382 press Y
+10404 press X
+10416 press X
+10428 press Y
+10450 press X
+10462 press X
+10474 press Y
+10496 press X
+10508 press X
+10520 press Y
+10542 press X
+10554 press X
+10566 press Y
+10588 stick L 0.45 0.29 22
+10618 press X
+10630 press X
+10642 press Y
+10664 press X
+10676 press X
+10688 press Y
+10710 press X
+10722 press X
+10734 press Y
+10756 press X
+10768 press X
+10780 press Y
+10802 press X
+10814 press X
+10826 press Y
+10848 press X
+10860 press X
+10872 press Y
+10894 press X
+10906 press X
+10918 press Y
+10940 press X
+10952 press X
+10964 press Y
+10986 press X
+10998 press X
+11010 press Y
+11032 press X
+11044 press X
+11056 press Y
+11078 stick L 0.37 0.60 34
+11108 stick L -0.92 0.27 26
+11138 press X
+11150 press X
+11162 press Y
+11184 press X
+11196 press X
+11208 press Y
+11230 stick L -0.96 0.06 35
+11260 press X
+11272 press X
+11284 press Y
+11306 stick L 0.60 0.50 52
+11336 press X
+11348 press X
+11360 press Y
+11382 stick L 0.05 0.49 50
+11412 press X
+11424 press X
+11436 press Y
+11458 stick L -0.47 0.46 33
+11488 stick L 0.30 -0.08 44
+11518 stick L 0.82 -0.43 22
+11548 press X
+11560 press X
+11572 press Y
+11594 press X
+11606 press X
+11618 press Y
+11640 stick L -0.71 -0.49 39
+11670 press X
+11682 press X
+11694 press Y
+11716 stick L -0.04 -0.03 26
+11746 press X
+11758 press X
+11770 press Y
+11792 press X
+11804 press X
+11816 press Y
+11838 press X
+11850 press X
+11862 press Y
+11884 press X
+11896 press X
+11908 press Y
+11930 press X
+11942 press X
+11954 press Y
+11976 press X
+11988 press X
+12000 press Y
+12022 stick L 0.79 -0.60 25
+12052 press X
+12064 press X
+12076 press Y
+12098 stick L -0.08 0.64 48
+12128 press X
+12140 press X
+12152 press Y
+12174 press X
+12186 press X
+12198 press Y
+12220 press X
+12232 press X
+12244 press Y
+12266 press X
+12278 press X
+12290 press Y
+12312 stick L -0.82 0.49 36
+12342 press X
+12354 press X
+12366 press Y
+12388 stick L 0.64 0.02 27
+12418 press X
+12430 press X
+12442 press Y
+12464 stick L 0.80 -0.03 21
+12494 stick L 0.90 0.36 45
+12524 press X
+12536 press X
+12548 press Y
+12570 stick L -0.31 -0.37 41
+12600 stick L 0.50 0.68 27
+12630 press X
+12642 press X
+12654 press Y
+12676 stick L -0.98 0.48 36
+12706 press X
+12718 press X
+12730 press Y
+12752 press X
+12764 press X
+12776 press Y
+12798 press X
+12810 press X
+12822 press Y
+12844 press X
+12856 press X
+12868 press Y
+12890 press X
+12902 press X
+12914 press Y
+12936 press X
+12948 press X
+12960 press Y
+12982 press X
+12994 press X
+13006 press Y
+13028 stick L -0.80 0.67 38
+13058 press X
+13070 press X
+13082 press Y
+13104 stick L 0.94 -0.13 40
+13134 stick L -0.25 0.91 21
+13164 press X
+13176 press X
+13188 press Y
+13210 press X
+13222 press X
+13234 press Y
+13256 press X
+13268 press X
+13280 press Y
+13302 press X
+13314 press X
+13326 press Y
+13348 press X
+13360 press X
+13372 press Y
+13394 press X
+13406 press X
+13418 press Y
+13440 stick L 0.46 -0.10 28
+13470 press X
+13482 press X
+13494 press Y
+13516 press X
+13528 press X
+13540 press Y
+13562 stick L 0.85 -0.75 50
+13592 press X
+13604 press X
+13616 press Y
+13638 press X
+13650 press X
+13662 press Y
+13684 press X
+13696 press X
+13708 press Y
+13730 press X
+13742 press X
+13754 press Y
+13776 press X
+13788 press X
+13800 press Y
+13822 press X
+13834 press X
+13846 press Y
+13868 stick L -0.03 0.34 27
+13898 stick L -0.68 -0.58 51
+13928 press X
+13940 press X
+13952 press Y
+13974 press X
+13986 press X
+13998 press Y
+14020 press X
+14032 press X
+14044 press Y
+14066 press X
+14078 press X
+14090 press Y
+14112 press X
+14124 press X
+14136 press Y
+14158 press X
+14170 press X
+14182 press Y
+14204 stick L -0.65 0.11 40
+14234 stick L -0.48 0.14 21
+14264 press X
+14276 press X
+14288 press Y
+14310 press X
+14322 press X
+14334 press Y
+14356 press X
+14368 press X
+14380 press Y
+14402 press X
+14414 press X
+14426 press Y
+14448 press X
+14460 press X
+14472 press Y
+14494 press X
+14506 press X
+14518 press Y
+14540 stick L -0.44 0.94 28
+14570 press X
+14582 press X
+14594 press Y
+14616 press X
+14628 press X
+14640 press Y
+14662 press X
+14674 press X
+14686 press Y
+14708 press X
+14720 press X
+14732 press Y
+14754 stick L 0.79 -0.23 48
+14784 press X
+14796 press X
+14808 press Y
+14830 press X
+14842 press X
+14854 press Y
+14876 press X
+14888 press X
+14900 press Y
+14922 press X
+14934 press X
+14946 press Y
+14968 stick L -0.15 0.53 50
+14998 press X
+15010 press X
+15022 press Y
+15044 press X
+15056 press X
+15068 press Y
+15090 stick L 0.86 0.86 53
+15120 press X
+15132 press X
+15144 press Y
+15166 press X
+15178 press X
+15190 press Y
+15212 stick L -0.78 -0.69 53
+15242 press X
+15254 press X
+15266 press Y
+15288 stick L 0.65 0.40 49
+15318 stick L 0.55 -1.00 28
+15348 stick L 0.84 0.29 39
+15378 press X
+15390 press X
+15402 press Y
+15424 press X
+15436 press X
+15448 press Y
+15470 press X
+15482 press X
+15494 press Y
+15516 press X
+15528 press X
+15540 press Y
+15562 press X
+15574 press X
+15586 press Y
+15608 stick L -0.40 0.89 32
+15638 press X
+15650 press X
+15662 press Y
+15684 stick L 0.20 -0.98 39
+15714 press X
+15726 press X
+15738 press Y
+15760 press X
+15772 press X
+15784 press Y
+15806 press X
+15818 press X
+15830 press Y
+15852 press X
+15864 press X
+15876 press Y
+15898 stick L 0.05 0.09 21
+15928 press X
+15940 press X
+15952 press Y
+15974 press X
+15986 press X
+15998 press Y
+16020 press X
+16032 press X
+16044 press Y
+16066 stick L -0.00 0.35 46
+16096 stick L -0.54 -0.15 43
+16126 stick L -0.93 -0.32 46
+16156 press X
+16168 press X
+16180 press Y
+16202 press X
+16214 press X
+16226 press Y
+16248 stick L -0.42 0.69 24
+16278 stick L 0.94 -0.38 32
+16308 stick L -0.56 0.52 38
+16338 stick L 0.25 0.22 34
+16368 press X
+16380 press X
+16392 press Y
+16414 press X
+16426 press X
+16438 press Y
+16460 stick L 0.19 0.84 23
+16490 stick L 0.95 -0.72 23
+16520 press X
+16532 press X
+16544 press Y
+16566 stick L -0.10 0.42 40
+16596 press X
+16608 press X
+16620 press Y
+16642 press X
+16654 press X
+16666 press Y
+16688 press X
+16700 press X
+16712 press Y
+16734 press X
+16746 press X
+16758 press Y
+16780 stick L 0.87 0.49 22
+16810 press X
+16822 press X
+16834 press Y
+16856 press X
+16868 press X
+16880 press Y
+16902 press X
+16914 press X
+16926 press Y
+16948 press X
+16960 press X
+16972 press Y
+16994 press X
+17006 press X
+17018 press Y
+17040 stick L -0.84 -0.84 46
+17070 press X
+17082 press X
+17094 press Y
+17116 stick L 0.93 -0.59 42
+17146 press X
+17158 press X
+17170 press Y
+17192 press X
+17204 press X
+17216 press Y
+17238 press X
+17250 press X
+17262 press Y
+17284 stick L 0.41 -0.61 54
+17314 press X
+17326 press X
+17338 press Y
+17360 stick L -0.27 0.79 21
+17390 press X
+17402 press X
+17414 press Y
+17436 stick L 0.25 -0.19 44
+17466 stick L -0.87 0.84 36
+17496 stick L -0.87 0.21 43
+17526 press X
+17538 press X
+17550 press Y
+17572 press X
+17584 press X
+17596 press Y
+17618 press X
+17630 press X
+17642 press Y
+17664 press X
+17676 press X
+17688 press Y
+17710 press X
+17722 press X
+17734 press Y
+17756 press X
+17768 press X
+17780 press Y
+17802 press X
+17814 press X
+17826 press Y
+17848 stick L 0.51 0.83 60
+17878 press X
+17890 press X
+17902 press Y
+17924 stick L 0.65 -0.79 49
+17954 press X
+17966 press X
+17978 press Y
+18000 press X
+18012 press X
+18024 press Y
+18046 press X
+18058 press X
+18070 press Y
+18092 press X
+18104 press X
+18116 press Y
+18138 press X
+18150 press X
+18162 press Y
+18184 press X
+18196 press X
+18208 press Y
+18230 stick L 0.61 0.48 29
+18260 press X
+18272 press X
+18284 press Y
+18306 press X
+18318 press X
+18330 press Y
+18352 press X
+18364 press X
+18376 press Y
+18398 press X
+18410 press X
+18422 press Y
+18444 press X
+18456 press X
+18468 press Y
+18490 stick L -0.61 0.51 35
+18520 press X
+18532 press X
+18544 press Y
+18566 press X
+18578 press X
+18590 press Y
+18612 press X
+18624 press X
+18636 press Y
+18658 press X
+18670 press X
+18682 press Y
+18704 stick L -0.15 -0.79 24
+18734 press X
+18746 press X
+18758 press Y
+18780 stick L -0.81 -0.00 48
+18810 stick L -0.73 -0.08 35
+18840 press X
+18852 press X
+18864 press Y
+18886 press X
+18898 press X
+18910 press Y
+18932 press X
+18944 press X
+18956 press Y
+18978 stick L 0.68 -0.41 56
+19008 press X
+19020 press X
+19032 press Y
+19054 press X
+19066 press X
+19078 press Y
+19100 press X
+19112 press X
+19124 press Y
+19146 press X
+19158 press X
+19170 press Y
+19192 stick L -0.53 -0.44 57
+19222 stick L -0.87 -0.50 35
+19252 press X
+19264 press X
+19276 press Y
+19298 stick L 0.62 0.31 22
+19328 stick L -0.05 0.64 48
+19358 press X
+19370 press X
+19382 press Y
+19404 stick L -0.41 -0.76 32
+19434 press X
+19446 press X
+19458 press Y
+19480 press X
+19492 press X
+19504 press Y
+19526 stick L -0.85 0.03 31
+19556 press X
+19568 press X
+19580 press Y
+19602 press X
+19614 press X
+19626 press Y
+19648 press X
+19660 press X
+19672 press Y
+19694 press X
+19706 press X
+19718 press Y
+19740 stick L 0.19 0.24 33
+19770 stick L -0.32 -0.91 36
+19800 stick L 0.46 0.83 20
+19830 press X
+19842 press X
+19854 press Y
+19876 press X
+19888 press X
+19900 press Y
+19922 press X
+19934 press X
+19946 press Y
+19968 press X
+19980 press X
+19992 press Y

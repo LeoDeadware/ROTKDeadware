@@ -1,0 +1,3 @@
+# Exceptions to tools/publish_check.py: glob + "# reason" (secrets are never allowed).
+ROTK.dmg:*/mods/hd_*  # owner's decision 2026-11-06 (Deadware/CLAUDE.md 80e5dc6): the players' DMG in GitHub releases ships the ready HD packs (R-L5); DMCA takedown within 24 h
+ROTK.dmg:*/import/loc/glyphcache/*  # our CoreText renders of macOS system fonts (Cyrillic glyphs for the Ukrainian layer), no game data: a player's Mac may lack swift

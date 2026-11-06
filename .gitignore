@@ -1,0 +1,22 @@
+# game data and everything derived from it (RULES R-L1, R-L2)
+/game/iso/*
+/game/extracted/*
+!/game/**/.gitkeep
+/recon/ghidra/
+/mods/hd_*/
+/mods/voice/
+*.xbe
+*.iso
+*.xiso
+*.flat
+# build / scratch
+/out/
+/third_party/x86recomp/
+/third_party/deps/
+/lift/generated/*
+!/lift/generated/.gitkeep
+/tests/golden/_pending/*
+!/tests/golden/_pending/.gitkeep
+.DS_Store
+/dist/
+/.cache/

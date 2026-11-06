@@ -1,0 +1,41 @@
+# Per-title facts the HLE and tools read. Draft by `portkit recon`; edit by hand,
+# each manual value with a comment saying how it was found (Ghidra address, test).
+
+[title]
+name = "The Lord of the Rings: The Return of the King"
+prefix = "rotk"
+code = "EA-062"
+title_id = 0x4541003E
+region = 0x1
+xdk_build = 5558
+
+[xbe]
+base = 0x10000
+entry = 0x11FA47
+kernel_thunk = 0x14F6C0
+code_lo = 0x11000
+code_hi = 0x14F6A8
+kernel_ordinals = [291, 277, 294, 95, 189, 16, 289, 225, 186, 234, 99, 305, 128, 304, 301, 187, 226, 233, 219, 236, 211, 218, 198, 200, 196, 250, 246, 71, 143, 259, 302, 258, 255, 190, 202, 161, 129, 166, 180, 182, 171, 179, 87, 119, 107, 357, 40, 67, 215, 203, 69, 65, 145, 159, 113, 74, 340, 323, 337, 336, 335, 91, 178, 165, 164, 49, 199, 184, 269, 217, 24, 149, 97, 322, 344, 355, 47, 83, 81, 17, 15, 359, 358, 207, 326, 324, 360, 44, 160, 98, 109, 151, 279, 327, 328, 173, 175, 176, 1, 2, 3, 4, 46, 100, 8, 168, 142, 139, 23, 137, 153, 312, 356]
+
+[timing]  # PLAYBOOK phase 0: frame-locked or delta-time? (PIT-K07)
+frame_rate_var = 0x16CC90   # heur (recon store scan): confirm in Ghidra
+logic = "unknown"     # frame_locked | delta_time | fixed_step
+swap_fn = 0x0
+main_loop_fn = 0x0
+
+[d3d]  # filled from title/symbols.tsv + Ghidra
+render_state_array = 0x0   # D3D__RenderState shadow (HP2: 0x1405F0)
+texture_state_array = 0x0  # D3D__TextureState (HP2: 0x1403F0)
+dirty_flag = 0x0
+push_stub = 0x0           # SetRenderState_Simple push stub (HP2: 0x130720)
+index_data = 0x0           # D3D__IndexData (PIT-R02)
+
+[game_heaps]  # fixed pools to log from day 1 (PIT-K05): name = [va, size]
+
+[saves]
+dir = ""
+signature = "XCalculateSignature"
+
+[languages]
+slots = []
+new_language_slot = ""   # which original slot a new language reuses (HP2: _UK)

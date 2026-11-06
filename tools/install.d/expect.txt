@@ -1,0 +1,3 @@
+# one mods/ pack name per line that the installed app must load (app_smoke.sh)
+hd_ui
+hd_world

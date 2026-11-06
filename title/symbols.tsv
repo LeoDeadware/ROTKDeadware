@@ -1,0 +1,291 @@
+# XDK entries of EA-062 (XDK 5558) — portkit sigs
+name	lib	section	donor_va	target_va	confidence	note
+D3D::SetPushBufferSize	D3D8	D3D	0x130620	0x12F880	high	OOVPA D3D_SetPushBufferSize unique hit at a function start (donor signature missed: other XDK)
+Direct3D_CreateDevice	D3D8	D3D	0x130640	0x12F8A0	high	OOVPA Direct3D_CreateDevice unique hit at a function start (donor signature missed: other XDK)
+SetRenderState_Simple_push_stub	D3D8	D3D	0x130720	0x12A6C0	high	manual: byte layout: mov eax,[g_Device.put]; add 8; cmp threshold; store ecx/edx; ret (fastcall); 9 game callers pass NV methods 0x300..0x364
+SetRenderState_FogColor	D3D8	D3D	0x130B00	0x12AA40	high	51/64 bytes fixed
+SetRenderState_CullMode	D3D8	D3D	0x130B50		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+SetRenderState_NormalizeNormals	D3D8	D3D	0x130C00	0x12AB40	high	OOVPA D3DDevice_SetRenderState_NormalizeNormals unique hit at a function start (donor signature missed: other XDK)
+SetTextureState_BumpEnv	D3D8	D3D	0x1310F0	0x12B040	high	51/64 bytes fixed
+SetTextureState_BorderColor	D3D8	D3D	0x131160	0x12B0B0	high	OOVPA D3DDevice_SetTextureState_BorderColor unique hit at a function start (donor signature missed: other XDK)
+SetRenderState_ZEnable	D3D8	D3D	0x131BD0	0x12B910	high	39/64 bytes fixed
+SetRenderState_StencilEnable	D3D8	D3D	0x131C60	0x12B9A0	high	76/128 bytes fixed
+CreateVertexShader	D3D8	D3D	0x132570	0x12C290	high	60/64 bytes fixed
+SetVertexShaderConstant1	D3D8	D3D	0x1326B0	0x12C3D0	high	37/64 bytes fixed
+SetVertexShaderConstant4	D3D8	D3D	0x132710	0x12C430	high	44/64 bytes fixed
+SetVertexShaderConstantNotInline	D3D8	D3D	0x1328A0	0x12C5C0	high	OOVPA D3DDevice_SetVertexShaderConstantNotInline unique hit at a function start (donor signature missed: other XDK)
+SetStreamSource	D3D8	D3D	0x1328E0	0x12C600	high	45/64 bytes fixed
+SetShaderConstantMode	D3D8	D3D	0x132A50	0x12C7F0	high	41/64 bytes fixed
+SetVertexShader	D3D8	D3D	0x132CA0	0x12CA60	high	OOVPA D3DDevice_SetVertexShader unique hit at a function start (donor signature missed: other XDK)
+CreateVertexBuffer2	D3D8	D3D	0x132E00	0x130350	high	OOVPA D3DDevice_CreateVertexBuffer2 unique hit at a function start (donor signature missed: other XDK)
+VertexBuffer_Lock2	D3D8	D3D	0x132E50	0x1303A0	high	42/64 bytes fixed
+SetRenderTarget	D3D8	D3D	0x132EA0	0x12D110	high	manual: Ghidra 2026-11-02: (pRT, pZ), RT 0 keeps CDevice+0x19F4, sets +0x19F4/+0x19F8; game calls it (8 sites)
+SetTransform	D3D8	D3D	0x132EC0	0x12CC60	high	36/64 bytes fixed
+SetMaterial	D3D8	D3D	0x132FD0		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+D3D::KickOffAndWaitForIdle	D3D8	D3D	0x133000	0x130270	high	OOVPA D3D_KickOffAndWaitForIdle unique hit at a function start (donor signature missed: other XDK)
+BlockUntilVerticalBlank	D3D8	D3D	0x133010	0x12CE30	high	manual: Ghidra 2026-11-02: KeWaitForSingleObject(CDevice+0x1DAC vblank event) after clearing +0x1DB0; the game's frame loop waits here
+GetDisplayMode	D3D8	D3D	0x133260	0x12CF90	high	41/64 bytes fixed
+GetBackBuffer2	D3D8	D3D	0x133330	0x12D390	high	34/64 bytes fixed
+GetRenderTarget2	D3D8	D3D	0x133380		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+GetDepthStencilSurface2	D3D8	D3D	0x1333A0	0x12D3E0	high	OOVPA D3DDevice_GetDepthStencilSurface2 unique hit at a function start (donor signature missed: other XDK)
+SetTexture	D3D8	D3D	0x133520	0x12D630	high	OOVPA D3DDevice_SetTexture unique hit at a function start (donor signature missed: other XDK)
+SetIndices	D3D8	D3D	0x1336D0	0x12D870	high	41/64 bytes fixed
+GetDisplayFieldStatus	D3D8	D3D	0x133790	0x12D930	high	OOVPA D3DDevice_GetDisplayFieldStatus unique hit at a function start (donor signature missed: other XDK)
+CreatePixelShader	D3D8	D3D	0x133A80	0x130420	high	OOVPA D3DDevice_CreatePixelShader unique hit at a function start (donor signature missed: other XDK)
+SetPixelShader	D3D8	D3D	0x133AD0	0x1304D0	high	30/64 bytes fixed
+SetPixelShaderConstant	D3D8	D3D	0x133CD0		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+Direct3DCreate8	D3D8	D3D	0x133FA0		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+Resource_Release	D3D8	D3D	0x134160	0x12EAF0	high	44/64 bytes fixed
+Resource_Register	D3D8	D3D	0x134240	0x12EBD0	high	OOVPA D3DResource_Register unique hit at a function start (donor signature missed: other XDK)
+Resource_BlockUntilNotBusy	D3D8	D3D	0x134270		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+Swap	D3D8	D3D	0x134D70	0x12F6D0	high	OOVPA D3DDevice_Swap unique hit at a function start (donor signature missed: other XDK)
+CreateTexture2	D3D8	D3D	0x134F10	0x12E850	high	OOVPA D3DDevice_CreateTexture2 unique hit at a function start (donor signature missed: other XDK)
+Texture_GetSurfaceLevel2	D3D8	D3D	0x134FD0		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+Texture_LockRect	D3D8	D3D	0x135020	0x12E910	high	OOVPA D3DTexture_LockRect unique hit at a function start (donor signature missed: other XDK)
+Clear	D3D8	D3D	0x135050	0x12A2A0	high	43/64 bytes fixed
+InsertCallback	D3D8	D3D	0x135760	0x12FCF0	high	40/64 bytes fixed
+DrawVerticesUP	D3D8	D3D	0x135E60		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+DrawIndexedVerticesUP	D3D8	D3D	0x135FC0		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+DrawVertices	D3D8	D3D	0x136100	0x12E090	high	40/64 bytes fixed
+DrawIndexedVertices	D3D8	D3D	0x1361A0	0x12E130	high	44/64 bytes fixed
+UpdateOverlay	D3D8	D3D	0x136520		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+EnableOverlay	D3D8	D3D	0x1366A0		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+Surface_GetDesc	D3D8	D3D	0x13A5E0	0x135C80	high	OOVPA D3DSurface_GetDesc unique hit at a function start (donor signature missed: other XDK)
+Surface_LockRect	D3D8	D3D	0x13A600	0x135CA0	high	25/32 bytes fixed
+IDirectSound_Release	DSOUND	DSOUND	0x144641	0x13E9C2	low	only 18 fixed bytes: confirm in Ghidra
+IDirectSoundBuffer_Release	DSOUND	DSOUND	0x144657	0x13E9D8	low	only 18 fixed bytes: confirm in Ghidra
+IDirectSound_DownloadEffectsImage	DSOUND	DSOUND	0x145210	0x13F477	high	31/39 bytes fixed
+IDirectSound_SynchPlayback	DSOUND	DSOUND	0x145237	0x14038F	low	only 17 fixed bytes: confirm in Ghidra
+IDirectSoundBuffer_SetVolume	DSOUND	DSOUND	0x14524F		none	7 hits: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSoundBuffer_SetFilter	DSOUND	DSOUND	0x14526B	0x13F49E	high	OOVPA IDirectSoundBuffer_SetFilter unique hit at a function start (donor signature missed: other XDK)
+IDirectSoundBuffer_SetMixBins	DSOUND	DSOUND	0x145287	0x13F9BC	high	OOVPA IDirectSoundBuffer_SetMixBins unique hit at a function start (donor signature missed: other XDK)
+IDirectSoundBuffer_SetMixBinVolumes	DSOUND	DSOUND	0x1452A3		none	7 hits: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSoundBuffer_Play	DSOUND	DSOUND	0x1452BF	0x13F4F2	high	OOVPA IDirectSoundBuffer_Play unique hit at a function start (donor signature missed: other XDK)
+IDirectSoundBuffer_Stop	DSOUND	DSOUND	0x1452E3	0x13F516	low	only 17 fixed bytes: confirm in Ghidra
+IDirectSoundBuffer_SetPlayRegion	DSOUND	DSOUND	0x1452FB		none	3 hits: 0x13F552 0x13F58E 0x13FF9C
+IDirectSoundBuffer_GetStatus	DSOUND	DSOUND	0x14531B	0x13F572	high	OOVPA IDirectSoundBuffer_GetStatus unique hit at a function start (donor signature missed: other XDK)
+IDirectSoundBuffer_GetCurrentPosition	DSOUND	DSOUND	0x145337	0x13F58E	high	OOVPA IDirectSoundBuffer_GetCurrentPosition unique hit at a function start (donor signature missed: other XDK)
+IDirectSoundBuffer_SetCurrentPosition	DSOUND	DSOUND	0x145357	0x13F572	high	OOVPA IDirectSoundBuffer_SetCurrentPosition unique hit at a function start (donor signature missed: other XDK)
+IDirectSoundStream_Pause	DSOUND	DSOUND	0x145373		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+IDirectSoundStream_FlushEx	DSOUND	DSOUND	0x145378		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+DirectSoundDoWork	DSOUND	DSOUND	0x145390	0x13F5AE	high	21/41 bytes fixed
+IDirectSoundBuffer_SetFrequency	DSOUND	DSOUND	0x14569F		none	7 hits: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSound_SetI3DL2Listener	DSOUND	DSOUND	0x145C3F	0x14058A	high	25/32 bytes fixed
+IDirectSoundBuffer_SetBufferData	DSOUND	DSOUND	0x145C5F	0x13FF9C	high	OOVPA IDirectSoundBuffer_SetBufferData unique hit at a function start (donor signature missed: other XDK)
+IDirectSound_CreateSoundBuffer	DSOUND	DSOUND	0x145F75	0x140566	high	29/36 bytes fixed
+DirectSoundCreate	DSOUND	DSOUND	0x14613F	0x140750	high	48/64 bytes fixed
+DirectSoundCreateBuffer	DSOUND	DSOUND	0x146186		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+DirectSoundCreateStream	DSOUND	DSOUND	0x1461DD		none	no match (other XDK build or inlined): find by OOVPA / Ghidra
+XmvAudioCallback	XMV	XMV	0x14EB6F		none	no XMV section in target
+XmvGetNextFrame	XMV	XMV	0x14ED3D		none	no XMV section in target
+XInitDevices	XAPILIB	XPP	0x176729	0x147CF3	high	OOVPA XInitDevices unique hit at a function start (donor signature missed: other XDK)
+XInputOpen	XAPILIB	XPP	0x1771FB	0x1487B4	high	manual: Ghidra 2026-11-02: stdcall 16 (ret 10h), device check + SetLastError(ERROR_INVALID_PARAMETER); game callers 0xC00F0/0xC0170
+XInputClose	XAPILIB	XPP	0x177251	0x14880A	high	manual: Ghidra 2026-11-02: stdcall 4, game callers 0xC0170/0xC0570
+XInputGetCapabilities	XAPILIB	XPP	0x17725D	0x148816	high	50/64 bytes fixed
+XInputGetState	XAPILIB	XPP	0x17743B	0x1489EE	high	OOVPA XInputGetState unique hit at a function start (donor signature missed: other XDK)
+XInputSetState	XAPILIB	XPP	0x1774A7	0x148A61	high	39/51 bytes fixed
+XGetDevices	XAPILIB	XPP	0x177501	0x148ABB	high	manual: OOVPA XGetDevices unique hit (donor sig was low)
+XGetDeviceChanges	XAPILIB	XPP	0x177523	0x148ADD	high	60/64 bytes fixed
+CDirectSound3DCalculator_Calculate3D	DSound	DSOUND		0x13FCF2	oovpa	XbSymbolDatabase v5344: 0x13FCF2
+CDirectSound3DCalculator_GetVoiceData	DSound	DSOUND		0x13F060	oovpa	XbSymbolDatabase v5344: 0x13F060
+CDirectSoundBufferSettings_SetBufferData	DSound	DSOUND		0x13FBB8	oovpa	XbSymbolDatabase v4134: 0x13FBB8
+CDirectSoundBuffer_GetCurrentPosition	DSound	DSOUND		0x13F00B	oovpa	XbSymbolDatabase v4134: 0x13F00B
+CDirectSoundBuffer_GetStatus	DSound	DSOUND		0x13EF35	oovpa	XbSymbolDatabase v4134: 0x13EF35
+CDirectSoundBuffer_GetVoiceProperties	DSound	DSOUND		0x13F38D	oovpa	XbSymbolDatabase v5028: 0x13F38D
+CDirectSoundBuffer_Pause	DSound	DSOUND		0x13EF35	oovpa	XbSymbolDatabase v4721: 0x13EF35
+CDirectSoundBuffer_PauseEx	DSound	DSOUND		0x13EEDC	oovpa	XbSymbolDatabase v4721: 0x13EEDC
+CDirectSoundBuffer_Play	DSound	DSOUND		0x13EE3C	oovpa	XbSymbolDatabase v4134: 0x13EE3C
+CDirectSoundBuffer_PlayEx	DSound	DSOUND		0x13EEDC	oovpa	XbSymbolDatabase v4134: 0x13EEDC
+CDirectSoundBuffer_Set3DVoiceData	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v5455: 0x13F38D 0x13F3DB 0x13F429 0x13F904
+CDirectSoundBuffer_SetBufferData	DSound	DSOUND		0x13FC44	oovpa	XbSymbolDatabase v4134: 0x13FC44
+CDirectSoundBuffer_SetCurrentPosition	DSound	DSOUND		0x13EF35	oovpa	XbSymbolDatabase v4134: 0x13EF35
+CDirectSoundBuffer_SetEG	DSound	DSOUND		0x13F38D	oovpa	XbSymbolDatabase v4134: 0x13F38D
+CDirectSoundBuffer_SetFilter	DSound	DSOUND		0x13F38D	oovpa	XbSymbolDatabase v4134: 0x13F38D
+CDirectSoundBuffer_SetFormat	DSound	DSOUND		0x13FF32	oovpa	XbSymbolDatabase v4134: 0x13FF32
+CDirectSoundBuffer_SetFrequency	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4134: 0x13F38D 0x13F3DB 0x13F429 0x13F904
+CDirectSoundBuffer_SetHeadroom	DSound	DSOUND		0x13F3DB	oovpa	XbSymbolDatabase v4134: 0x13F3DB
+CDirectSoundBuffer_SetLFO	DSound	DSOUND		0x13F38D	oovpa	XbSymbolDatabase v4134: 0x13F38D
+CDirectSoundBuffer_SetLoopRegion	DSound	DSOUND		0x13EF86	oovpa	XbSymbolDatabase v4134: 0x13EF86
+CDirectSoundBuffer_SetMixBins	DSound	DSOUND		0x13F952	oovpa	XbSymbolDatabase v4134: 0x13F952
+CDirectSoundBuffer_SetOutputBuffer	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4134: 0x13F38D 0x13F3DB 0x13F429 0x13F904
+CDirectSoundBuffer_SetVolume	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4134: 0x13F38D 0x13F3DB 0x13F429 0x13F904
+CDirectSoundBuffer_Stop	DSound	DSOUND		0x13EE8D	oovpa	XbSymbolDatabase v4134: 0x13EE8D
+CDirectSoundBuffer_StopEx	DSound	DSOUND		0x13EEDC	oovpa	XbSymbolDatabase v4134: 0x13EEDC
+CDirectSoundStream_PauseEx	DSound	DSOUND		0x13EEDC	oovpa	XbSymbolDatabase v4361: 0x13EEDC
+CDirectSoundVoiceSettings_SetMixBinVolumes	DSound	DSOUND		0x13EB46	oovpa	XbSymbolDatabase v4134: 0x13EB46
+CDirectSoundVoice_CommitDeferredSettings	DSound	DSOUND		0x13EC92	oovpa	XbSymbolDatabase v5344: 0x13EC92
+CDirectSoundVoice_GetVoiceProperties	DSound	DSOUND		0x13EC3F	oovpa	XbSymbolDatabase v5028: 0x13EC3F
+CDirectSoundVoice_SetEG	DSound	DSOUND		0x13EC3F	oovpa	XbSymbolDatabase v4039: 0x13EC3F
+CDirectSoundVoice_SetFilter	DSound	DSOUND		0x13EC3F	oovpa	XbSymbolDatabase v4039: 0x13EC3F
+CDirectSoundVoice_SetFormat	DSound	DSOUND		0x13FB74	oovpa	XbSymbolDatabase v4721: 0x13FB74
+CDirectSoundVoice_SetHeadroom	DSound	DSOUND		0x13EC52	oovpa	XbSymbolDatabase v4039: 0x13EC52
+CDirectSoundVoice_SetLFO	DSound	DSOUND		0x13EC3F	oovpa	XbSymbolDatabase v4039: 0x13EC3F
+CDirectSoundVoice_SetMixBins	DSound	DSOUND		0x13F890	oovpa	XbSymbolDatabase v4039: 0x13F890
+CDirectSoundVoice_SetPitch	DSound	DSOUND		0x13EC26	oovpa	XbSymbolDatabase v4039: 0x13EC26
+CDirectSound_CommitDeferredSettings	DSound	DSOUND		0x140067	oovpa	XbSymbolDatabase v5455: 0x140067
+CDirectSound_CreateSoundBuffer	DSound	DSOUND		0x1403A7	oovpa	XbSymbolDatabase v4134: 0x1403A7
+CDirectSound_DoWork	DSound	DSOUND		0x13EB15	oovpa	XbSymbolDatabase v4134: 0x13EB15
+CDirectSound_DownloadEffectsImage	DSound	DSOUND		0x13EAB1	oovpa	XbSymbolDatabase v4134: 0x13EAB1
+CDirectSound_SetI3DL2Listener	DSound	DSOUND		0x140443	oovpa	XbSymbolDatabase v4134: 0x140443
+CMcpxAPU_ServiceDeferredCommandsLow	DSound	DSOUND		0x141397	oovpa	XbSymbolDatabase v5455: 0x141397
+CMcpxBuffer_GetCurrentPosition	DSound	DSOUND		0x143DA8	oovpa	XbSymbolDatabase v4134: 0x143DA8
+CMcpxBuffer_GetStatus	DSound	DSOUND		0x143D66	oovpa	XbSymbolDatabase v4831: 0x143D66
+CMcpxBuffer_Pause	DSound	DSOUND		0x143CF3	oovpa	XbSymbolDatabase v4831: 0x143CF3
+CMcpxBuffer_Play	DSound	DSOUND		0x1441B2	oovpa	XbSymbolDatabase v4831: 0x1441B2
+CMcpxBuffer_Play_Ex	DSound	DSOUND		0x1443F3	oovpa	XbSymbolDatabase v4039: 0x1443F3
+CMcpxBuffer_SetBufferData	DSound	DSOUND		0x144334	oovpa	XbSymbolDatabase v4134: 0x144334
+CMcpxBuffer_Stop	DSound	DSOUND		0x144280	oovpa	XbSymbolDatabase v4242: 0x144280
+CMcpxBuffer_Stop_Ex	DSound	DSOUND		0x1443F3	oovpa	XbSymbolDatabase v4134: 0x1443F3
+CMcpxStream_Stop_Ex	DSound	DSOUND		0x1443F3	oovpa	XbSymbolDatabase v4134: 0x1443F3
+CMcpxVoiceClient_SetEG	DSound	DSOUND		0x142CAA	oovpa	XbSymbolDatabase v4242: 0x142CAA
+CMcpxVoiceClient_SetFilter	DSound	DSOUND		0x142E3C	oovpa	XbSymbolDatabase v4134: 0x142E3C
+CMcpxVoiceClient_SetMixBins	DSound	DSOUND		0x1431C0	oovpa	XbSymbolDatabase v4134: 0x1431C0
+CMcpxVoiceClient_SetPitch	DSound	DSOUND		0x143319	oovpa	XbSymbolDatabase v4134: 0x143319
+CMcpxVoiceClient_SetVolume	DSound	DSOUND		0x143281	oovpa	XbSymbolDatabase v4134: 0x143281
+D3DCubeTexture_LockRect	D3D8	D3D			oovpa-multi	XbSymbolDatabase v3911: 0x12CDE0 0x12E900
+D3DDevice_AddRef	D3D8	D3D		0x12CDC0	oovpa	XbSymbolDatabase v5558: 0x12CDC0
+D3DDevice_Begin	D3D8	D3D		0x12E480	oovpa	XbSymbolDatabase v4039: 0x12E480
+D3DDevice_BeginStateBig	D3D8	D3D		0x130220	oovpa	XbSymbolDatabase v5028: 0x130220
+D3DDevice_BlockOnFence	D3D8	D3D		0x12CDF0	oovpa	XbSymbolDatabase v3911: 0x12CDF0
+D3DDevice_Clear	D3D8	D3D		0x12A2A0	oovpa	XbSymbolDatabase v4034: 0x12A2A0
+D3DDevice_CreateImageSurface	D3D8	D3D			oovpa-multi	XbSymbolDatabase v4034: 0x12CDE0 0x12E900
+D3DDevice_CreatePixelShader	D3D8	D3D		0x130420	oovpa	XbSymbolDatabase v5344: 0x130420
+D3DDevice_CreateTexture2	D3D8	D3D		0x12E850	oovpa	XbSymbolDatabase v4831: 0x12E850
+D3DDevice_CreateVertexBuffer2	D3D8	D3D		0x130350	oovpa	XbSymbolDatabase v5455: 0x130350
+D3DDevice_CreateVertexShader	D3D8	D3D		0x12C290	oovpa	XbSymbolDatabase v3911: 0x12C290
+D3DDevice_DeletePixelShader	D3D8	D3D		0x130470	oovpa	XbSymbolDatabase v5344: 0x130470
+D3DDevice_End	D3D8	D3D		0x12E4C0	oovpa	XbSymbolDatabase v5344: 0x12E4C0
+D3DDevice_EndPush	D3D8	D3D		0x12FD80	oovpa	XbSymbolDatabase v4039: 0x12FD80
+D3DDevice_GetDepthStencilSurface2	D3D8	D3D		0x12D3E0	oovpa	XbSymbolDatabase v4627: 0x12D3E0
+D3DDevice_GetDisplayFieldStatus	D3D8	D3D		0x12D930	oovpa	XbSymbolDatabase v3911: 0x12D930
+D3DDevice_GetDisplayMode	D3D8	D3D		0x12CF90	oovpa	XbSymbolDatabase v4039: 0x12CF90
+D3DDevice_GetStreamSource2	D3D8	D3D		0x12C690	oovpa	XbSymbolDatabase v4627: 0x12C690
+D3DDevice_GetVertexShaderSize	D3D8	D3D		0x12C7D0	oovpa	XbSymbolDatabase v3911: 0x12C7D0
+D3DDevice_GetViewport	D3D8	D3D		0x12CD80	oovpa	XbSymbolDatabase v5455: 0x12CD80
+D3DDevice_GetViewportOffsetAndScale	D3D8	D3D		0x12A750	oovpa	XbSymbolDatabase v4432: 0x12A750
+D3DDevice_InsertCallback	D3D8	D3D		0x12FCF0	oovpa	XbSymbolDatabase v5028: 0x12FCF0
+D3DDevice_InsertFence	D3D8	D3D		0x12CF10	oovpa	XbSymbolDatabase v3911: 0x12CF10
+D3DDevice_IsBusy	D3D8	D3D		0x12D900	oovpa	XbSymbolDatabase v5028: 0x12D900
+D3DDevice_KickPushBuffer	D3D8	D3D		0x12CE00	oovpa	XbSymbolDatabase v3911: 0x12CE00
+D3DDevice_LoadVertexShader	D3D8	D3D		0x12C6D0	oovpa	XbSymbolDatabase v5028: 0x12C6D0
+D3DDevice_RunPushBuffer	D3D8	D3D		0x12E5B0	oovpa	XbSymbolDatabase v5558: 0x12E5B0
+D3DDevice_SelectVertexShader	D3D8	D3D		0x12C730	oovpa	XbSymbolDatabase v5455: 0x12C730
+D3DDevice_SetFlickerFilter	D3D8	D3D		0x12CE60	oovpa	XbSymbolDatabase v4134: 0x12CE60
+D3DDevice_SetGammaRamp	D3D8	D3D		0x12CBD0	oovpa	XbSymbolDatabase v4627: 0x12CBD0
+D3DDevice_SetIndices	D3D8	D3D		0x12D870	oovpa	XbSymbolDatabase v4034: 0x12D870
+D3DDevice_SetPalette	D3D8	D3D		0x12D7E0	oovpa	XbSymbolDatabase v4034: 0x12D7E0
+D3DDevice_SetPixelShader	D3D8	D3D		0x1304D0	oovpa	XbSymbolDatabase v4627: 0x1304D0
+D3DDevice_SetRenderState_EdgeAntiAlias	D3D8	D3D		0x12A9C0	oovpa	XbSymbolDatabase v4034: 0x12A9C0
+D3DDevice_SetRenderState_FogColor	D3D8	D3D		0x12AA40	oovpa	XbSymbolDatabase v4034: 0x12AA40
+D3DDevice_SetRenderState_LineWidth	D3D8	D3D		0x12ABE0	oovpa	XbSymbolDatabase v4034: 0x12ABE0
+D3DDevice_SetRenderState_NormalizeNormals	D3D8	D3D		0x12AB40	oovpa	XbSymbolDatabase v4034: 0x12AB40
+D3DDevice_SetRenderState_ShadowFunc	D3D8	D3D		0x12AA00	oovpa	XbSymbolDatabase v4034: 0x12AA00
+D3DDevice_SetRenderState_TextureFactor	D3D8	D3D		0x12AB80	oovpa	XbSymbolDatabase v4034: 0x12AB80
+D3DDevice_SetRenderState_VertexBlend	D3D8	D3D		0x12AEE0	oovpa	XbSymbolDatabase v4034: 0x12AEE0
+D3DDevice_SetRenderState_ZEnable	D3D8	D3D		0x12B910	oovpa	XbSymbolDatabase v4432: 0x12B910
+D3DDevice_SetScissors	D3D8	D3D		0x12DA60	oovpa	XbSymbolDatabase v5558: 0x12DA60
+D3DDevice_SetStreamSource	D3D8	D3D		0x12C600	oovpa	XbSymbolDatabase v4034: 0x12C600
+D3DDevice_SetTexture	D3D8	D3D		0x12D630	oovpa	XbSymbolDatabase v4831: 0x12D630
+D3DDevice_SetTextureState_BorderColor	D3D8	D3D		0x12B0B0	oovpa	XbSymbolDatabase v4034: 0x12B0B0
+D3DDevice_SetTextureState_BumpEnv	D3D8	D3D		0x12B040	oovpa	XbSymbolDatabase v4034: 0x12B040
+D3DDevice_SetTextureState_TexCoordIndex	D3D8	D3D		0x12AF30	oovpa	XbSymbolDatabase v4627: 0x12AF30
+D3DDevice_SetTile	D3D8	D3D		0x12DA50	oovpa	XbSymbolDatabase v4627: 0x12DA50
+D3DDevice_SetVertexData4f	D3D8	D3D		0x12E3D0	oovpa	XbSymbolDatabase v4039: 0x12E3D0
+D3DDevice_SetVertexData4ub	D3D8	D3D		0x12E430	oovpa	XbSymbolDatabase v4039: 0x12E430
+D3DDevice_SetVertexShader	D3D8	D3D		0x12CA60	oovpa	XbSymbolDatabase v5455: 0x12CA60
+D3DDevice_SetVertexShaderConstant1	D3D8	D3D		0x12C3D0	oovpa	XbSymbolDatabase v4627: 0x12C3D0
+D3DDevice_SetVertexShaderConstant4	D3D8	D3D		0x12C430	oovpa	XbSymbolDatabase v4627: 0x12C430
+D3DDevice_SetVertexShaderConstantNotInline	D3D8	D3D		0x12C5C0	oovpa	XbSymbolDatabase v4627: 0x12C5C0
+D3DDevice_SetVertexShaderConstantNotInlineFast	D3D8	D3D		0x12C4E0	oovpa	XbSymbolDatabase v4627: 0x12C4E0
+D3DDevice_SetViewport	D3D8	D3D		0x12D400	oovpa	XbSymbolDatabase v5455: 0x12D400
+D3DDevice_Swap	D3D8	D3D		0x12F6D0	oovpa	XbSymbolDatabase v4627: 0x12F6D0
+D3DPalette_Lock2	D3D8	D3D		0x1303F0	oovpa	XbSymbolDatabase v4627: 0x1303F0
+D3DResource_AddRef	D3D8	D3D		0x12EAB0	oovpa	XbSymbolDatabase v3911: 0x12EAB0
+D3DResource_BlockUntilNotBusy	D3D8	D3D			oovpa-multi	XbSymbolDatabase v3911: 0x12CDE0 0x12E900
+D3DResource_GetType	D3D8	D3D		0x12EB40	oovpa	XbSymbolDatabase v4034: 0x12EB40
+D3DResource_Register	D3D8	D3D		0x12EBD0	oovpa	XbSymbolDatabase v3911: 0x12EBD0
+D3DResource_Release	D3D8	D3D		0x12EAF0	oovpa	XbSymbolDatabase v3911: 0x12EAF0
+D3DSurface_GetDesc	D3D8	D3D		0x135C80	oovpa	XbSymbolDatabase v3911: 0x135C80
+D3DSurface_LockRect	D3D8	D3D		0x135CA0	oovpa	XbSymbolDatabase v3911: 0x135CA0
+D3DTexture_LockRect	D3D8	D3D		0x12E910	oovpa	XbSymbolDatabase v3911: 0x12E910
+D3DVertexBuffer_Lock2	D3D8	D3D		0x1303A0	oovpa	XbSymbolDatabase v4627: 0x1303A0
+D3DVolumeTexture_LockBox	D3D8	D3D			oovpa-multi	XbSymbolDatabase v3911: 0x12CDE0 0x12E900
+D3D_BlockOnTime	D3D8	D3D		0x12FF60	oovpa	XbSymbolDatabase v5558: 0x12FF60
+D3D_KickOffAndWaitForIdle	D3D8	D3D		0x130270	oovpa	XbSymbolDatabase v5028: 0x130270
+D3D_LazySetPointParams	D3D8	D3D		0x134470	oovpa	XbSymbolDatabase v4034: 0x134470
+D3D_SetFence	D3D8	D3D		0x12FEB0	oovpa	XbSymbolDatabase v5558: 0x12FEB0
+D3D_SetPushBufferSize	D3D8	D3D		0x12F880	oovpa	XbSymbolDatabase v3911: 0x12F880
+DSound_CMemoryManager_PoolAlloc	DSound	DSOUND		0x140797	oovpa	XbSymbolDatabase v4361: 0x140797
+DSound_CRefCount_Release	DSound	DSOUND		0x13E80A	oovpa	XbSymbolDatabase v5455: 0x13E80A
+Direct3D_CreateDevice	D3D8	D3D		0x12F8A0	oovpa	XbSymbolDatabase v3911: 0x12F8A0
+DirectSoundCreate	DSound	DSOUND		0x140750	oovpa	XbSymbolDatabase v4134: 0x140750
+DirectSoundDoWork	DSound	DSOUND		0x13F5AE	oovpa	XbSymbolDatabase v4134: 0x13F5AE
+DirectSoundEnterCriticalSection	DSound	DSOUND		0x13E975	oovpa	XbSymbolDatabase v3911: 0x13E975
+GetOverlappedResult	Xapi	.text		0x11DBD4	oovpa	XbSymbolDatabase v3911: 0x11DBD4
+GetTimeZoneInformation	Xapi	.text		0x11D936	oovpa	XbSymbolDatabase v3911: 0x11D936
+IDirectSoundBuffer_GetCurrentPosition	DSound	DSOUND		0x13F58E	oovpa	XbSymbolDatabase v3911: 0x13F58E
+IDirectSoundBuffer_GetStatus	DSound	DSOUND		0x13F572	oovpa	XbSymbolDatabase v3911: 0x13F572
+IDirectSoundBuffer_GetVoiceProperties	DSound	DSOUND		0x13F49E	oovpa	XbSymbolDatabase v5028: 0x13F49E
+IDirectSoundBuffer_Pause	DSound	DSOUND		0x13F572	oovpa	XbSymbolDatabase v4721: 0x13F572
+IDirectSoundBuffer_PauseEx	DSound	DSOUND		0x13F52E	oovpa	XbSymbolDatabase v4721: 0x13F52E
+IDirectSoundBuffer_Play	DSound	DSOUND		0x13F4F2	oovpa	XbSymbolDatabase v3911: 0x13F4F2
+IDirectSoundBuffer_PlayEx	DSound	DSOUND		0x13F52E	oovpa	XbSymbolDatabase v3911: 0x13F52E
+IDirectSoundBuffer_Release	DSound	DSOUND		0x13E9D8	oovpa	XbSymbolDatabase v3911: 0x13E9D8
+IDirectSoundBuffer_Set3DVoiceData	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v5455: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSoundBuffer_SetAllParameters	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4039: 0x13F552 0x13F58E 0x13FF9C 0x14058A
+IDirectSoundBuffer_SetBufferData	DSound	DSOUND		0x13FF9C	oovpa	XbSymbolDatabase v3911: 0x13FF9C
+IDirectSoundBuffer_SetConeAngles	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4039: 0x13F4F2 0x13F52E
+IDirectSoundBuffer_SetConeOutsideVolume	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4039: 0x13F552 0x13F58E 0x13FF9C 0x14058A
+IDirectSoundBuffer_SetCurrentPosition	DSound	DSOUND		0x13F572	oovpa	XbSymbolDatabase v3911: 0x13F572
+IDirectSoundBuffer_SetEG	DSound	DSOUND		0x13F49E	oovpa	XbSymbolDatabase v4039: 0x13F49E
+IDirectSoundBuffer_SetFilter	DSound	DSOUND		0x13F49E	oovpa	XbSymbolDatabase v4039: 0x13F49E
+IDirectSoundBuffer_SetFormat	DSound	DSOUND		0x13FF80	oovpa	XbSymbolDatabase v4039: 0x13FF80
+IDirectSoundBuffer_SetFrequency	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4039: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSoundBuffer_SetHeadroom	DSound	DSOUND		0x13F4BA	oovpa	XbSymbolDatabase v4039: 0x13F4BA
+IDirectSoundBuffer_SetI3DL2Source	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4039: 0x13F552 0x13F58E 0x13FF9C
+IDirectSoundBuffer_SetLFO	DSound	DSOUND		0x13F49E	oovpa	XbSymbolDatabase v4039: 0x13F49E
+IDirectSoundBuffer_SetLoopRegion	DSound	DSOUND		0x13F552	oovpa	XbSymbolDatabase v3911: 0x13F552
+IDirectSoundBuffer_SetMixBins	DSound	DSOUND		0x13F9BC	oovpa	XbSymbolDatabase v4039: 0x13F9BC
+IDirectSoundBuffer_SetMode	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4039: 0x13F552 0x13F58E 0x13FF9C
+IDirectSoundBuffer_SetNotificationPositions	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v3911: 0x13F552 0x13F58E 0x13FF9C 0x14058A
+IDirectSoundBuffer_SetOutputBuffer	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v3911: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSoundBuffer_SetPitch	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4039: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSoundBuffer_SetPlayRegion	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4039: 0x13F552 0x13F58E 0x13FF9C
+IDirectSoundBuffer_SetRolloffCurve	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4361: 0x13F4F2 0x13F52E 0x140566
+IDirectSoundBuffer_SetVolume	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4039: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSoundBuffer_Stop	DSound	DSOUND		0x13F516	oovpa	XbSymbolDatabase v3911: 0x13F516
+IDirectSoundBuffer_StopEx	DSound	DSOUND		0x13F52E	oovpa	XbSymbolDatabase v3911: 0x13F52E
+IDirectSoundBuffer_Use3DVoiceData	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v5558: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSound_CommitDeferredSettings	DSound	DSOUND		0x14038F	oovpa	XbSymbolDatabase v3911: 0x14038F
+IDirectSound_CommitEffectData	DSound	DSOUND		0x14038F	oovpa	XbSymbolDatabase v3911: 0x14038F
+IDirectSound_CreateSoundBuffer	DSound	DSOUND		0x140566	oovpa	XbSymbolDatabase v3911: 0x140566
+IDirectSound_CreateSoundStream	DSound	DSOUND		0x140566	oovpa	XbSymbolDatabase v3911: 0x140566
+IDirectSound_DownloadEffectsImage	DSound	DSOUND		0x13F477	oovpa	XbSymbolDatabase v3911: 0x13F477
+IDirectSound_GetCaps	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v3911: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSound_GetEffectData	DSound	DSOUND		0x13F477	oovpa	XbSymbolDatabase v3911: 0x13F477
+IDirectSound_GetOutputLevels	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v4361: 0x13F552 0x13F58E 0x13FF9C 0x14058A
+IDirectSound_GetSpeakerConfig	DSound	DSOUND			oovpa-multi	XbSymbolDatabase v3911: 0x13F49E 0x13F4BA 0x13F4D6 0x13F572
+IDirectSound_MapBufferData	DSound	DSOUND		0x140566	oovpa	XbSymbolDatabase v5344: 0x140566
+IDirectSound_Release	DSound	DSOUND		0x13E9C2	oovpa	XbSymbolDatabase v3911: 0x13E9C2
+IDirectSound_SetAllParameters	DSound	DSOUND		0x14058A	oovpa	XbSymbolDatabase v3911: 0x14058A
+IDirectSound_SetI3DL2Listener	DSound	DSOUND		0x14058A	oovpa	XbSymbolDatabase v3911: 0x14058A
+IDirectSound_SetMixBinHeadroom	DSound	DSOUND		0x14058A	oovpa	XbSymbolDatabase v3911: 0x14058A
+IDirectSound_SynchPlayback	DSound	DSOUND		0x14038F	oovpa	XbSymbolDatabase v4831: 0x14038F
+QueryPerformanceCounter	Xapi	.text		0x12A225	oovpa	XbSymbolDatabase v3911: 0x12A225
+RaiseException	Xapi	.text		0x11E1CC	oovpa	XbSymbolDatabase v3911: 0x11E1CC
+XAudioCalculatePitch	DSound	DSOUND		0x13E9EE	oovpa	XbSymbolDatabase v5455: 0x13E9EE
+XAudioSetEffectData	DSound	DSOUND		0x1414DD	oovpa	XbSymbolDatabase v5344: 0x1414DD
+XAutoPowerDownResetTimer	Xapi	.text		0x123204	oovpa	XbSymbolDatabase v3911: 0x123204
+XGIsSwizzledFormat	XGraphic	XGRPH		0x13D7E7	oovpa	XbSymbolDatabase v3911: 0x13D7E7
+XGSetIndexBufferHeader	XGraphic	XGRPH		0x13E690	oovpa	XbSymbolDatabase v4134: 0x13E690
+XGSetTextureHeader	XGraphic	XGRPH		0x13E64E	oovpa	XbSymbolDatabase v3911: 0x13E64E
+XGSetVertexBufferHeader	XGraphic	XGRPH		0x13E678	oovpa	XbSymbolDatabase v4134: 0x13E678
+XGetDevices	Xapi	XPP		0x148ABB	oovpa	XbSymbolDatabase v3911: 0x148ABB
+XInitDevices	Xapi	XPP		0x147CF3	oovpa	XbSymbolDatabase v5120: 0x147CF3
+XInputClose	Xapi	XPP			oovpa-multi	XbSymbolDatabase v3911: 0x14823C 0x14880A
+XInputGetState	Xapi	XPP		0x1489EE	oovpa	XbSymbolDatabase v5455: 0x1489EE
+XInputSetState	Xapi	XPP		0x148A61	oovpa	XbSymbolDatabase v4831: 0x148A61
+XLaunchNewImageA	Xapi	.text		0x11F869	oovpa	XbSymbolDatabase v5344: 0x11F869
+XMountMUA	Xapi	XPP		0x148FFF	oovpa	XbSymbolDatabase v4242: 0x148FFF
+XUnmountAlternateTitleA	Xapi	.text		0x11EAAD	oovpa	XbSymbolDatabase v3911: 0x11EAAD
+XapiInitProcess	Xapi	.text		0x121E5E	oovpa	XbSymbolDatabase v5028: 0x121E5E

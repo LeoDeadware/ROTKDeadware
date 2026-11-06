@@ -1,0 +1,48 @@
+# mode	script  (tests/run.sh; quick <= 5 min with 2 runs in parallel)
+quick	tests/scripts/phase1_first_d3d.sh
+full	tests/scripts/level_sweep.sh
+soak	tests/scripts/level_soak.sh
+quick	tests/scripts/route_in_movie.sh
+# app: the installed .app (after tools/install_app.sh): tests/run.sh app runs every mode incl. these
+app	tests/scripts/app_screen.sh
+# perf: 60 fps gate of the prologue fight in the .app's mode (60 fps, 3072x1920 16:10): busy <= 16.7 ms, avg >= 59 fps
+perf	tests/scripts/fps_check.sh Hel01 2400 ROTK_FPS60=1 ROTK_RENDER_SCALE=4 ROTK_WIDESCREEN=1
+# 5b: Xbox Series glyphs replace the original Xbox button prompts (Black -> RB always checked)
+full	tests/scripts/gamepad_prompts.sh
+# 5c: HD UI + world packs (install step 30-hd.sh), off under ROTK_TEST_PROFILE
+full	tests/scripts/hd_pack.sh
+# owner test c96b3d1: button prompts keep their shape at 16:10 x4 (round key stays round)
+quick	tests/scripts/prompt_aspect.sh
+# owner bug 2026-11-06: hold A ~1 s skips a movie, ring drawn while held; off under the test profile
+quick	tests/scripts/movie_hold_skip.sh
+# owner bug 2026-11-06 (froze after the prologue): Hel01 -> Pat01 in the app mode (60 fps, 16:10 x4, HD packs)
+full	tests/scripts/prologue_next_app.sh
+# owner bug 2026-11-06: a fresh profile in the app shows Ukrainian menus and subtitles (cinematics too); [launcher] language = "en" switches
+full	tests/scripts/lang_default.sh
+# owner 2026-11-06: PlayStation pad -> PS glyphs (cross/circle/square/triangle, R1, L2, L3)
+quick	tests/scripts/ps_prompts.sh
+# owner 2026-11-06: native display resolution, Hor+ for any aspect (3440x1440 test)
+quick	tests/scripts/native_res.sh
+# owner 2026-11-06: draw distance setting scales the camera far plane
+quick	tests/scripts/draw_distance.sh
+# owner 2026-11-06: ROTK.dmg without game data; the app imports the player's disc on first run (UA layer built, no swift needed)
+full	tests/scripts/dmg_import.sh
+# owner 2026-11-06: ready-made HD packs in the DMG; hd_world_levels on the installed app
+full	tests/scripts/dmg_hd.sh
+# owner bug 2026-11-06 (680a23b): black bars on all sides; fullscreen must cover the notched screen edge to edge
+quick	tests/scripts/fullscreen_edge.sh
+# owner bug 2026-11-06 (680a23b): the hold-A skip left Gandalf's voice from the movie playing
+full	tests/scripts/movie_skip_audio.sh
+# owner bug 2026-11-06 (680a23b): "саби занадто високо" (subtitle lines at 0.76 -> bottom tenth)
+full	tests/scripts/subs_position.sh
+quick	tests/scripts/installer_no_clt.sh
+full	tests/scripts/dmg_no_game_code.sh
+perf	tests/scripts/fps120.sh
+full	tests/scripts/hd_ua.sh
+full	tests/scripts/launcher_ui.sh
+full	tests/scripts/hd_world_levels.sh
+full	tests/scripts/launcher_play.sh
+full	tests/scripts/launcher_art.sh
+full	tests/scripts/launcher_pad.sh
+quick	tests/scripts/title_fill.sh
+quick	tests/scripts/ui_lang_default.sh

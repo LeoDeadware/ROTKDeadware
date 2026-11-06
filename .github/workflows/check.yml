@@ -1,0 +1,38 @@
+# Runs on every push (from XboxPortKit template/.github/workflows/check.yml, adapted to ROTK): the
+# pre-publish gate (secrets always fail; game data and personal paths only warn while the repo is
+# private) and the checks that need no game data. Everything that needs the disc (the lift, the
+# game build, game runs, tools/loc tests against the disc, the DMG scan) stays local (tests/run.sh).
+name: check
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  release:
+    types: [published]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: publish check (tree + history)
+        run: python3 tools/publish_check.py --history ${{ github.event.repository.private && '--private' || '' }}
+      - name: release rule (Ukrainian + English versions, README says how to get each)
+        if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'release'
+        run: python3 tools/publish_check.py --release ${{ github.event.repository.private && '--private' || '' }}
+      - name: no game data tracked
+        run: |
+          bad=$(git ls-files | grep -iE '\.(xbe|iso|xiso|xmv|sdt|scx|gpr)$|^game/|(^|/)default\.flat' | grep -v '/\.gitkeep$' || true)
+          [ -z "$bad" ] || { echo "game data in git:"; echo "$bad"; exit 1; }
+      - name: no home paths in code
+        run: |
+          ! git grep -nE '/Users/[a-z]' -- '*.sh' '*.py' '*.c' '*.cpp' '*.mm' '*.h' '*.js' '*.swift' 'CMakeLists.txt' '*.cmake' '*.patch'
+      - name: python tools compile
+        run: git ls-files -z '*.py' | xargs -0 python3 -m py_compile
+      - name: shell scripts parse
+        run: git ls-files -z '*.sh' | xargs -0 -n1 bash -n

@@ -1,0 +1,10 @@
+# ua_menu.sh (ROTK_SKIP_MOVIES=1): the scripted pad starts the Hel01 prologue; START pauses
+# (~350), DOWN x4 -> Exit To Menu, A -> "are you sure" (~550), DOWN + A -> yes -> main menu (~700)
+300 press START
+400 press DOWN
+430 press DOWN
+460 press DOWN
+490 press DOWN
+530 press A
+600 press DOWN
+640 press A

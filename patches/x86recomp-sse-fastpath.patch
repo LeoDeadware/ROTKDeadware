@@ -1,0 +1,644 @@
+From d4cc7cc590300ce9435f45059fe49be0f07d95cf Mon Sep 17 00:00:00 2001
+From: Deadware <noreply@deadware.invalid>
+Date: Mon, 2 Nov 2026 19:36:56 +0200
+Subject: [PATCH] sse: host fast path under the default MXCSR
+
+Lanes on host float/double when MXCSR's control bits are the default (RN,
+all masked, no FTZ/DAZ): bit-exact for every non-NaN result (IEEE basic ops
+are correctly rounded on every host); a NaN result, or a NaN operand of a
+float<->float conversion, redoes the instruction on the exact SoftFloat
+path. The MXCSR sticky flags are not accumulated on the fast path
+(g_host_fast = false for guests that read MXCSR). Removes SoftFloat's
+thread-local rounding/flags traffic from every SSE instruction.
+RSQRTPS's first guess uses host doubles (same three RN roundings).
+tests/sse_fast_test: fast vs exact path on special and random operands.
+---
+ src/runtime/sse.cpp     | 231 ++++++++++++++++++++++++++++++++++++++--
+ src/runtime/sse.h       |  11 +-
+ tests/CMakeLists.txt    |   8 ++
+ tests/sse_fast_test.cpp | 230 +++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 473 insertions(+), 7 deletions(-)
+ create mode 100644 tests/sse_fast_test.cpp
+
+diff --git a/src/runtime/sse.cpp b/src/runtime/sse.cpp
+index c074065..7bab109 100644
+--- a/src/runtime/sse.cpp
++++ b/src/runtime/sse.cpp
+@@ -7,9 +7,35 @@
+ // goes to SoftFloat, whose 8086 specialization already matches x86 for
+ // non-NaN inputs: default NaN 0xFFC00000 / 0xFFF8000000000000, tininess
+ // after rounding, 0x80000000 for out-of-range conversions.
++//
++// Host fast path (g_host_fast, on by default). Under the default MXCSR
++// control bits (RN, all exceptions masked, FTZ and DAZ clear; the sticky
++// flag bits may hold anything) lanes are computed with the host's own
++// binary32/binary64 arithmetic. Proof of exactness: IEEE 754 add, sub,
++// mul, div, sqrt and the int/float conversions are correctly rounded (or
++// exact) on every conforming host, so in round-to-nearest-even a non-NaN
++// result is the one SoftFloat - and the x86 hardware - gives, bit for bit,
++// denormal results and operands included (the host flushes nothing,
++// platform::HostFpProblem). Comparisons, MIN/MAX and the conversions to
++// integers are exact by definition (no rounding, or rounding of an
++// already-integral value; NaN and out of range give the x86 integer
++// indefinite explicitly). Only NaN results differ between hosts (payload
++// choice, the sign of the default NaN), so a NaN result sends the whole
++// instruction to the exact path, as does a NaN operand of a float<->float
++// conversion. Needs -ffp-contract=off and no fast-math
++// (RECOMP_X87_FP_FLAGS): no FMA contraction of a separate mul and add.
++//
++// What the fast path does not do: accumulate the MXCSR sticky flags
++// (IE DE ZE OE UE PE). Masked, they are only visible to a guest that reads
++// MXCSR (STMXCSR, FXSAVE); a title that does clears g_host_fast. Every
++// other MXCSR value takes the exact path. tests/sse_fast_test compares
++// the two paths on random and special operands.
+ 
+ #include "runtime/sse.h"
+ 
++#include <bit>
++#include <cmath>
++
+ extern "C" {
+ #include "softfloat.h"
+ }
+@@ -109,6 +135,123 @@ struct Scope {
+   }
+ };
+ 
++// ---- host fast path (see the top of this file) --------------------------
++// The 0xFFC0 part of MXCSR: DAZ (6), the masks (7-12), RC (13-14), FTZ (15).
++[[gnu::always_inline]] inline bool Fast(const Ctx& c) {
++  return (c.mxcsr & 0xFFC0u) == kMxcsrDefault && g_host_fast;
++}
++
++template <bool D>
++using HostF = std::conditional_t<D, double, float>;
++
++template <bool D>
++[[gnu::always_inline]] inline HostF<D> HL(const Xmm& x, int i) {
++  return std::bit_cast<HostF<D>>(Lane<typename Fmt<D>::U>(x, i));
++}
++template <bool D>
++[[gnu::always_inline]] inline void HSet(Xmm& x, int i, HostF<D> v) {
++  SetLane<typename Fmt<D>::U>(x, i, std::bit_cast<typename Fmt<D>::U>(v));
++}
++
++template <bool D, Op O>
++[[gnu::always_inline]] inline bool ArithFastOp(int lanes, Xmm& d, const Xmm& s) {
++  Xmm r = d;
++  bool nan = false;
++  for (int i = 0; i < lanes; i++) {
++    const HostF<D> a = HL<D>(d, i), b = HL<D>(s, i);
++    HostF<D> v;
++    if constexpr (O == kAdd)
++      v = a + b;
++    else if constexpr (O == kSub)
++      v = a - b;
++    else if constexpr (O == kMul)
++      v = a * b;
++    else
++      v = a / b;
++    nan |= v != v;
++    HSet<D>(r, i, v);
++  }
++  if (nan) return false;
++  d = r;
++  return true;
++}
++
++template <bool D>
++bool ArithFast(Op op, int lanes, Xmm& d, const Xmm& s) {
++  switch (op) {
++    case kAdd: return ArithFastOp<D, kAdd>(lanes, d, s);
++    case kSub: return ArithFastOp<D, kSub>(lanes, d, s);
++    case kMul: return ArithFastOp<D, kMul>(lanes, d, s);
++    default: return ArithFastOp<D, kDiv>(lanes, d, s);
++  }
++}
++
++template <bool D>
++bool SqrtFast(int lanes, Xmm& d, const Xmm& s) {
++  Xmm r = d;
++  bool nan = false;
++  for (int i = 0; i < lanes; i++) {
++    const HostF<D> v = std::sqrt(HL<D>(s, i));
++    nan |= v != v;
++    HSet<D>(r, i, v);
++  }
++  if (nan) return false;
++  d = r;
++  return true;
++}
++
++// A compare and a select: NaNs and equal values (zeros of either sign
++// too) give s, as the hardware does. No result is computed, so no fallback.
++template <bool D>
++void MinMaxFast(bool max, int lanes, Xmm& d, const Xmm& s) {
++  using U = typename Fmt<D>::U;
++  Xmm r = d;
++  for (int i = 0; i < lanes; i++) {
++    const HostF<D> a = HL<D>(d, i), b = HL<D>(s, i);
++    const bool take_a = max ? a > b : a < b;
++    SetLane<U>(r, i, take_a ? Lane<U>(d, i) : Lane<U>(s, i));
++  }
++  d = r;
++}
++
++template <bool D>
++[[gnu::always_inline]] inline bool CmpLane(HostF<D> a, HostF<D> b, uint8_t pred) {
++  switch (pred & 7) {
++    case 0: return a == b;
++    case 1: return a < b;
++    case 2: return a <= b;
++    case 3: return a != a || b != b;
++    case 4: return !(a == b);
++    case 5: return !(a < b);
++    case 6: return !(a <= b);
++    default: return a == a && b == b;
++  }
++}
++
++template <bool D>
++void CmpFast(int lanes, Xmm& d, const Xmm& s, uint8_t pred) {
++  using U = typename Fmt<D>::U;
++  Xmm r = d;
++  for (int i = 0; i < lanes; i++)
++    SetLane<U>(r, i, CmpLane<D>(HL<D>(d, i), HL<D>(s, i), pred) ? U(~U(0)) : U(0));
++  d = r;
++}
++
++// x, already integral, as I; the x86 integer indefinite (the minimum
++// value) for NaN and out of range. -2^(n-1) itself is in range.
++template <typename I, typename F>
++[[gnu::always_inline]] inline I ToIntIndefinite(F x) {
++  constexpr F kLim = F(uint64_t(1) << (sizeof(I) * 8 - 1));  // 2^31 or 2^63, exact
++  if (x >= -kLim && x < kLim) return I(x);
++  return std::numeric_limits<I>::min();
++}
++// CVTT*2SI (truncate) or CVT*2SI under RN: nearbyint rounds to nearest
++// even in the host's default mode.
++template <typename I, typename F>
++[[gnu::always_inline]] inline I CvtHost(F x, bool truncate) {
++  return ToIntIndefinite<I>(truncate ? std::trunc(x) : std::nearbyint(x));
++}
++
+ template <bool D>
+ typename Fmt<D>::U ArithLane(Scope& sc, Op op, typename Fmt<D>::U a,
+                              typename Fmt<D>::U b) {
+@@ -306,8 +449,12 @@ void CheckAligned(Ctx& c, uint64_t a, uint64_t va, unsigned align) {
+            (unsigned long long)a, (unsigned long long)va);
+ }
+ 
++bool g_host_fast = true;
++
+ void Arith(Ctx& c, Op op, bool dbl, int lanes, Xmm& d, const Xmm& s,
+            uint64_t va) {
++  if (Fast(c) && (dbl ? ArithFast<true>(op, lanes, d, s) : ArithFast<false>(op, lanes, d, s)))
++    return;
+   if (dbl)
+     ArithT<true>(c, op, lanes, d, s, va);
+   else
+@@ -316,6 +463,13 @@ void Arith(Ctx& c, Op op, bool dbl, int lanes, Xmm& d, const Xmm& s,
+ 
+ void Cmp(Ctx& c, bool dbl, int lanes, Xmm& d, const Xmm& s, uint8_t pred,
+          uint64_t va) {
++  if (Fast(c)) {
++    if (dbl)
++      CmpFast<true>(lanes, d, s, pred);
++    else
++      CmpFast<false>(lanes, d, s, pred);
++    return;
++  }
+   if (dbl)
+     CmpT<true>(c, lanes, d, s, pred, va);
+   else
+@@ -324,10 +478,16 @@ void Cmp(Ctx& c, bool dbl, int lanes, Xmm& d, const Xmm& s, uint8_t pred,
+ 
+ int Comi(Ctx& c, bool dbl, bool ordered, const Xmm& a, const Xmm& b,
+          uint64_t va) {
++  if (Fast(c)) {  // 0 greater, 1 less, 2 equal, 3 unordered
++    auto order = [](auto x, auto y) { return x > y ? 0 : x < y ? 1 : x == y ? 2 : 3; };
++    return dbl ? order(HL<true>(a, 0), HL<true>(b, 0)) : order(HL<false>(a, 0), HL<false>(b, 0));
++  }
+   return dbl ? ComiT<true>(c, ordered, a, b, va) : ComiT<false>(c, ordered, a, b, va);
+ }
+ 
+ void Sqrt(Ctx& c, bool dbl, int lanes, Xmm& d, const Xmm& s, uint64_t va) {
++  if (Fast(c) && (dbl ? SqrtFast<true>(lanes, d, s) : SqrtFast<false>(lanes, d, s)))
++    return;
+   if (dbl)
+     SqrtT<true>(c, lanes, d, s, va);
+   else
+@@ -347,12 +507,17 @@ uint32_t RsqrtLane(uint32_t x) {
+   if (exp == 0) return (x & 0x80000000u) | 0x7F800000u;  // ±0, denormal: ±inf
+   if (x & 0x80000000u) return 0xFFC00000u;               // negative: default NaN
+   if (exp == 0xFF) return 0;                             // +inf: +0
+-  const uint_fast8_t mode = softfloat_roundingMode, flags = softfloat_exceptionFlags;
+-  softfloat_roundingMode = softfloat_round_near_even;
+-  float64_t one{0x3FF0000000000000ull};
+-  uint32_t r = f64_to_f32(f64_div(one, f64_sqrt(f32_to_f64(float32_t{x})))).v;
+-  softfloat_roundingMode = mode;
+-  softfloat_exceptionFlags = flags;
++  uint32_t r;
++  if (g_host_fast) {  // the same three RN roundings on the host (it is RN)
++    r = std::bit_cast<uint32_t>(float(1.0 / std::sqrt(double(std::bit_cast<float>(x)))));
++  } else {
++    const uint_fast8_t mode = softfloat_roundingMode, flags = softfloat_exceptionFlags;
++    softfloat_roundingMode = softfloat_round_near_even;
++    float64_t one{0x3FF0000000000000ull};
++    r = f64_to_f32(f64_div(one, f64_sqrt(f32_to_f64(float32_t{x})))).v;
++    softfloat_roundingMode = mode;
++    softfloat_exceptionFlags = flags;
++  }
+   const unsigned __int128 mx = frac | 0x800000u;
+   const int ex = int(exp) - 150;  // x = mx * 2^ex
+   for (;;) {
+@@ -382,6 +547,9 @@ void Rsqrt(Xmm& d, const Xmm& s) {
+ void Cvtsi2sd(Xmm& d, int32_t v) { SetLane<uint64_t>(d, 0, i32_to_f64(v).v); }
+ 
+ uint32_t CvtToI32(Ctx& c, bool dbl, const Xmm& s, bool truncate, uint64_t va) {
++  if (Fast(c))
++    return uint32_t(dbl ? CvtHost<int32_t>(HL<true>(s, 0), truncate)
++                        : CvtHost<int32_t>(HL<false>(s, 0), truncate));
+   Scope sc(c, va);
+   bool den = dbl ? IsDenormal<true>(Lane<uint64_t>(s, 0))
+                  : IsDenormal<false>(Lane<uint32_t>(s, 0));
+@@ -398,6 +566,9 @@ uint32_t CvtToI32(Ctx& c, bool dbl, const Xmm& s, bool truncate, uint64_t va) {
+ }
+ 
+ uint64_t CvtToI64(Ctx& c, bool dbl, const Xmm& s, bool truncate, uint64_t va) {
++  if (Fast(c))
++    return uint64_t(dbl ? CvtHost<int64_t>(HL<true>(s, 0), truncate)
++                        : CvtHost<int64_t>(HL<false>(s, 0), truncate));
+   Scope sc(c, va);
+   bool den = dbl ? IsDenormal<true>(Lane<uint64_t>(s, 0))
+                  : IsDenormal<false>(Lane<uint32_t>(s, 0));
+@@ -415,6 +586,13 @@ uint64_t CvtToI64(Ctx& c, bool dbl, const Xmm& s, bool truncate, uint64_t va) {
+ 
+ void MinMax(Ctx& c, bool max, bool dbl, int lanes, Xmm& d, const Xmm& s,
+             uint64_t va) {
++  if (Fast(c)) {
++    if (dbl)
++      MinMaxFast<true>(max, lanes, d, s);
++    else
++      MinMaxFast<false>(max, lanes, d, s);
++    return;
++  }
+   if (dbl)
+     MinMaxT<true>(c, max, lanes, d, s, va);
+   else
+@@ -422,6 +600,26 @@ void MinMax(Ctx& c, bool max, bool dbl, int lanes, Xmm& d, const Xmm& s,
+ }
+ 
+ void CvtFloat(Ctx& c, bool to_dbl, int lanes, Xmm& d, const Xmm& s, uint64_t va) {
++  if (Fast(c)) {  // NaN operands (payload handling) take the exact path
++    Xmm r = d;
++    bool nan = false;
++    for (int i = 0; i < lanes; i++) {
++      if (to_dbl) {
++        const float a = HL<false>(s, i);
++        nan |= a != a;
++        HSet<true>(r, i, double(a));
++      } else {
++        const double a = HL<true>(s, i);
++        nan |= a != a;
++        HSet<false>(r, i, float(a));
++      }
++    }
++    if (!to_dbl && lanes == 2) SetLane<uint64_t>(r, 1, 0);
++    if (!nan) {
++      d = r;
++      return;
++    }
++  }
+   Scope sc(c, va);
+   Xmm r = d;
+   if (to_dbl) {
+@@ -437,6 +635,13 @@ void CvtFloat(Ctx& c, bool to_dbl, int lanes, Xmm& d, const Xmm& s, uint64_t va)
+ }
+ 
+ void CvtIntToF(Ctx& c, bool dbl, bool src64, uint64_t v, Xmm& d, uint64_t va) {
++  if (Fast(c)) {
++    if (dbl)
++      HSet<true>(d, 0, src64 ? double(int64_t(v)) : double(int32_t(v)));
++    else
++      HSet<false>(d, 0, src64 ? float(int64_t(v)) : float(int32_t(v)));
++    return;
++  }
+   Scope sc(c, va);
+   sc.Begin();
+   if (dbl)
+@@ -448,6 +653,14 @@ void CvtIntToF(Ctx& c, bool dbl, bool src64, uint64_t v, Xmm& d, uint64_t va) {
+ }
+ 
+ void CvtToDq(Ctx& c, bool dbl, bool truncate, Xmm& d, const Xmm& s, uint64_t va) {
++  if (Fast(c)) {
++    Xmm r{};
++    for (int i = 0; i < (dbl ? 2 : 4); i++)
++      SetLane<int32_t>(r, i, dbl ? CvtHost<int32_t>(HL<true>(s, i), truncate)
++                                 : CvtHost<int32_t>(HL<false>(s, i), truncate));
++    d = r;
++    return;
++  }
+   Scope sc(c, va);
+   const uint8_t mode = truncate ? uint8_t(softfloat_round_minMag) : RoundingMode(c.mxcsr);
+   Xmm r{};
+@@ -467,6 +680,12 @@ void CvtToDq(Ctx& c, bool dbl, bool truncate, Xmm& d, const Xmm& s, uint64_t va)
+ }
+ 
+ void Cvtdq2ps(Ctx& c, Xmm& d, const Xmm& s, uint64_t va) {
++  if (Fast(c)) {
++    Xmm r;
++    for (int i = 0; i < 4; i++) HSet<false>(r, i, float(Lane<int32_t>(s, i)));
++    d = r;
++    return;
++  }
+   Scope sc(c, va);
+   Xmm r;
+   sc.Begin();
+diff --git a/src/runtime/sse.h b/src/runtime/sse.h
+index 9d2c0f3..03c1a09 100644
+--- a/src/runtime/sse.h
++++ b/src/runtime/sse.h
+@@ -3,7 +3,9 @@
+ // are used in place. Floating-point lanes are computed with SoftFloat,
+ // with the SSE NaN rules applied here (the shared SoftFloat build uses the
+ // x87 ones), so results and MXCSR flags match the hardware bit for bit on
+-// any host. Integer and data-movement operations are plain portable C++.
++// any host; under the default MXCSR a proven-exact host fast path computes
++// the same results without the sticky flags (g_host_fast below, sse.cpp).
++// Integer and data-movement operations are plain portable C++.
+ //
+ // Not modelled, fatal if reached: unmasked SIMD exceptions (#XM), and FTZ
+ // or DAZ actually changing a result (a tiny result or a denormal operand
+@@ -29,6 +31,13 @@ namespace recomp::sse {
+ 
+ inline constexpr uint32_t kMxcsrDefault = 0x1F80;  // all masked, RN
+ 
++// Host fast path (sse.cpp): under the default MXCSR control bits, lanes
++// use host float/double arithmetic, bit-exact for every non-NaN result
++// (NaN results redo the instruction exactly), without accumulating the
++// MXCSR sticky flags. A title whose code reads MXCSR (STMXCSR) clears it
++// before guest code runs. Default on.
++extern bool g_host_fast;
++
+ template <typename T>
+ inline T Lane(const Xmm& x, int i) {
+   T v;
+diff --git a/tests/CMakeLists.txt b/tests/CMakeLists.txt
+index c7c40c4..2c54cb2 100644
+--- a/tests/CMakeLists.txt
++++ b/tests/CMakeLists.txt
+@@ -27,6 +27,14 @@ target_compile_options(sse_rsqrt_test PRIVATE -O2)
+ add_test(NAME sse_rsqrt COMMAND sse_rsqrt_test)
+ set_tests_properties(sse_rsqrt PROPERTIES TIMEOUT 300)
+ 
++# sse_fast_test: the SSE host fast path against the exact SoftFloat path
++# (same result bits on special and random operands); portable.
++add_executable(sse_fast_test sse_fast_test.cpp)
++target_link_libraries(sse_fast_test PRIVATE recomp_x87)
++target_compile_options(sse_fast_test PRIVATE -O2 ${RECOMP_X87_FP_FLAGS})
++add_test(NAME sse_fast COMMAND sse_fast_test)
++set_tests_properties(sse_fast PROPERTIES TIMEOUT 300)
++
+ # digital_reverb_test: the Miles-compatible digital reverb against a hash
+ # of its own output recorded when it matched the original
+ # (recomp_add_digital_reverb_test compares with the original itself);
+diff --git a/tests/sse_fast_test.cpp b/tests/sse_fast_test.cpp
+new file mode 100644
+index 0000000..e7bc8dc
+--- /dev/null
++++ b/tests/sse_fast_test.cpp
+@@ -0,0 +1,230 @@
++// The SSE host fast path (runtime/sse.cpp, g_host_fast) against the exact
++// SoftFloat path: every float operation under the default MXCSR, on
++// special operands (zeros, denormals, extremes, infinities, QNaN and SNaN,
++// integer-conversion boundaries) and random bit patterns, must give the
++// same result bits. MXCSR sticky flags are not compared (the fast path
++// does not keep them by design). Exits 1 on any difference.
++//
++//   sse_fast_test [random cases per op, default 200000]
++
++#include <cstdio>
++#include <cstdlib>
++#include <cstring>
++#include <random>
++#include <vector>
++
++#include "runtime/sse.h"
++
++namespace {
++using namespace recomp;
++using namespace recomp::sse;
++
++int g_fail = 0;
++long g_n = 0;
++std::mt19937_64 g_rng(12345);
++
++const uint32_t kF[] = {
++    0x00000000, 0x80000000, 0x00000001, 0x80000001, 0x007FFFFF, 0x807FFFFF, 0x00800000,
++    0x80800000, 0x7F7FFFFF, 0xFF7FFFFF, 0x7F800000, 0xFF800000, 0x7FC00000, 0xFFC00000,
++    0x7F800001, 0xFFA00000, 0x7FC12345, 0x3F800000, 0xBF800000, 0x3F000000, 0x3FC00000,
++    0x4EFFFFFF, 0x4F000000, 0xCF000000, 0xCF000001, 0x5EFFFFFF, 0x5F000000, 0xDF000000,
++    0xDF000001, 0x3F7FFFFF, 0x4B000001, 0x4B7FFFFF, 0x34000000, 0x0C000000, 0x1F800000,
++    0x5F800000, 0x40490FDB, 0xBEAAAAAB};
++const uint64_t kD[] = {
++    0x0000000000000000ull, 0x8000000000000000ull, 0x0000000000000001ull, 0x800FFFFFFFFFFFFFull,
++    0x0010000000000000ull, 0x7FEFFFFFFFFFFFFFull, 0xFFEFFFFFFFFFFFFFull, 0x7FF0000000000000ull,
++    0xFFF0000000000000ull, 0x7FF8000000000000ull, 0xFFF8000000000000ull, 0x7FF0000000000001ull,
++    0x7FF4000000000000ull, 0x3FF0000000000000ull, 0xBFF0000000000000ull, 0x3FE0000000000000ull,
++    0x41DFFFFFFFC00000ull, 0x41DFFFFFFFE00000ull, 0x41E0000000000000ull, 0xC1E0000000000000ull,
++    0xC1E0000000200000ull, 0xC1E0000000100000ull, 0x43DFFFFFFFFFFFFFull, 0x43E0000000000000ull,
++    0xC3E0000000000000ull, 0xC3E0000000000001ull, 0x47EFFFFFE0000000ull, 0x47EFFFFFF0000000ull,
++    0x36A0000000000000ull, 0x3690000000000000ull, 0x3810000000000000ull, 0x400921FB54442D18ull,
++    0x4330000000000001ull};
++
++uint32_t RandF() {
++  uint64_t r = g_rng();
++  switch (r & 7) {
++    case 0: return kF[(r >> 8) % (sizeof(kF) / 4)];
++    case 1: return uint32_t(r >> 32) & 0x80FFFFFF;  // tiny: denormal results
++    case 2: return (uint32_t(r >> 32) & 0x807FFFFF) | 0x3F000000;  // near 1
++    default: return uint32_t(r >> 32);
++  }
++}
++uint64_t RandD() {
++  uint64_t r = g_rng();
++  switch (r & 7) {
++    case 0: return kD[(r >> 8) % (sizeof(kD) / 8)];
++    case 1: return g_rng() & 0x80FFFFFFFFFFFFFFull;
++    case 2: return (g_rng() & 0x800FFFFFFFFFFFFFull) | 0x3FE0000000000000ull;
++    case 3: return g_rng() & 0x803FFFFFFFFFFFFFull;  // near the bottom of the range
++    default: return g_rng();
++  }
++}
++Xmm RandX(bool dbl) {
++  Xmm x;
++  for (int i = 0; i < (dbl ? 2 : 4); i++) {
++    if (dbl) SetLane<uint64_t>(x, i, RandD());
++    else SetLane<uint32_t>(x, i, RandF());
++  }
++  return x;
++}
++// Integer sources: random, and around the float rounding boundaries.
++uint64_t RandI() {
++  uint64_t r = g_rng();
++  switch (r & 3) {
++    case 0: return uint64_t(int64_t(int32_t(r >> 32)));
++    case 1: return (r >> 8) & 0x3FFFFFF;
++    default: return r;
++  }
++}
++
++Ctx MakeCtx() {
++  Ctx c;
++  std::memset(&c, 0, sizeof c);
++  c.mxcsr = kMxcsrDefault;
++  return c;
++}
++
++// Runs fn on (d, s) through both paths; compares d and the return value.
++template <typename Fn>
++void Both(const char* what, const Xmm& d0, const Xmm& s, Fn fn) {
++  Ctx c1 = MakeCtx(), c2 = MakeCtx();
++  Xmm d1 = d0, d2 = d0;
++  g_host_fast = true;
++  uint64_t r1 = fn(c1, d1, s);
++  g_host_fast = false;
++  uint64_t r2 = fn(c2, d2, s);
++  g_host_fast = true;
++  g_n++;
++  if (std::memcmp(d1.b, d2.b, 16) || r1 != r2) {
++    if (++g_fail <= 30) {
++      std::printf("FAIL %s: d ", what);
++      for (int i = 15; i >= 0; i--) std::printf("%02X", d0.b[i]);
++      std::printf(" s ");
++      for (int i = 15; i >= 0; i--) std::printf("%02X", s.b[i]);
++      std::printf("\n  fast ");
++      for (int i = 15; i >= 0; i--) std::printf("%02X", d1.b[i]);
++      std::printf(" r %llX\n  soft ", (unsigned long long)r1);
++      for (int i = 15; i >= 0; i--) std::printf("%02X", d2.b[i]);
++      std::printf(" r %llX\n", (unsigned long long)r2);
++    }
++  }
++}
++
++void Case(bool dbl, const Xmm& d, const Xmm& s, uint64_t iv) {
++  static const char* kOp[] = {"add", "sub", "mul", "div"};
++  const char* t = dbl ? "d" : "s";
++  char name[64];
++  for (int lanes : {1, dbl ? 2 : 4}) {
++    for (int op = 0; op < 4; op++) {
++      std::snprintf(name, sizeof name, "%s%s lanes %d", kOp[op], t, lanes);
++      Both(name, d, s, [&](Ctx& c, Xmm& x, const Xmm& y) {
++        Arith(c, Op(op), dbl, lanes, x, y, 0);
++        return uint64_t(0);
++      });
++    }
++    std::snprintf(name, sizeof name, "sqrt%s lanes %d", t, lanes);
++    Both(name, d, s, [&](Ctx& c, Xmm& x, const Xmm& y) {
++      Sqrt(c, dbl, lanes, x, y, 0);
++      return uint64_t(0);
++    });
++    for (int mx = 0; mx < 2; mx++) {
++      std::snprintf(name, sizeof name, "%s%s lanes %d", mx ? "max" : "min", t, lanes);
++      Both(name, d, s, [&](Ctx& c, Xmm& x, const Xmm& y) {
++        MinMax(c, mx, dbl, lanes, x, y, 0);
++        return uint64_t(0);
++      });
++    }
++    for (uint8_t pred = 0; pred < 8; pred++) {
++      std::snprintf(name, sizeof name, "cmp%s pred %d lanes %d", t, pred, lanes);
++      Both(name, d, s, [&](Ctx& c, Xmm& x, const Xmm& y) {
++        Cmp(c, dbl, lanes, x, y, pred, 0);
++        return uint64_t(0);
++      });
++    }
++  }
++  for (int ord = 0; ord < 2; ord++)
++    Both(dbl ? "comisd" : "comiss", d, s, [&](Ctx& c, Xmm& x, const Xmm& y) {
++      return uint64_t(Comi(c, dbl, ord, x, y, 0));
++    });
++  for (int tr = 0; tr < 2; tr++) {
++    Both("cvt2si32", d, s, [&](Ctx& c, Xmm&, const Xmm& y) {
++      return uint64_t(CvtToI32(c, dbl, y, tr, 0));
++    });
++    Both("cvt2si64", d, s, [&](Ctx& c, Xmm&, const Xmm& y) {
++      return CvtToI64(c, dbl, y, tr, 0);
++    });
++    Both("cvt2dq", d, s, [&](Ctx& c, Xmm& x, const Xmm& y) {
++      CvtToDq(c, dbl, tr, x, y, 0);
++      return uint64_t(0);
++    });
++  }
++  // dbl: from double (CVTSD2SS/CVTPD2PS); else from float (to double).
++  for (int lanes : {1, 2})
++    Both(dbl ? "cvtpd2ps" : "cvtps2pd", d, s, [&](Ctx& c, Xmm& x, const Xmm& y) {
++      CvtFloat(c, !dbl, lanes, x, y, 0);
++      return uint64_t(0);
++    });
++  for (int src64 = 0; src64 < 2; src64++)
++    Both("cvtsi2f", d, s, [&](Ctx& c, Xmm& x, const Xmm&) {
++      CvtIntToF(c, dbl, src64, iv, x, 0);
++      return uint64_t(0);
++    });
++  if (!dbl) {
++    Both("cvtdq2ps", d, s, [&](Ctx& c, Xmm& x, const Xmm& y) {
++      Cvtdq2ps(c, x, y, 0);
++      return uint64_t(0);
++    });
++    Xmm si;  // integer lanes
++    for (int i = 0; i < 4; i++) SetLane<uint32_t>(si, i, uint32_t(RandI()));
++    Both("cvtdq2ps int", d, si, [&](Ctx& c, Xmm& x, const Xmm& y) {
++      Cvtdq2ps(c, x, y, 0);
++      return uint64_t(0);
++    });
++    Both("rsqrtps", d, s, [&](Ctx&, Xmm& x, const Xmm& y) {
++      Rsqrt(x, y);
++      return uint64_t(0);
++    });
++  }
++}
++}  // namespace
++
++int main(int argc, char** argv) {
++  const long n = argc > 1 ? std::atol(argv[1]) : 200000;
++  // Every pair of special values, then random ones.
++  for (bool dbl : {false, true}) {
++    const int k = dbl ? int(sizeof(kD) / 8) : int(sizeof(kF) / 4);
++    for (int i = 0; i < k; i++)
++      for (int j = 0; j < k; j++) {
++        Xmm d, s;
++        for (int l = 0; l < (dbl ? 2 : 4); l++) {
++          if (dbl) {
++            SetLane<uint64_t>(d, l, kD[(i + l) % k]);
++            SetLane<uint64_t>(s, l, kD[(j + 3 * l) % k]);
++          } else {
++            SetLane<uint32_t>(d, l, kF[(i + l) % k]);
++            SetLane<uint32_t>(s, l, kF[(j + 3 * l) % k]);
++          }
++        }
++        Case(dbl, d, s, RandI());
++      }
++    for (long i = 0; i < n; i++) Case(dbl, RandX(dbl), RandX(dbl), RandI());
++  }
++  // The fast path is off outside the default MXCSR: FTZ set must not take it.
++  {
++    Ctx c = MakeCtx();
++    c.mxcsr = kMxcsrDefault | 0x8000;
++    Xmm d{}, s{};
++    SetLane<uint32_t>(d, 0, 0x3F800000);
++    SetLane<uint32_t>(s, 0, 0x3F800001);
++    g_host_fast = true;
++    Arith(c, kAdd, false, 1, d, s, 0);
++    g_n++;
++    if (!(c.mxcsr & 0x20)) {  // PE only comes from the exact path
++      g_fail++;
++      std::printf("FAIL: FTZ set, fast path taken (no PE)\n");
++    }
++  }
++  std::printf("sse_fast_test: %ld comparisons, %d failures\n", g_n, g_fail);
++  return g_fail ? 1 : 0;
++}
+-- 
+2.50.1 (Apple Git-155)
+

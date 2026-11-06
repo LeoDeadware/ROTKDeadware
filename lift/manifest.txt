@@ -1,0 +1,18 @@
+# Lifter manifest for The Lord of the Rings: The Return of the King default.xbe. Directives: entry, name, resume, setjmp, probe, replace
+# (x86recomp tools/lifter/program.cpp). Donor example: docs/donor/manifest.*.txt (addresses there
+# belong to the donor title — patterns only). Changing this file changes the lift_id.
+
+# ---- Structured exceptions (MSVC CRT, linked statically; XDK 5558 LIBC) ----
+# Located by the donor's masked byte signatures (HP2 0x12B508.. -> unique hits here,
+# 2026-11-02). This CRT's __except_handler3 zeroes ebx/ecx/edx/esi/edi and enters
+# the __except block with `call eax` (HP2: `call [edi+ecx*4+8]`): that call is the
+# resume site (bytes FF D0 at 0x129072).
+entry  00128FD8 __except_handler3
+sehprolog 00128F84 __SEH_prolog  # its callers own the frame: resumable
+name   00128FBF __SEH_epilog
+name   001290C8 __global_unwind2
+name   0012910A __local_unwind2
+resume 00129072
+
+# No C++ exceptions (the game is C: no _CxxThrowException, no RTTI) and no
+# setjmp/longjmp (no __setjmp3); checked 2026-11-02.
